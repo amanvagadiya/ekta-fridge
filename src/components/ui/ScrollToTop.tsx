@@ -15,7 +15,7 @@ const ScrollToTop = () => {
   return (
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      className="fixed bottom-24 right-6 z-50 w-10 h-10 rounded-full glass flex items-center justify-center text-foreground hover:text-primary hover:border-primary/30 transition-all animate-fade-up"
+      className="fixed bottom-24 right-6 z-50 w-10 h-10 rounded-full bg-background border border-border shadow-md flex items-center justify-center text-foreground hover:text-primary hover:border-primary/30 transition-all animate-fade-up"
       aria-label="Scroll to top"
     >
       <ArrowUp className="w-5 h-5" />

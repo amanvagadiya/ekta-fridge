@@ -53,39 +53,24 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
     });
   };
 
+  const inputClass = "w-full px-4 py-2.5 rounded-xl bg-secondary border border-border text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all";
+
   const content = (
     <div className="space-y-6">
-      {/* Search */}
       <div>
-        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">
-          Search
-        </label>
+        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">Search</label>
         <div className="relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
-          <input
-            type="text"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search products..."
-            className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-secondary border border-white/10 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
-          />
+          <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search products..." className={`${inputClass} pl-10`} />
         </div>
       </div>
 
-      {/* Brand */}
       <div>
-        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">
-          Brand
-        </label>
+        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">Brand</label>
         <div className="space-y-2">
           {["samsung", "lg"].map((brand) => (
             <label key={brand} className="flex items-center gap-2 cursor-pointer group">
-              <input
-                type="checkbox"
-                checked={filters.brands.includes(brand)}
-                onChange={() => toggleBrand(brand)}
-                className="w-4 h-4 rounded border-white/20 bg-secondary text-primary focus:ring-primary"
-              />
+              <input type="checkbox" checked={filters.brands.includes(brand)} onChange={() => toggleBrand(brand)} className="w-4 h-4 rounded border-border text-primary focus:ring-primary" />
               <span className="text-sm text-muted-foreground group-hover:text-foreground capitalize transition-colors">
                 {brand === "samsung" ? "Samsung" : "LG"}
               </span>
@@ -94,11 +79,8 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
         </div>
       </div>
 
-      {/* Category */}
       <div>
-        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">
-          Category
-        </label>
+        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">Category</label>
         <div className="space-y-2">
           {[
             { id: "ac", label: "Air Conditioner" },
@@ -108,50 +90,27 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
             { id: "freezer", label: "Freezer" },
           ].map((cat) => (
             <label key={cat.id} className="flex items-center gap-2 cursor-pointer group">
-              <input
-                type="checkbox"
-                checked={filters.categories.includes(cat.id)}
-                onChange={() => toggleCategory(cat.id)}
-                className="w-4 h-4 rounded border-white/20 bg-secondary text-primary focus:ring-primary"
-              />
-              <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
-                {cat.label}
-              </span>
+              <input type="checkbox" checked={filters.categories.includes(cat.id)} onChange={() => toggleCategory(cat.id)} className="w-4 h-4 rounded border-border text-primary focus:ring-primary" />
+              <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">{cat.label}</span>
             </label>
           ))}
         </div>
       </div>
 
-      {/* Price Range */}
       <div>
         <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">
           Max Price: ₹{filters.maxPrice.toLocaleString()}
         </label>
-        <input
-          type="range"
-          min={5000}
-          max={150000}
-          step={5000}
-          value={filters.maxPrice}
-          onChange={(e) => onFiltersChange({ ...filters, maxPrice: Number(e.target.value) })}
-          className="w-full accent-primary"
-        />
+        <input type="range" min={5000} max={150000} step={5000} value={filters.maxPrice} onChange={(e) => onFiltersChange({ ...filters, maxPrice: Number(e.target.value) })} className="w-full accent-primary" />
         <div className="flex justify-between text-xs text-muted-foreground">
           <span>₹5,000</span>
           <span>₹1,50,000</span>
         </div>
       </div>
 
-      {/* Sort */}
       <div>
-        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">
-          Sort By
-        </label>
-        <select
-          value={filters.sortBy}
-          onChange={(e) => onFiltersChange({ ...filters, sortBy: e.target.value })}
-          className="w-full px-3 py-2.5 rounded-lg bg-secondary border border-white/10 text-foreground text-sm focus:outline-none focus:border-primary transition-colors"
-        >
+        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">Sort By</label>
+        <select value={filters.sortBy} onChange={(e) => onFiltersChange({ ...filters, sortBy: e.target.value })} className={inputClass}>
           <option value="">Default</option>
           <option value="price-asc">Price: Low → High</option>
           <option value="price-desc">Price: High → Low</option>
@@ -160,21 +119,12 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
         </select>
       </div>
 
-      {/* Rating */}
       <div>
-        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">
-          Min Rating
-        </label>
+        <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">Min Rating</label>
         <div className="space-y-2">
           {[0, 3, 4, 5].map((r) => (
             <label key={r} className="flex items-center gap-2 cursor-pointer group">
-              <input
-                type="radio"
-                name="rating"
-                checked={filters.minRating === r}
-                onChange={() => onFiltersChange({ ...filters, minRating: r })}
-                className="w-4 h-4 border-white/20 bg-secondary text-primary focus:ring-primary"
-              />
+              <input type="radio" name="rating" checked={filters.minRating === r} onChange={() => onFiltersChange({ ...filters, minRating: r })} className="w-4 h-4 border-border text-primary focus:ring-primary" />
               <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
                 {r === 0 ? "All" : `${r}★ & above`}
               </span>
@@ -183,10 +133,7 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
         </div>
       </div>
 
-      <button
-        onClick={clearAll}
-        className="w-full py-2.5 text-sm font-semibold rounded-lg border border-white/10 text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors"
-      >
+      <button onClick={clearAll} className="w-full py-2.5 text-sm font-semibold rounded-xl border border-border text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors">
         Clear All Filters
       </button>
     </div>
@@ -194,25 +141,19 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
 
   return (
     <>
-      {/* Mobile toggle */}
-      <button
-        onClick={() => setMobileOpen(true)}
-        className="lg:hidden fixed bottom-6 left-6 z-40 btn-primary flex items-center gap-2 !rounded-full shadow-lg"
-      >
+      <button onClick={() => setMobileOpen(true)} className="lg:hidden fixed bottom-6 left-6 z-40 btn-primary flex items-center gap-2 !rounded-full shadow-lg">
         <SlidersHorizontal className="w-4 h-4" />
         Filters
       </button>
 
-      {/* Desktop sidebar */}
       <div className="hidden lg:block w-72 shrink-0">
-        <div className="glass-card p-5 sticky top-24">{content}</div>
+        <div className="premium-card p-5 sticky top-24">{content}</div>
       </div>
 
-      {/* Mobile drawer */}
       {mobileOpen && (
         <div className="fixed inset-0 z-50 lg:hidden">
-          <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" onClick={() => setMobileOpen(false)} />
-          <div className="absolute left-0 top-0 bottom-0 w-80 bg-background border-r border-white/10 p-5 overflow-y-auto animate-slide-down">
+          <div className="absolute inset-0 bg-foreground/20 backdrop-blur-sm" onClick={() => setMobileOpen(false)} />
+          <div className="absolute left-0 top-0 bottom-0 w-80 bg-background border-r border-border p-5 overflow-y-auto animate-slide-down">
             <div className="flex items-center justify-between mb-6">
               <h3 className="font-heading font-semibold text-foreground">Filters</h3>
               <button onClick={() => setMobileOpen(false)} className="text-muted-foreground hover:text-foreground">

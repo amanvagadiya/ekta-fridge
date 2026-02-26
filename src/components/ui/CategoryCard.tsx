@@ -19,9 +19,9 @@ const CategoryCard = ({ id, label, icon, count }: CategoryCardProps) => {
   return (
     <button
       onClick={() => navigate(`/products?category=${id}`)}
-      className="glass-card p-6 flex flex-col items-center gap-3 group hover:border-primary/30 hover:scale-105 transition-all duration-300 cursor-pointer"
+      className="premium-card p-6 flex flex-col items-center gap-3 group hover:border-primary/30 hover:scale-105 cursor-pointer"
     >
-      <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center group-hover:glow-primary transition-all">
+      <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/15 transition-colors">
         <Icon className="w-7 h-7 text-primary" />
       </div>
       <h3 className="font-heading font-semibold text-sm text-foreground text-center">{label}</h3>

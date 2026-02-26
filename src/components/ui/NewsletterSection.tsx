@@ -16,7 +16,7 @@ const NewsletterSection = () => {
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
-        <div className="glass-card p-8 md:p-12 text-center max-w-2xl mx-auto relative overflow-hidden">
+        <div className="premium-card-elevated p-8 md:p-12 text-center max-w-2xl mx-auto relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5 pointer-events-none" />
           <div className="relative z-10">
             <h2 className="section-title">Stay Ahead of the Deals</h2>
@@ -33,7 +33,7 @@ const NewsletterSection = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email"
                   required
-                  className="flex-1 px-4 py-3 rounded-lg bg-secondary border border-white/10 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
+                  className="flex-1 px-4 py-3 rounded-xl bg-secondary border border-border text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
                 />
                 <button type="submit" className="btn-primary flex items-center gap-2">
                   <Send className="w-4 h-4" />

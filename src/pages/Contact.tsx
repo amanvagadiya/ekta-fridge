@@ -32,24 +32,26 @@ const Contact = () => {
     setSubmitted(true);
   };
 
+  const inputClass = "w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all";
+
   return (
     <main className="pt-24 pb-20 min-h-screen">
-      {/* Hero */}
       <section className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
         <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-2">Get In Touch</h1>
+          <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-foreground mb-2">Get In Touch</h1>
           <p className="text-muted-foreground">We'd love to hear from you. Reach out anytime!</p>
         </div>
       </section>
 
-      {/* Contact Info */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {contactInfo.map((item) => (
-              <div key={item.label} className="glass-card p-5">
-                <item.icon className="w-6 h-6 text-primary mb-3" />
+              <div key={item.label} className="premium-card p-5">
+                <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center mb-3">
+                  <item.icon className="w-5 h-5 text-primary" />
+                </div>
                 <h3 className="font-heading font-semibold text-foreground text-sm mb-1">{item.label}</h3>
                 {item.href ? (
                   <a href={item.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
@@ -64,12 +66,10 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Form + Map */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {/* Form */}
-            <div className="glass-card p-8">
+            <div className="premium-card-elevated p-8">
               <h2 className="font-heading text-xl font-bold text-foreground mb-6">Send us a Message</h2>
 
               {submitted ? (
@@ -81,39 +81,17 @@ const Contact = () => {
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div>
-                    <input
-                      type="text"
-                      placeholder="Full Name *"
-                      value={form.name}
-                      onChange={(e) => setForm({ ...form, name: e.target.value })}
-                      className="w-full px-4 py-3 rounded-lg bg-secondary border border-white/10 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
-                    />
+                    <input type="text" placeholder="Full Name *" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className={inputClass} />
                     {errors.name && <p className="text-xs text-destructive mt-1">{errors.name}</p>}
                   </div>
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
-                      <input
-                        type="email"
-                        placeholder="Email *"
-                        value={form.email}
-                        onChange={(e) => setForm({ ...form, email: e.target.value })}
-                        className="w-full px-4 py-3 rounded-lg bg-secondary border border-white/10 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
-                      />
+                      <input type="email" placeholder="Email *" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className={inputClass} />
                       {errors.email && <p className="text-xs text-destructive mt-1">{errors.email}</p>}
                     </div>
-                    <input
-                      type="tel"
-                      placeholder="Phone"
-                      value={form.phone}
-                      onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                      className="w-full px-4 py-3 rounded-lg bg-secondary border border-white/10 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
-                    />
+                    <input type="tel" placeholder="Phone" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className={inputClass} />
                   </div>
-                  <select
-                    value={form.subject}
-                    onChange={(e) => setForm({ ...form, subject: e.target.value })}
-                    className="w-full px-4 py-3 rounded-lg bg-secondary border border-white/10 text-foreground text-sm focus:outline-none focus:border-primary transition-colors"
-                  >
+                  <select value={form.subject} onChange={(e) => setForm({ ...form, subject: e.target.value })} className={inputClass}>
                     <option value="">Select Subject</option>
                     <option value="product">Product Inquiry</option>
                     <option value="order">Order Status</option>
@@ -121,13 +99,7 @@ const Contact = () => {
                     <option value="other">Other</option>
                   </select>
                   <div>
-                    <textarea
-                      placeholder="Your Message *"
-                      rows={4}
-                      value={form.message}
-                      onChange={(e) => setForm({ ...form, message: e.target.value })}
-                      className="w-full px-4 py-3 rounded-lg bg-secondary border border-white/10 text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors resize-none"
-                    />
+                    <textarea placeholder="Your Message *" rows={4} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className={`${inputClass} resize-none`} />
                     {errors.message && <p className="text-xs text-destructive mt-1">{errors.message}</p>}
                   </div>
                   <button type="submit" className="btn-primary flex items-center gap-2">
@@ -138,8 +110,7 @@ const Contact = () => {
               )}
             </div>
 
-            {/* Map */}
-            <div className="glass-card overflow-hidden">
+            <div className="premium-card overflow-hidden">
               <iframe
                 title="ElectraZone Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.70717963!2d72.43965535!3d23.02053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
@@ -155,11 +126,10 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Social */}
       <section className="py-12">
         <div className="container mx-auto px-4 text-center">
           <h3 className="font-heading font-semibold text-foreground mb-4">Follow Us</h3>
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center gap-3">
             {[
               { icon: Instagram, href: "#" },
               { icon: Facebook, href: "#" },
@@ -171,7 +141,7 @@ const Contact = () => {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-11 h-11 rounded-full glass flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/30 transition-all"
+                className="w-11 h-11 rounded-xl bg-secondary border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/30 transition-all"
               >
                 <Icon className="w-5 h-5" />
               </a>

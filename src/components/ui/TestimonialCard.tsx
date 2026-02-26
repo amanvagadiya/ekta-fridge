@@ -10,10 +10,10 @@ interface TestimonialCardProps {
 
 const TestimonialCard = ({ name, city, rating, text, initials }: TestimonialCardProps) => {
   return (
-    <div className="glass-card p-6 relative">
+    <div className="premium-card p-6 relative">
       <Quote className="absolute top-4 right-4 w-8 h-8 text-primary/10" />
       <div className="flex items-center gap-3 mb-4">
-        <div className="w-11 h-11 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-background font-heading font-bold text-sm">
+        <div className="w-11 h-11 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-heading font-bold text-sm">
           {initials}
         </div>
         <div>
@@ -26,7 +26,7 @@ const TestimonialCard = ({ name, city, rating, text, initials }: TestimonialCard
           <Star
             key={i}
             className={`w-3.5 h-3.5 ${
-              i < rating ? "text-accent fill-accent" : "text-muted-foreground/30"
+              i < rating ? "text-amber-500 fill-amber-500" : "text-border"
             }`}
           />
         ))}

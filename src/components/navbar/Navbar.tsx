@@ -28,29 +28,29 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "backdrop-blur-md bg-background/80 border-b border-white/10 shadow-lg"
-          : "bg-transparent"
+          ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm"
+          : "bg-background/70 backdrop-blur-sm"
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
-        {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <Zap className="w-7 h-7 text-primary transition-transform group-hover:scale-110" />
-          <span className="font-heading text-2xl font-bold text-foreground">
-            Electra<span className="text-primary">Zone</span>
+          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+            <Zap className="w-4 h-4 text-primary-foreground" />
+          </div>
+          <span className="font-heading text-xl font-bold text-foreground">
+            ElectraZone
           </span>
         </Link>
 
-        {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-1">
           {navLinks.map((link) => (
             <Link
               key={link.path}
               to={link.path}
-              className={`text-sm font-medium transition-colors duration-200 pb-1 border-b-2 ${
+              className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
                 location.pathname === link.path
-                  ? "text-primary border-primary"
-                  : "text-muted-foreground border-transparent hover:text-primary"
+                  ? "text-primary bg-primary/5"
+                  : "text-muted-foreground hover:text-foreground hover:bg-secondary"
               }`}
             >
               {link.label}
@@ -58,18 +58,16 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* WhatsApp CTA */}
         <a
           href="https://wa.me/919876543210?text=Hello%20ElectraZone!%20I%20need%20help."
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:flex items-center gap-2 bg-green-500 hover:bg-green-400 text-background rounded-full px-4 py-2 text-sm font-semibold transition-colors"
+          className="hidden md:flex items-center gap-2 bg-green-600 hover:bg-green-500 text-primary-foreground rounded-xl px-4 py-2 text-sm font-semibold transition-colors"
         >
           <MessageCircle className="w-4 h-4" />
           WhatsApp
         </a>
 
-        {/* Mobile toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
           className="md:hidden text-foreground p-2"
@@ -79,18 +77,17 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden animate-slide-down backdrop-blur-md bg-background/95 border-b border-white/10">
-          <div className="container mx-auto px-4 py-4 flex flex-col gap-3">
+        <div className="md:hidden animate-slide-down bg-background border-b border-border">
+          <div className="container mx-auto px-4 py-4 flex flex-col gap-1">
             {navLinks.map((link) => (
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-base font-medium py-2 px-3 rounded-lg transition-colors ${
+                className={`text-base font-medium py-2.5 px-3 rounded-lg transition-colors ${
                   location.pathname === link.path
-                    ? "text-primary bg-white/5"
-                    : "text-muted-foreground hover:text-primary"
+                    ? "text-primary bg-primary/5"
+                    : "text-muted-foreground hover:text-foreground hover:bg-secondary"
                 }`}
               >
                 {link.label}
@@ -100,7 +97,7 @@ const Navbar = () => {
               href="https://wa.me/919876543210?text=Hello%20ElectraZone!%20I%20need%20help."
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-background rounded-full px-4 py-2.5 text-sm font-semibold transition-colors mt-2"
+              className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-primary-foreground rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors mt-2"
             >
               <MessageCircle className="w-4 h-4" />
               Chat on WhatsApp

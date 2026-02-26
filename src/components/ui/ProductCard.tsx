@@ -25,19 +25,17 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
   const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
 
   return (
-    <div className="glass-card group overflow-hidden hover:border-primary/30 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1">
-      {/* Image */}
-      <div className="relative aspect-square bg-secondary/30 overflow-hidden">
+    <div className="premium-card group overflow-hidden hover:-translate-y-1">
+      <div className="relative aspect-square bg-secondary overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
         />
-        {/* Badges */}
         <div className="absolute top-3 left-3 flex flex-col gap-2">
           {product.badge && (
-            <span className="px-2.5 py-1 text-xs font-semibold rounded-full bg-accent text-accent-foreground">
+            <span className="px-2.5 py-1 text-xs font-semibold rounded-full bg-primary text-primary-foreground">
               {product.badge}
             </span>
           )}
@@ -48,26 +46,24 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
           )}
         </div>
         <span
-          className={`absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase rounded ${
+          className={`absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase rounded-md ${
             product.brand === "samsung"
-              ? "bg-blue-500/20 text-blue-400 border border-blue-500/30"
-              : "bg-red-500/20 text-red-400 border border-red-500/30"
+              ? "bg-blue-100 text-blue-700"
+              : "bg-red-100 text-red-700"
           }`}
         >
           {product.brand}
         </span>
-        <button className="absolute bottom-3 right-3 w-8 h-8 rounded-full glass flex items-center justify-center text-muted-foreground hover:text-destructive transition-colors">
+        <button className="absolute bottom-3 right-3 w-9 h-9 rounded-full bg-background/90 border border-border flex items-center justify-center text-muted-foreground hover:text-destructive transition-colors shadow-sm">
           <Heart className="w-4 h-4" />
         </button>
       </div>
 
-      {/* Content */}
-      <div className="p-4">
+      <div className="p-5">
         <h3 className="font-heading font-semibold text-sm text-foreground mb-2 line-clamp-2 min-h-[2.5rem]">
           {product.name}
         </h3>
 
-        {/* Specs */}
         <div className="flex flex-wrap gap-1.5 mb-3">
           {product.specs.slice(0, 3).map((spec) => (
             <span
@@ -79,7 +75,6 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
           ))}
         </div>
 
-        {/* Rating */}
         <div className="flex items-center gap-1.5 mb-3">
           <div className="flex">
             {Array.from({ length: 5 }).map((_, i) => (
@@ -87,8 +82,8 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
                 key={i}
                 className={`w-3.5 h-3.5 ${
                   i < Math.floor(product.rating)
-                    ? "text-accent fill-accent"
-                    : "text-muted-foreground/30"
+                    ? "text-amber-500 fill-amber-500"
+                    : "text-border"
                 }`}
               />
             ))}
@@ -98,7 +93,6 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
           </span>
         </div>
 
-        {/* Price */}
         <div className="flex items-baseline gap-2 mb-4">
           <span className="text-lg font-heading font-bold text-foreground">
             ₹{product.price.toLocaleString()}
@@ -108,19 +102,18 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
           </span>
         </div>
 
-        {/* Actions */}
         <div className="flex gap-2">
           <button
             onClick={() => onCompare?.(product)}
-            className={`flex-1 py-2 text-xs font-semibold rounded-lg border transition-all duration-200 ${
+            className={`flex-1 py-2.5 text-xs font-semibold rounded-xl border transition-all duration-200 ${
               isComparing
-                ? "bg-primary/20 border-primary/30 text-primary"
-                : "border-white/10 text-muted-foreground hover:border-primary/30 hover:text-primary"
+                ? "bg-primary/10 border-primary/30 text-primary"
+                : "border-border text-muted-foreground hover:border-primary/30 hover:text-primary"
             }`}
           >
             {isComparing ? "Comparing" : "Compare"}
           </button>
-          <button className="flex-1 btn-primary !py-2 !text-xs">View Details</button>
+          <button className="flex-1 btn-primary !py-2.5 !text-xs !rounded-xl">View Details</button>
         </div>
       </div>
     </div>
