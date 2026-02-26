@@ -16,7 +16,7 @@ const FAQAccordion = ({ items }: FAQAccordionProps) => {
   return (
     <div className="space-y-3 max-w-3xl mx-auto">
       {items.map((item, i) => (
-        <div key={i} className="glass-card overflow-hidden">
+        <div key={i} className="premium-card overflow-hidden">
           <button
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
             className="w-full flex items-center justify-between p-5 text-left"

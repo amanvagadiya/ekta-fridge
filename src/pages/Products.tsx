@@ -74,7 +74,6 @@ const Products = () => {
   return (
     <main className="pt-24 pb-20 min-h-screen">
       <div className="container mx-auto px-4">
-        {/* Header */}
         <div className="mb-8">
           <h1 className="section-title">Our Products</h1>
           <p className="text-muted-foreground">
@@ -89,7 +88,6 @@ const Products = () => {
             showCapacity={showCapacity}
           />
 
-          {/* Grid */}
           <div className="flex-1">
             {filtered.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -103,7 +101,7 @@ const Products = () => {
                 ))}
               </div>
             ) : (
-              <div className="glass-card p-12 text-center">
+              <div className="premium-card p-12 text-center">
                 <p className="text-4xl mb-4">🔍</p>
                 <h3 className="font-heading font-semibold text-foreground mb-2">No products found</h3>
                 <p className="text-sm text-muted-foreground">Try adjusting your filters.</p>

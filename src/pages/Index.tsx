@@ -33,7 +33,6 @@ const stats = [
 const Index = () => {
   return (
     <main>
-      {/* Hero */}
       <HeroSlider />
 
       {/* Brands */}
@@ -41,7 +40,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Our Trusted Brands</h2>
-            <div className="w-16 h-1 bg-gradient-to-r from-primary to-accent rounded-full mx-auto mt-3" />
+            <div className="w-16 h-1 bg-primary rounded-full mx-auto mt-3" />
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {brandsData.map((brand) => (
@@ -52,7 +51,7 @@ const Index = () => {
       </section>
 
       {/* Categories */}
-      <section className="py-20 border-y border-white/5">
+      <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Shop by Category</h2>
@@ -87,7 +86,7 @@ const Index = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-20 border-y border-white/5">
+      <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Why Thousands Trust ElectraZone</h2>
@@ -95,8 +94,8 @@ const Index = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {whyUs.map((item) => (
-              <div key={item.title} className="glass-card p-6 text-center group hover:border-primary/30 transition-all">
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-accent/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+              <div key={item.title} className="premium-card p-6 text-center group hover:border-primary/30">
+                <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                   <item.icon className="w-7 h-7 text-primary" />
                 </div>
                 <h3 className="font-heading font-semibold text-foreground mb-2">{item.title}</h3>
@@ -110,23 +109,19 @@ const Index = () => {
       {/* Deals Banner */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="rounded-2xl p-8 md:p-12 text-center relative overflow-hidden" style={{ background: "linear-gradient(135deg, hsl(192 100% 50% / 0.15), hsl(210 100% 50% / 0.1))" }}>
-            <div className="absolute inset-0 star-field opacity-50" />
-            <div className="relative z-10">
-              <Zap className="w-10 h-10 text-accent mx-auto mb-4" />
-              <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-3">
-                Limited Offer: Up to 40% OFF on ACs this Summer!
-              </h2>
-              <p className="text-muted-foreground mb-6">Don't miss out — offer ends soon!</p>
-              <Link to="/products?category=ac" className="btn-primary inline-block">
-                Shop ACs Now
-              </Link>
-            </div>
+          <div className="rounded-2xl p-8 md:p-12 text-center bg-gradient-to-br from-primary/5 via-blue-50 to-accent/5 border border-border">
+            <Zap className="w-10 h-10 text-accent mx-auto mb-4" />
+            <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-3">
+              Limited Offer: Up to 40% OFF on ACs this Summer!
+            </h2>
+            <p className="text-muted-foreground mb-6">Don't miss out — offer ends soon!</p>
+            <Link to="/products?category=ac" className="btn-primary inline-block">
+              Shop ACs Now
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Stats */}
       <StatCounter stats={stats} />
 
       {/* Testimonials */}
@@ -144,11 +139,10 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Newsletter */}
       <NewsletterSection />
 
       {/* FAQ */}
-      <section className="py-20 border-t border-white/5">
+      <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Frequently Asked Questions</h2>
