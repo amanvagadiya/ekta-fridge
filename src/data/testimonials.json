@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Rajesh Sharma",
+    "city": "Ahmedabad",
+    "rating": 5,
+    "text": "Bought a Samsung AC from ElectraZone. Amazing service, quick delivery, and free installation. The team was very professional and helpful!",
+    "initials": "RS"
+  },
+  {
+    "name": "Priya Patel",
+    "city": "Mumbai",
+    "rating": 5,
+    "text": "Best prices on LG washing machines! I compared everywhere and ElectraZone offered the best deal. Plus, the EMI option made it so easy.",
+    "initials": "PP"
+  },
+  {
+    "name": "Amit Kumar",
+    "city": "Delhi",
+    "rating": 4,
+    "text": "Great experience buying a refrigerator. The website was easy to use, and customer support helped me choose the right capacity for my family.",
+    "initials": "AK"
+  }
+]
