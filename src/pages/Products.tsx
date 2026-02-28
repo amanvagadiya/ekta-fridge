@@ -3,6 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import ProductCard from "@/components/ui/ProductCard";
 import FilterSidebar from "@/components/ui/FilterSidebar";
 import CompareDrawer from "@/components/ui/CompareDrawer";
+import PageHero from "@/components/ui/PageHero";
 import productsData from "@/data/products.json";
 
 type Product = (typeof productsData)[0];
@@ -72,15 +73,17 @@ const Products = () => {
   };
 
   return (
-    <main className="pt-24 pb-20 min-h-screen">
-      <div className="container mx-auto px-4">
-        <div className="mb-8">
-          <h1 className="section-title">Our Products</h1>
-          <p className="text-muted-foreground">
-            Showing {filtered.length} of {productsData.length} products
-          </p>
-        </div>
+    <main className="pb-20 min-h-screen">
+      <PageHero
+        title="Our Products"
+        subtitle={`Showing ${filtered.length} of ${productsData.length} products`}
+        breadcrumbs={[
+          { label: "Home", path: "/" },
+          { label: "Products" },
+        ]}
+      />
 
+      <div className="container mx-auto px-4 py-8">
         <div className="flex gap-8">
           <FilterSidebar
             filters={filters}

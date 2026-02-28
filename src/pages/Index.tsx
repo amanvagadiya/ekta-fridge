@@ -7,6 +7,7 @@ import TestimonialCard from "@/components/ui/TestimonialCard";
 import FAQAccordion from "@/components/ui/FAQAccordion";
 import NewsletterSection from "@/components/ui/NewsletterSection";
 import StatCounter from "@/components/ui/StatCounter";
+import CountdownTimer from "@/components/ui/CountdownTimer";
 import { Truck, Shield, Phone, RotateCcw, Zap } from "lucide-react";
 import productsData from "@/data/products.json";
 import brandsData from "@/data/brands.json";
@@ -15,6 +16,9 @@ import faqsData from "@/data/faqs.json";
 import testimonialsData from "@/data/testimonials.json";
 
 const bestSellers = productsData.filter((p) => p.badge === "Best Seller").slice(0, 4);
+
+// Set deal end date to 15 days from now
+const dealEndDate = new Date(Date.now() + 15 * 24 * 60 * 60 * 1000);
 
 const whyUs = [
   { icon: Truck, title: "Free Delivery", desc: "On orders above ₹10,000" },
@@ -39,8 +43,11 @@ const Index = () => {
       <section id="brands" className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
+            <span className="inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20 mb-4">
+              Official Partners
+            </span>
             <h2 className="section-title">Our Trusted Brands</h2>
-            <div className="w-16 h-1 bg-primary rounded-full mx-auto mt-3" />
+            <p className="section-subtitle">Authorized dealer for world-class electronics</p>
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {brandsData.map((brand) => (
@@ -106,18 +113,31 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Deals Banner */}
-      <section className="py-16">
+      {/* Deals Banner with Timer */}
+      <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="rounded-2xl p-8 md:p-12 text-center bg-gradient-to-br from-primary/5 via-blue-50 to-accent/5 border border-border">
-            <Zap className="w-10 h-10 text-accent mx-auto mb-4" />
-            <h2 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-3">
-              Limited Offer: Up to 40% OFF on ACs this Summer!
-            </h2>
-            <p className="text-muted-foreground mb-6">Don't miss out — offer ends soon!</p>
-            <Link to="/products?category=ac" className="btn-primary inline-block">
-              Shop ACs Now
-            </Link>
+          <div className="rounded-3xl p-8 md:p-14 text-center bg-gradient-to-br from-primary/5 via-background to-accent/5 border border-border relative overflow-hidden">
+            {/* Decorative */}
+            <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-primary/5 blur-3xl" />
+            <div className="absolute bottom-0 left-0 w-48 h-48 rounded-full bg-accent/5 blur-3xl" />
+            
+            <div className="relative z-10">
+              <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mx-auto mb-6">
+                <Zap className="w-8 h-8 text-accent" />
+              </div>
+              <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-foreground mb-3">
+                Limited Offer: Up to 40% OFF on ACs!
+              </h2>
+              <p className="text-muted-foreground mb-10 text-lg">Hurry up — offer ends soon!</p>
+              
+              <CountdownTimer targetDate={dealEndDate} />
+              
+              <div className="mt-10">
+                <Link to="/products?category=ac" className="btn-primary inline-block !px-10 !py-4 !text-base shadow-lg shadow-primary/20">
+                  Shop ACs Now
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

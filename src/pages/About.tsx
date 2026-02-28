@@ -1,5 +1,6 @@
 import { Users, Target, Eye, Award, ShieldCheck, Star } from "lucide-react";
 import StatCounter from "@/components/ui/StatCounter";
+import PageHero from "@/components/ui/PageHero";
 
 const values = [
   { icon: ShieldCheck, title: "Trust", desc: "Building lasting relationships through transparency and honesty." },
@@ -23,15 +24,17 @@ const stats = [
 
 const About = () => {
   return (
-    <main className="pt-24 pb-0 min-h-screen">
-      <section className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
-        <div className="container mx-auto px-4 relative z-10">
-          <p className="text-sm text-muted-foreground mb-2">Home / About Us</p>
-          <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-foreground">About ElectraZone</h1>
-        </div>
-      </section>
+    <main className="pb-0 min-h-screen">
+      <PageHero
+        title="About ElectraZone"
+        subtitle="Your trusted destination for premium electronics since 2015"
+        breadcrumbs={[
+          { label: "Home", path: "/" },
+          { label: "About Us" },
+        ]}
+      />
 
+      {/* Our Story */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
@@ -57,6 +60,7 @@ const About = () => {
 
       <StatCounter stats={stats} />
 
+      {/* Mission & Vision */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -78,6 +82,7 @@ const About = () => {
         </div>
       </section>
 
+      {/* Core Values */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -97,6 +102,7 @@ const About = () => {
         </div>
       </section>
 
+      {/* Team */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -117,6 +123,7 @@ const About = () => {
         </div>
       </section>
 
+      {/* Certifications */}
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">

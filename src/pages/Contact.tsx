@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Youtube, MessageCircle, Send, CheckCircle } from "lucide-react";
+import PageHero from "@/components/ui/PageHero";
 
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "123 Electronics Hub, MG Road, Ahmedabad, Gujarat - 380001" },
@@ -35,14 +36,15 @@ const Contact = () => {
   const inputClass = "w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all";
 
   return (
-    <main className="pt-24 pb-20 min-h-screen">
-      <section className="py-16 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
-        <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-heading font-extrabold text-foreground mb-2">Get In Touch</h1>
-          <p className="text-muted-foreground">We'd love to hear from you. Reach out anytime!</p>
-        </div>
-      </section>
+    <main className="pb-20 min-h-screen">
+      <PageHero
+        title="Get In Touch"
+        subtitle="We'd love to hear from you. Reach out anytime!"
+        breadcrumbs={[
+          { label: "Home", path: "/" },
+          { label: "Contact Us" },
+        ]}
+      />
 
       <section className="py-12">
         <div className="container mx-auto px-4">

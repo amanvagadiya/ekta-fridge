@@ -1,4 +1,5 @@
 import { Star, Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface Product {
   id: string;
@@ -27,12 +28,14 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
   return (
     <div className="premium-card group overflow-hidden hover:-translate-y-1">
       <div className="relative aspect-square bg-secondary overflow-hidden">
-        <img
-          src={product.image}
-          alt={product.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-          loading="lazy"
-        />
+        <Link to={`/product/${product.id}`}>
+          <img
+            src={product.image}
+            alt={product.name}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+        </Link>
         <div className="absolute top-3 left-3 flex flex-col gap-2">
           {product.badge && (
             <span className="px-2.5 py-1 text-xs font-semibold rounded-full bg-primary text-primary-foreground">
@@ -60,9 +63,11 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
       </div>
 
       <div className="p-5">
-        <h3 className="font-heading font-semibold text-sm text-foreground mb-2 line-clamp-2 min-h-[2.5rem]">
-          {product.name}
-        </h3>
+        <Link to={`/product/${product.id}`}>
+          <h3 className="font-heading font-semibold text-sm text-foreground mb-2 line-clamp-2 min-h-[2.5rem] hover:text-primary transition-colors">
+            {product.name}
+          </h3>
+        </Link>
 
         <div className="flex flex-wrap gap-1.5 mb-3">
           {product.specs.slice(0, 3).map((spec) => (
@@ -103,17 +108,21 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
         </div>
 
         <div className="flex gap-2">
-          <button
-            onClick={() => onCompare?.(product)}
-            className={`flex-1 py-2.5 text-xs font-semibold rounded-xl border transition-all duration-200 ${
-              isComparing
-                ? "bg-primary/10 border-primary/30 text-primary"
-                : "border-border text-muted-foreground hover:border-primary/30 hover:text-primary"
-            }`}
-          >
-            {isComparing ? "Comparing" : "Compare"}
-          </button>
-          <button className="flex-1 btn-primary !py-2.5 !text-xs !rounded-xl">View Details</button>
+          {onCompare && (
+            <button
+              onClick={() => onCompare(product)}
+              className={`flex-1 py-2.5 text-xs font-semibold rounded-xl border transition-all duration-200 ${
+                isComparing
+                  ? "bg-primary/10 border-primary/30 text-primary"
+                  : "border-border text-muted-foreground hover:border-primary/30 hover:text-primary"
+              }`}
+            >
+              {isComparing ? "Comparing" : "Compare"}
+            </button>
+          )}
+          <Link to={`/product/${product.id}`} className="flex-1 btn-primary !py-2.5 !text-xs !rounded-xl text-center">
+            View Details
+          </Link>
         </div>
       </div>
     </div>
