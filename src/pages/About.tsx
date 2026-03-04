@@ -27,7 +27,7 @@ const About = () => {
   return (
     <main className="pb-0 min-h-screen">
       <PageHero
-        title="About ElectraZone"
+        title="About EKTAFRIDGE"
         subtitle="Your trusted destination for premium electronics since 2015"
         breadcrumbs={[
           { label: "Home", path: "/" },
@@ -43,7 +43,7 @@ const About = () => {
             <div>
               <h2 className="section-title mb-6">Our Story</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Founded in 2015, ElectraZone began as a small electronics shop in the heart of Ahmedabad. With a passion for quality and a commitment to customer satisfaction, we quickly grew into one of Gujarat's most trusted appliance retailers.
+                Founded in 2015, EKTAFRIDGE began as a small electronics shop in the heart of Ahmedabad. With a passion for quality and a commitment to customer satisfaction, we quickly grew into one of Gujarat's most trusted appliance retailers.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Today, we proudly serve over 50,000 happy customers with premium products from Samsung and LG. Our mission is simple — to make cutting-edge technology accessible and affordable for every Indian household.

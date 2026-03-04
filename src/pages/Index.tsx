@@ -97,7 +97,7 @@ const Index = () => {
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="section-title">Why Thousands Trust ElectraZone</h2>
+            <h2 className="section-title">Why Thousands Trust EKTAFRIDGE</h2>
             <p className="section-subtitle">We go above and beyond for our customers</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
