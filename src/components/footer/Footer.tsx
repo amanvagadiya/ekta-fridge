@@ -77,14 +77,14 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-foreground mb-4">Contact</h4>
             <ul className="space-y-2.5 text-sm text-muted-foreground">
-              <li>123 Electronics Hub, MG Road, Ahmedabad, Gujarat - 380001</li>
+              <li>Shop-No-10, Pirojpura Road, Chhapi Highway,TA-Vadgam,Dist-Banaskantha, Gujarat - 385210</li>
               <li>
                 <a href="tel:+918128551508" className="hover:text-primary transition-colors">+91-81285-51508</a>
               </li>
               <li>
                 <a href="mailto:support@EKTAFRIDGE.com" className="hover:text-primary transition-colors">support@EKTAFRIDGE.com</a>
               </li>
-              <li>Mon–Sat: 9AM–8PM, Sun: 10AM–6PM</li>
+              <li>Mon–Sat: 9AM–8PM, Sun: 9AM–8PM</li>
             </ul>
           </div>
         </div>

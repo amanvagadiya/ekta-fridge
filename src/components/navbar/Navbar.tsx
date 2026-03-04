@@ -37,7 +37,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-2 group">
           <img src={logo} alt="EKTAFRIDGE" className="h-10 w-10 object-contain" />
           <span className="font-heading text-xl font-bold text-foreground">
-            EKTAFRIDGE
+            EKTA FRIDGE
           </span>
         </Link>
 
