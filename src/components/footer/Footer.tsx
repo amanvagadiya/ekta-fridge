@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="EKTAFRIDGE" className="h-9 w-9 object-contain" />
+              <img src={logo} alt="EKTA FRIDGE" className="h-9 w-9 object-contain" />
               <span className="font-heading text-lg font-bold text-foreground">
-                EKTAFRIDGE
+                EKTA FRIDGE
               </span>
             </Link>
             <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
@@ -82,7 +82,7 @@ const Footer = () => {
                 <a href="tel:+918128551508" className="hover:text-primary transition-colors">+91-81285-51508</a>
               </li>
               <li>
-                <a href="mailto:support@EKTAFRIDGE.com" className="hover:text-primary transition-colors">support@EKTAFRIDGE.com</a>
+                <a href="mailto:support@EKTA FRIDGE.com" className="hover:text-primary transition-colors">support@EKTA FRIDGE.com</a>
               </li>
               <li>Mon–Sat: 9AM–8PM, Sun: 9AM–8PM</li>
             </ul>
@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-          <p>© 2025 EKTAFRIDGE. All Rights Reserved.</p>
+          <p>© 2025 EKTA FRIDGE. All Rights Reserved.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-primary transition-colors">Terms</a>

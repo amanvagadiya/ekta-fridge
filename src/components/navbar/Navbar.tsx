@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2 group">
-          <img src={logo} alt="EKTAFRIDGE" className="h-10 w-10 object-contain" />
+          <img src={logo} alt="EKTA FRIDGE" className="h-10 w-10 object-contain" />
           <span className="font-heading text-xl font-bold text-foreground">
             EKTA FRIDGE
           </span>
@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
 
         <a
-          href="https://wa.me/918128551508?text=Hello%20EKTAFRIDGE!%20I%20need%20help."
+          href="https://wa.me/918128551508?text=Hello%20EKTA FRIDGE!%20I%20need%20help."
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 bg-green-600 hover:bg-green-500 text-primary-foreground rounded-xl px-4 py-2 text-sm font-semibold transition-colors"
@@ -93,7 +93,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="https://wa.me/918128551508?text=Hello%20EKTAFRIDGE!%20I%20need%20help."
+              href="https://wa.me/918128551508?text=Hello%20EKTA FRIDGE!%20I%20need%20help."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-primary-foreground rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors mt-2"

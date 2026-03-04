@@ -6,7 +6,7 @@ import heroContact from "@/assets/hero-contact.jpg";
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "123 Electronics Hub, MG Road, Ahmedabad, Gujarat - 380001" },
   { icon: Phone, label: "Phone", value: "+91-81285-51508", href: "tel:+918128551508" },
-  { icon: Mail, label: "Email", value: "support@EKTAFRIDGE.com", href: "mailto:support@EKTAFRIDGE.com" },
+  { icon: Mail, label: "Email", value: "support@EKTA FRIDGE.com", href: "mailto:support@EKTA FRIDGE.com" },
   { icon: Clock, label: "Hours", value: "Mon–Sat: 9AM–8PM, Sun: 10AM–6PM" },
 ];
 
@@ -116,7 +116,7 @@ const Contact = () => {
 
             <div className="premium-card overflow-hidden">
               <iframe
-                title="EKTAFRIDGE Location"
+                title="EKTA FRIDGE Location"
                 src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sin!4v1772616302007!5m2!1sen!2sin!6m8!1m7!1sS106YktznIdW0ms6fIvLjA!2m2!1d24.02625626195359!2d72.38367760184968!3f28.81569545869556!4f6.812282427736591!5f0.7820865974627469" 
                 width="100%"
                 height="100%"
