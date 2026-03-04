@@ -2,6 +2,19 @@ import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Star, Heart, Truck, ShieldCheck, RotateCcw, Phone, ChevronRight, Minus, Plus, ShoppingCart } from "lucide-react";
 import productsData from "@/data/products.json";
+import samsungLogo from "@/assets/samsung-logo.svg";
+import lgLogo from "@/assets/lg-logo.svg";
+
+// Generate multiple images for product gallery (using variations of the main image)
+const getProductImages = (product: typeof productsData[0]) => {
+  const baseUrl = product.image.split("?")[0];
+  return [
+    `${baseUrl}?w=600&h=600&fit=crop`,
+    `${baseUrl}?w=600&h=600&fit=crop&q=80`,
+    `${baseUrl}?w=600&h=600&fit=crop&auto=format`,
+    `${baseUrl}?w=600&h=600&fit=crop&sat=-100`,
+  ];
+};
 
 const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -9,6 +22,7 @@ const ProductDetail = () => {
   const [qty, setQty] = useState(1);
   const [activeTab, setActiveTab] = useState<"description" | "reviews">("description");
   const [wishlisted, setWishlisted] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(0);
 
   if (!product) {
     return (
@@ -24,6 +38,8 @@ const ProductDetail = () => {
 
   const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
   const relatedProducts = productsData.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
+  const images = getProductImages(product);
+  const brandLogo = product.brand === "samsung" ? samsungLogo : lgLogo;
 
   return (
     <main className="pt-24 pb-20 min-h-screen">
@@ -41,13 +57,13 @@ const ProductDetail = () => {
       {/* Product section */}
       <section className="container mx-auto px-4 py-8">
         <div className="grid lg:grid-cols-2 gap-10 xl:gap-16">
-          {/* Image */}
+          {/* Image Gallery */}
           <div className="space-y-4">
             <div className="relative aspect-square rounded-2xl bg-secondary border border-border overflow-hidden">
               <img
-                src={product.image}
+                src={images[selectedImage]}
                 alt={product.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover transition-all duration-300"
               />
               {product.badge && (
                 <span className="absolute top-4 left-4 px-3 py-1.5 text-xs font-semibold rounded-full bg-primary text-primary-foreground shadow-sm">
@@ -60,10 +76,29 @@ const ProductDetail = () => {
                 </span>
               )}
             </div>
+            {/* Thumbnails */}
+            <div className="grid grid-cols-4 gap-3">
+              {images.map((img, i) => (
+                <button
+                  key={i}
+                  onClick={() => setSelectedImage(i)}
+                  className={`aspect-square rounded-xl overflow-hidden border-2 transition-all ${
+                    selectedImage === i ? "border-primary shadow-md" : "border-border hover:border-primary/30"
+                  }`}
+                >
+                  <img src={img} alt={`${product.name} view ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Details */}
           <div>
+            {/* Brand Logo */}
+            <div className="mb-4">
+              <img src={brandLogo} alt={product.brand} className="h-8 w-auto object-contain" />
+            </div>
+
             {/* Rating */}
             <div className="flex items-center gap-3 mb-4">
               <div className="flex">
@@ -85,10 +120,6 @@ const ProductDetail = () => {
 
             {/* Meta */}
             <div className="flex flex-wrap items-center gap-4 text-sm mb-6">
-              <div>
-                <span className="text-muted-foreground">Brand: </span>
-                <span className="font-semibold text-foreground capitalize">{product.brand}</span>
-              </div>
               <div>
                 <span className="text-muted-foreground">Category: </span>
                 <span className="font-semibold text-foreground capitalize">{product.category.replace("-", " ")}</span>

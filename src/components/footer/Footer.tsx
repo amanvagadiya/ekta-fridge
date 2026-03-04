@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Zap, Instagram, Facebook, Youtube, MessageCircle } from "lucide-react";
+import { Instagram, Facebook, Youtube, MessageCircle } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,9 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-7 h-7 rounded-lg bg-primary flex items-center justify-center">
-                <Zap className="w-3.5 h-3.5 text-primary-foreground" />
-              </div>
+              <img src={logo} alt="ElectraZone" className="h-9 w-9 object-contain" />
               <span className="font-heading text-lg font-bold text-foreground">
                 ElectraZone
               </span>

@@ -1,8 +1,16 @@
 import { useNavigate } from "react-router-dom";
-import { Wind, Waves, Zap, Thermometer, Snowflake, LucideIcon } from "lucide-react";
+import categoryAc from "@/assets/category-ac.jpg";
+import categoryWashing from "@/assets/category-washing.jpg";
+import categoryMicrowave from "@/assets/category-microwave.jpg";
+import categoryFridge from "@/assets/category-fridge.jpg";
+import categoryFreezer from "@/assets/category-freezer.jpg";
 
-const iconMap: Record<string, LucideIcon> = {
-  Wind, Waves, Zap, Thermometer, Snowflake,
+const imageMap: Record<string, string> = {
+  ac: categoryAc,
+  "washing-machine": categoryWashing,
+  microwave: categoryMicrowave,
+  fridge: categoryFridge,
+  freezer: categoryFreezer,
 };
 
 interface CategoryCardProps {
@@ -12,20 +20,27 @@ interface CategoryCardProps {
   count: number;
 }
 
-const CategoryCard = ({ id, label, icon, count }: CategoryCardProps) => {
+const CategoryCard = ({ id, label, count }: CategoryCardProps) => {
   const navigate = useNavigate();
-  const Icon = iconMap[icon] || Zap;
+  const image = imageMap[id];
 
   return (
     <button
       onClick={() => navigate(`/products?category=${id}`)}
-      className="premium-card p-6 flex flex-col items-center gap-3 group hover:border-primary/30 hover:scale-105 cursor-pointer"
+      className="premium-card overflow-hidden group hover:border-primary/30 hover:scale-[1.03] cursor-pointer transition-all duration-300"
     >
-      <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/15 transition-colors">
-        <Icon className="w-7 h-7 text-primary" />
+      <div className="aspect-square overflow-hidden bg-secondary">
+        <img
+          src={image}
+          alt={label}
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+          loading="lazy"
+        />
       </div>
-      <h3 className="font-heading font-semibold text-sm text-foreground text-center">{label}</h3>
-      <span className="text-xs text-muted-foreground">{count} Products</span>
+      <div className="p-4 text-center">
+        <h3 className="font-heading font-semibold text-sm text-foreground">{label}</h3>
+        <span className="text-xs text-muted-foreground">{count} Products</span>
+      </div>
     </button>
   );
 };

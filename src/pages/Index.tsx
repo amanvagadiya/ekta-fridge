@@ -8,6 +8,7 @@ import FAQAccordion from "@/components/ui/FAQAccordion";
 import NewsletterSection from "@/components/ui/NewsletterSection";
 import StatCounter from "@/components/ui/StatCounter";
 import CountdownTimer from "@/components/ui/CountdownTimer";
+import PromoSlider from "@/components/ui/PromoSlider";
 import { Truck, Shield, Phone, RotateCcw, Zap } from "lucide-react";
 import productsData from "@/data/products.json";
 import brandsData from "@/data/brands.json";
@@ -113,11 +114,11 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Deals Banner with Timer */}
+      {/* Deals Banner with Timer + Promo Slider */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="rounded-3xl p-8 md:p-14 text-center bg-gradient-to-br from-primary/5 via-background to-accent/5 border border-border relative overflow-hidden">
-            {/* Decorative */}
+          {/* Timer Section */}
+          <div className="rounded-3xl p-8 md:p-14 text-center bg-gradient-to-br from-primary/5 via-background to-accent/5 border border-border relative overflow-hidden mb-10">
             <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-primary/5 blur-3xl" />
             <div className="absolute bottom-0 left-0 w-48 h-48 rounded-full bg-accent/5 blur-3xl" />
             
@@ -139,6 +140,9 @@ const Index = () => {
               </div>
             </div>
           </div>
+
+          {/* Promo Banner Slider */}
+          <PromoSlider />
         </div>
       </section>
 
