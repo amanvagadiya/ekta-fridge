@@ -22,7 +22,7 @@ const Footer = () => {
                 { icon: Instagram, href: "#" },
                 { icon: Facebook, href: "#" },
                 { icon: Youtube, href: "#" },
-                { icon: MessageCircle, href: "https://wa.me/919876543210" },
+                { icon: MessageCircle, href: "https://wa.me/8128551508" },
               ].map(({ icon: Icon, href }, i) => (
                 <a
                   key={i}
@@ -79,7 +79,7 @@ const Footer = () => {
             <ul className="space-y-2.5 text-sm text-muted-foreground">
               <li>123 Electronics Hub, MG Road, Ahmedabad, Gujarat - 380001</li>
               <li>
-                <a href="tel:+919876543210" className="hover:text-primary transition-colors">+91-98765-43210</a>
+                <a href="tel:+918128551508" className="hover:text-primary transition-colors">+91-81285-51508</a>
               </li>
               <li>
                 <a href="mailto:support@electrazone.com" className="hover:text-primary transition-colors">support@electrazone.com</a>

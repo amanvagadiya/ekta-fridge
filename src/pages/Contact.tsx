@@ -5,7 +5,7 @@ import heroContact from "@/assets/hero-contact.jpg";
 
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "123 Electronics Hub, MG Road, Ahmedabad, Gujarat - 380001" },
-  { icon: Phone, label: "Phone", value: "+91-98765-43210", href: "tel:+919876543210" },
+  { icon: Phone, label: "Phone", value: "+91-81285-51508", href: "tel:+918128551508" },
   { icon: Mail, label: "Email", value: "support@electrazone.com", href: "mailto:support@electrazone.com" },
   { icon: Clock, label: "Hours", value: "Mon–Sat: 9AM–8PM, Sun: 10AM–6PM" },
 ];
@@ -138,7 +138,7 @@ const Contact = () => {
               { icon: Instagram, href: "#" },
               { icon: Facebook, href: "#" },
               { icon: Youtube, href: "#" },
-              { icon: MessageCircle, href: "https://wa.me/919876543210" },
+              { icon: MessageCircle, href: "https://wa.me/918128551508" },
             ].map(({ icon: Icon, href }, i) => (
               <a
                 key={i}
