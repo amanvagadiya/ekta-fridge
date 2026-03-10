@@ -66,6 +66,7 @@ const HeroSlider = () => {
             className="btn-outline inline-flex items-center gap-2 !px-8 !py-4 !text-base"
           >
             <img src={lgLogo} alt="LG" className="h-5" />
+            Shop LG
           </Link>
         </div>
       </div>
