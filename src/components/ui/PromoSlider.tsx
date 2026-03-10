@@ -21,8 +21,8 @@ const PromoSlider = () => {
   }, []);
 
   return (
-    <div className="relative rounded-2xl overflow-hidden group">
-      <div className="relative aspect-[16/6] md:aspect-[16/5] overflow-hidden">
+    <div className="relative rounded-2xl overflow-hidden group w-full">
+      <div className="relative aspect-video sm:aspect-[16/7] md:aspect-[16/5] lg:aspect-[16/4.5] overflow-hidden w-full">
         {banners.map((banner, i) => (
           <img
             key={i}

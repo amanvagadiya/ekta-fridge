@@ -60,14 +60,12 @@ const HeroSlider = () => {
             className="btn-primary inline-flex items-center gap-2 !px-8 !py-4 !text-base"
           >
             <img src={samsungLogo} alt="Samsung" className="h-5" />
-            Shop Samsung
           </Link>
           <Link
             to="/products?brand=lg"
             className="btn-outline inline-flex items-center gap-2 !px-8 !py-4 !text-base"
           >
             <img src={lgLogo} alt="LG" className="h-5" />
-            Shop LG
           </Link>
         </div>
       </div>
