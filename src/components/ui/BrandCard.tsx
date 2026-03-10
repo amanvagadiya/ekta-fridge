@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import samsungLogo from "@/assets/samsung-logo.svg";
-import lgLogo from "@/assets/lg-logo.svg";
+import samsungLogo from "@/assets/samsung-logo.png";
+import lgLogo from "@/assets/lg-logo.png";
 
 interface BrandCardProps {
   id: string;
@@ -25,11 +25,11 @@ const BrandCard = ({ id, name, tagline, productCount }: BrandCardProps) => {
       
       <div className="p-8 pt-10">
         {/* Logo */}
-        <div className="mb-6 h-16 flex items-center">
+        <div className="mb-6 h-20 flex items-center justify-center">
           <img 
             src={isSamsung ? samsungLogo : lgLogo} 
             alt={name} 
-            className="h-12 w-auto object-contain"
+            className="h-16 w-auto object-contain"
           />
         </div>
 

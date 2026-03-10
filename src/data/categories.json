@@ -3,5 +3,6 @@
   { "id": "washing-machine", "label": "Washing Machine", "icon": "Waves", "count": 4 },
   { "id": "microwave", "label": "Microwave", "icon": "Zap", "count": 5 },
   { "id": "fridge", "label": "Refrigerator", "icon": "Thermometer", "count": 4 },
-  { "id": "freezer", "label": "Freezer", "icon": "Snowflake", "count": 3 }
+  { "id": "freezer", "label": "Freezer", "icon": "Snowflake", "count": 3 },
+  { "id": "air-cooler", "label": "Air Cooler", "icon": "Wind", "count": 1 }
 ]

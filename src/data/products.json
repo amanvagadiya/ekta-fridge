@@ -298,5 +298,20 @@
     "badge": null,
     "specs": ["21L", "Solo", "i-wave", "Anti Bacteria Cavity"],
     "inStock": true
+  },
+  {
+    "id": "21",
+    "name": "Samsung 55L Portable Air Cooler",
+    "brand": "samsung",
+    "category": "air-cooler",
+    "price": 7999,
+    "originalPrice": 9999,
+    "rating": 4.3,
+    "reviews": 34,
+    "image": "https://images.unsplash.com/photo-1600181956325-5a156f0e3dad?w=400&h=400&fit=crop",
+    "capacity": null,
+    "badge": "New",
+    "specs": ["55L", "Portable", "Energy Saving", "Remote Control"],
+    "inStock": true
   }
 ]

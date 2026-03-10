@@ -7,6 +7,7 @@ import categoryFreezer from "@/assets/category-freezer.jpg";
 
 const imageMap: Record<string, string> = {
   ac: categoryAc,
+  "air-cooler": categoryAc, // temporary use AC image
   "washing-machine": categoryWashing,
   microwave: categoryMicrowave,
   fridge: categoryFridge,

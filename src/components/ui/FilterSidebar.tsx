@@ -84,6 +84,7 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
         <div className="space-y-2">
           {[
             { id: "ac", label: "Air Conditioner" },
+            { id: "air-cooler", label: "Air Cooler" },
             { id: "washing-machine", label: "Washing Machine" },
             { id: "microwave", label: "Microwave" },
             { id: "fridge", label: "Refrigerator" },

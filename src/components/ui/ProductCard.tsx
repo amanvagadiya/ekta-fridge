@@ -1,4 +1,4 @@
-import { Star, Heart } from "lucide-react";
+import { Star } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface Product {
@@ -57,9 +57,6 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
         >
           {product.brand}
         </span>
-        <button className="absolute bottom-3 right-3 w-9 h-9 rounded-full bg-background/90 border border-border flex items-center justify-center text-muted-foreground hover:text-destructive transition-colors shadow-sm">
-          <Heart className="w-4 h-4" />
-        </button>
       </div>
 
       <div className="p-5">

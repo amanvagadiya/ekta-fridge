@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import { Star, Heart, Truck, ShieldCheck, RotateCcw, Phone, ChevronRight, Minus, Plus, ShoppingCart } from "lucide-react";
+import { Star, Truck, ShieldCheck, RotateCcw, Phone, ChevronRight, Minus, Plus, ChevronLeft } from "lucide-react";
 import productsData from "@/data/products.json";
-import samsungLogo from "@/assets/samsung-logo.svg";
-import lgLogo from "@/assets/lg-logo.svg";
+import samsungLogo from "@/assets/samsung-logo.png";
+import lgLogo from "@/assets/lg-logo.png";
+import { useToast } from "@/hooks/use-toast";
+import { useStore } from "@/context/StoreContext";
 
 // Generate multiple images for product gallery (using variations of the main image)
 const getProductImages = (product: typeof productsData[0]) => {
@@ -21,7 +23,8 @@ const ProductDetail = () => {
   const product = productsData.find((p) => p.id === id);
   const [qty, setQty] = useState(1);
   const [activeTab, setActiveTab] = useState<"description" | "reviews">("description");
-  const [wishlisted, setWishlisted] = useState(false);
+  const { addToCart } = useStore();
+  const { toast } = useToast();
   const [selectedImage, setSelectedImage] = useState(0);
 
   if (!product) {
@@ -65,6 +68,24 @@ const ProductDetail = () => {
                 alt={product.name}
                 className="w-full h-full object-cover transition-all duration-300"
               />
+              {/* arrows */}
+              {images.length > 1 && (
+                <>
+                  <button
+                    onClick={() => setSelectedImage((i) => (i - 1 + images.length) % images.length)}
+                    className="absolute left-2 top-1/2 -translate-y-1/2 bg-background/70 rounded-full p-2 hover:bg-background"
+                  >
+                    <ChevronLeft className="w-4 h-4 text-foreground" />
+                  </button>
+                  <button
+                    onClick={() => setSelectedImage((i) => (i + 1) % images.length)}
+                    className="absolute right-2 top-1/2 -translate-y-1/2 bg-background/70 rounded-full p-2 hover:bg-background"
+                  >
+                    <ChevronRight className="w-4 h-4 text-foreground" />
+                  </button>
+                </>
+              )}
+
               {product.badge && (
                 <span className="absolute top-4 left-4 px-3 py-1.5 text-xs font-semibold rounded-full bg-primary text-primary-foreground shadow-sm">
                   {product.badge}
@@ -178,21 +199,28 @@ const ProductDetail = () => {
                   <Plus className="w-4 h-4" />
                 </button>
               </div>
-              <button className="btn-outline flex items-center gap-2 flex-1">
-                <ShoppingCart className="w-4 h-4" /> Add to Cart
-              </button>
               <button
-                onClick={() => setWishlisted(!wishlisted)}
-                className={`w-11 h-11 rounded-xl border flex items-center justify-center transition-all ${wishlisted ? "bg-red-50 border-red-200 text-red-500" : "border-border text-muted-foreground hover:text-red-500 hover:border-red-200"}`}
-              >
-                <Heart className={`w-4 h-4 ${wishlisted ? "fill-red-500" : ""}`} />
-              </button>
-            </div>
-
-            {/* Buy Now */}
-            <button className="btn-primary w-full !py-4 !text-base mb-8">
-              Buy Now
+              onClick={() => {
+                addToCart(product.id, qty);
+                toast({ title: "Added to cart", description: product.name });
+              }}
+              className="btn-outline flex items-center gap-2 flex-1"
+            >
+              Add to Cart
             </button>
+          </div>
+
+          {/* Buy Now */}
+          <button
+            onClick={() => {
+              const msg = `Hello EKTA FRIDGE!\n\nI'd like to buy:\n- ${product.name}\n- Brand: ${product.brand}\n- Category: ${product.category.replace("-", " ")}\n- Quantity: ${qty}\n- Price: ₹${product.price.toLocaleString()} (${discount}% off)\n\nProduct link: ${window.location.href}`;
+              const url = `https://wa.me/918128551508?text=${encodeURIComponent(msg)}`;
+              window.open(url, "_blank");
+            }}
+            className="btn-primary w-full !py-4 !text-base mb-8"
+          >
+            Buy Now
+          </button>
 
             {/* Shipping Info */}
             <div className="grid grid-cols-2 gap-3">

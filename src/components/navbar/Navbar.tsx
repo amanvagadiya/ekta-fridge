@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const navLinks = [
@@ -41,7 +41,7 @@ const Navbar = () => {
           </span>
         </Link>
 
-        <div className="hidden md:flex items-center gap-1">
+        <div className="hidden md:flex items-center gap-4">
           {navLinks.map((link) => (
             <Link
               key={link.path}
@@ -56,16 +56,6 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-
-        <a
-          href="https://wa.me/918128551508?text=Hello%20EKTA FRIDGE!%20I%20need%20help."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hidden md:flex items-center gap-2 bg-green-600 hover:bg-green-500 text-primary-foreground rounded-xl px-4 py-2 text-sm font-semibold transition-colors"
-        >
-          <MessageCircle className="w-4 h-4" />
-          WhatsApp
-        </a>
 
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -92,15 +82,7 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="https://wa.me/918128551508?text=Hello%20EKTA FRIDGE!%20I%20need%20help."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-green-600 hover:bg-green-500 text-primary-foreground rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors mt-2"
-            >
-              <MessageCircle className="w-4 h-4" />
-              Chat on WhatsApp
-            </a>
+            {/* no cart or wishlist icons anymore */}
           </div>
         </div>
       )}
