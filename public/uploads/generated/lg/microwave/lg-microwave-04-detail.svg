@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960" role="img" aria-labelledby="lg-microwave-04-detail">
+  <title id="lg-microwave-04-detail">LG 28 L Convection Microwave detail view</title>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="hsl(258, 70%, 97%)"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" x2="0.9" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="hsl(258, 22%, 92%)"/>
+      <stop offset="100%" stop-color="hsl(258, 16%, 82%)"/>
+    </linearGradient>
+    <linearGradient id="drum" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="hsl(258, 88%, 68%)"/>
+      <stop offset="100%" stop-color="#7d1735"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="960" fill="url(#bg)"/>
+  <circle cx="130" cy="140" r="95" fill="#d61f45" opacity="0.12"/>
+  <circle cx="845" cy="825" r="130" fill="#7d1735" opacity="0.1"/>
+  <rect x="55" y="55" width="850" height="850" rx="48" ry="48" fill="rgba(255,255,255,0.5)" stroke="rgba(15,23,42,0.08)" stroke-width="4"/>
+  
+        <rect x="120" y="180" rx="28" ry="28" width="760" height="470" fill="url(#body)" stroke="#d61f45" stroke-width="8"/>
+        <rect x="170" y="230" rx="22" ry="22" width="500" height="365" fill="#0f172a"/>
+        <rect x="195" y="255" rx="12" ry="12" width="450" height="315" fill="url(#screen)" opacity="0.95"/>
+        <rect x="705" y="235" rx="16" ry="16" width="120" height="140" fill="rgba(255,255,255,0.18)"/>
+        <circle cx="765" cy="455" r="42" fill="rgba(255,255,255,0.82)"/>
+        <circle cx="765" cy="555" r="28" fill="rgba(255,255,255,0.52)"/>
+        
+        
+        <rect x="720" y="255" rx="10" ry="10" width="90" height="26" fill="rgba(255,255,255,0.8)"/><rect x="720" y="295" rx="8" ry="8" width="90" height="14" fill="rgba(255,255,255,0.4)"/><rect x="220" y="290" width="400" height="210" rx="18" ry="18" fill="rgba(0,0,0,0.28)"/>
+      
+  <text x="95" y="110" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#7d1735">LG</text>
+  <text x="95" y="145" font-size="20" font-family="Arial, Helvetica, sans-serif" fill="#475569">MICROWAVE</text>
+  <text x="95" y="780" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#0f172a">LG 28 L Convection Microwave</text>
+  <text x="95" y="825" font-size="24" font-family="Arial, Helvetica, sans-serif" fill="#475569">LG-MW-04</text>
+  <text x="95" y="865" font-size="22" font-family="Arial, Helvetica, sans-serif" fill="#334155">28L • Convection • SlimFry</text>
+</svg>

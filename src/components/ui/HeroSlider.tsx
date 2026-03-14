@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import heroProducts from "@/assets/hero-products.jpg";
-import heroAbout from "@/assets/hero-about.jpg";
-import heroContact from "@/assets/hero-contact.jpg";
-import samsungLogo from "@/assets/samsung-logo.png";
-import lgLogo from "@/assets/lg-logo.png";
+
+const heroProducts = "/uploads/hero-products.jpg";
+const heroAbout = "/uploads/hero-about.jpg";
+const heroContact = "/uploads/hero-contact.jpg";
+const samsungLogo = "/uploads/samsung-logo.png";
+const lgLogo = "/uploads/lg-logo.png";
 
 const slides = [
   {

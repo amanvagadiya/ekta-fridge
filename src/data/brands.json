@@ -2,15 +2,15 @@
   {
     "id": "samsung",
     "name": "Samsung",
-    "tagline": "Innovating for a Better Future",
-    "productCount": 10,
+    "tagline": "Official Samsung appliances with genuine image galleries",
+    "productCount": 40,
     "color": "hsl(210, 100%, 50%)"
   },
   {
     "id": "lg",
     "name": "LG",
-    "tagline": "Life's Good with LG",
-    "productCount": 10,
-    "color": "hsl(0, 70%, 50%)"
+    "tagline": "Official LG appliances with real product photography",
+    "productCount": 40,
+    "color": "hsl(351, 75%, 47%)"
   }
 ]

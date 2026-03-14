@@ -1,8 +1,30 @@
 [
-  { "id": "ac", "label": "Air Conditioner", "icon": "Wind", "count": 4 },
-  { "id": "washing-machine", "label": "Washing Machine", "icon": "Waves", "count": 4 },
-  { "id": "microwave", "label": "Microwave", "icon": "Zap", "count": 5 },
-  { "id": "fridge", "label": "Refrigerator", "icon": "Thermometer", "count": 4 },
-  { "id": "freezer", "label": "Freezer", "icon": "Snowflake", "count": 3 },
-  { "id": "air-cooler", "label": "Air Cooler", "icon": "Wind", "count": 1 }
+  {
+    "id": "ac",
+    "label": "Air Conditioner",
+    "icon": "Wind",
+    "count": 20,
+    "image": "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-1.png"
+  },
+  {
+    "id": "washing-machine",
+    "label": "Washing Machine",
+    "icon": "Waves",
+    "count": 20,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-1.png"
+  },
+  {
+    "id": "microwave",
+    "label": "Microwave",
+    "icon": "Zap",
+    "count": 20,
+    "image": "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-1.png"
+  },
+  {
+    "id": "fridge",
+    "label": "Refrigerator",
+    "icon": "Thermometer",
+    "count": 20,
+    "image": "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-1.png"
+  }
 ]

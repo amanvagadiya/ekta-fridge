@@ -5,7 +5,8 @@ import FilterSidebar from "@/components/ui/FilterSidebar";
 import CompareDrawer from "@/components/ui/CompareDrawer";
 import PageHero from "@/components/ui/PageHero";
 import productsData from "@/data/products.json";
-import heroProducts from "@/assets/hero-products.jpg";
+
+const heroProducts = "/uploads/hero-products.jpg";
 
 type Product = (typeof productsData)[0];
 

@@ -3,7 +3,8 @@ import productsData from "@/data/products.json";
 import { useStore } from "@/context/StoreContext";
 import { Plus, Minus, Trash } from "lucide-react";
 import PageHero from "@/components/ui/PageHero";
-import heroProducts from "@/assets/hero-products.jpg";
+
+const heroProducts = "/uploads/hero-products.jpg";
 
 const Cart = () => {
   const { cart, updateQty, removeFromCart } = useStore();

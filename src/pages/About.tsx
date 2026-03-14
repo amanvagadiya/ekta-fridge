@@ -1,7 +1,8 @@
 import { Users, Target, Eye, Award, ShieldCheck, Star } from "lucide-react";
 import StatCounter from "@/components/ui/StatCounter";
 import PageHero from "@/components/ui/PageHero";
-import heroAbout from "@/assets/hero-about.jpg";
+
+const heroAbout = "/uploads/hero-about.jpg";
 
 const values = [
   { icon: ShieldCheck, title: "Trust", desc: "Building lasting relationships through transparency and honesty." },

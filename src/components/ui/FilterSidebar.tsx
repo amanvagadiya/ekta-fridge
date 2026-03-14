@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Search, SlidersHorizontal, X } from "lucide-react";
+import brandsData from "@/data/brands.json";
+import categoriesData from "@/data/categories.json";
 
 interface FilterSidebarProps {
   filters: {
@@ -68,11 +70,11 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
       <div>
         <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">Brand</label>
         <div className="space-y-2">
-          {["samsung", "lg"].map((brand) => (
-            <label key={brand} className="flex items-center gap-2 cursor-pointer group">
-              <input type="checkbox" checked={filters.brands.includes(brand)} onChange={() => toggleBrand(brand)} className="w-4 h-4 rounded border-border text-primary focus:ring-primary" />
+          {brandsData.map((brand) => (
+            <label key={brand.id} className="flex items-center gap-2 cursor-pointer group">
+              <input type="checkbox" checked={filters.brands.includes(brand.id)} onChange={() => toggleBrand(brand.id)} className="w-4 h-4 rounded border-border text-primary focus:ring-primary" />
               <span className="text-sm text-muted-foreground group-hover:text-foreground capitalize transition-colors">
-                {brand === "samsung" ? "Samsung" : "LG"}
+                {brand.name}
               </span>
             </label>
           ))}
@@ -82,14 +84,7 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
       <div>
         <label className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-2 block">Category</label>
         <div className="space-y-2">
-          {[
-            { id: "ac", label: "Air Conditioner" },
-            { id: "air-cooler", label: "Air Cooler" },
-            { id: "washing-machine", label: "Washing Machine" },
-            { id: "microwave", label: "Microwave" },
-            { id: "fridge", label: "Refrigerator" },
-            { id: "freezer", label: "Freezer" },
-          ].map((cat) => (
+          {categoriesData.map((cat) => (
             <label key={cat.id} className="flex items-center gap-2 cursor-pointer group">
               <input type="checkbox" checked={filters.categories.includes(cat.id)} onChange={() => toggleCategory(cat.id)} className="w-4 h-4 rounded border-border text-primary focus:ring-primary" />
               <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">{cat.label}</span>

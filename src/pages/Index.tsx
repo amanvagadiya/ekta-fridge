@@ -31,8 +31,8 @@ const whyUs = [
 const stats = [
   { value: "50,000+", label: "Happy Customers" },
   { value: "10+", label: "Years Experience" },
-  { value: "200+", label: "Products" },
-  { value: "2", label: "Premium Brands" },
+  { value: `${productsData.length}+`, label: "Products" },
+  { value: String(brandsData.length), label: "Premium Brands" },
 ];
 
 const Index = () => {

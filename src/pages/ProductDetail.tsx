@@ -1,22 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Star, Truck, ShieldCheck, RotateCcw, Phone, ChevronRight, Minus, Plus, ChevronLeft } from "lucide-react";
 import productsData from "@/data/products.json";
-import samsungLogo from "@/assets/samsung-logo.png";
-import lgLogo from "@/assets/lg-logo.png";
 import { useToast } from "@/hooks/use-toast";
 import { useStore } from "@/context/StoreContext";
 
-// Generate multiple images for product gallery (using variations of the main image)
-const getProductImages = (product: typeof productsData[0]) => {
-  const baseUrl = product.image.split("?")[0];
-  return [
-    `${baseUrl}?w=600&h=600&fit=crop`,
-    `${baseUrl}?w=600&h=600&fit=crop&q=80`,
-    `${baseUrl}?w=600&h=600&fit=crop&auto=format`,
-    `${baseUrl}?w=600&h=600&fit=crop&sat=-100`,
-  ];
-};
+const samsungLogo = "/uploads/samsung-logo.png";
+const lgLogo = "/uploads/lg-logo.png";
 
 const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -41,8 +31,12 @@ const ProductDetail = () => {
 
   const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
   const relatedProducts = productsData.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
-  const images = getProductImages(product);
+  const images = product.gallery?.length ? product.gallery : [product.image];
   const brandLogo = product.brand === "samsung" ? samsungLogo : lgLogo;
+
+  useEffect(() => {
+    setSelectedImage(0);
+  }, [product.id]);
 
   return (
     <main className="pt-24 pb-20 min-h-screen">

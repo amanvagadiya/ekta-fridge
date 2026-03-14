@@ -1,317 +1,2286 @@
 [
   {
-    "id": "1",
-    "name": "Samsung 1.5 Ton Inverter AC",
+    "id": "samsung-ac-01",
+    "modelCode": "BESPOKE-AI-WINDFREE-INVERTER-SPLIT-AC-6-30-KW-3-STAR-2026-AR60H24D13WNNA",
+    "name": "Bespoke AI WindFree™ Inverter Split AC, AR60H24D13W, 6.30 kW, 3 Star (2026) AR60H24D13WNNA",
     "brand": "samsung",
     "category": "ac",
-    "price": 35999,
-    "originalPrice": 45000,
-    "rating": 4.5,
-    "reviews": 128,
-    "image": "/uploads/category-ac.jpg",
-    "capacity": null,
-    "badge": "Best Seller",
-    "specs": ["1.5 Ton", "5 Star", "Inverter", "Wi-Fi Enabled"],
-    "inStock": true
-  },
-  {
-    "id": "2",
-    "name": "Samsung 2 Ton Split AC",
-    "brand": "samsung",
-    "category": "ac",
-    "price": 48999,
-    "originalPrice": 58000,
+    "price": 55490,
+    "originalPrice": 101990,
     "rating": 4.3,
-    "reviews": 89,
-    "image": "/uploads/category-ac.jpg",
-    "capacity": null,
-    "badge": null,
-    "specs": ["2 Ton", "3 Star", "Inverter", "Copper Condenser"],
-    "inStock": true
-  },
-  {
-    "id": "3",
-    "name": "LG 1.5 Ton Dual Inverter AC",
-    "brand": "lg",
-    "category": "ac",
-    "price": 37999,
-    "originalPrice": 46000,
-    "rating": 4.6,
-    "reviews": 215,
-    "image": "/uploads/category-ac.jpg",
+    "reviews": 120,
+    "image": "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-1.png",
+      "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-2.png",
+      "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-3.png",
+      "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-4.png",
+      "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-5.png",
+      "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-6.png"
+    ],
     "capacity": null,
     "badge": "Best Seller",
-    "specs": ["1.5 Ton", "5 Star", "Dual Inverter", "AI ThinQ"],
-    "inStock": true
+    "specs": [
+      "6.30 kW",
+      "Split AC",
+      "WindFree",
+      "Inverter",
+      "3 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-windfree-inverter-split-ac-6-30-kw-3-star-2026-ar60h24d13wnna/"
   },
   {
-    "id": "4",
-    "name": "LG 1 Ton Window AC",
-    "brand": "lg",
-    "category": "ac",
-    "price": 27999,
-    "originalPrice": 34000,
-    "rating": 4.1,
-    "reviews": 67,
-    "image": "/uploads/category-ac.jpg",
-    "capacity": null,
-    "badge": null,
-    "specs": ["1 Ton", "3 Star", "Window", "Auto Clean"],
-    "inStock": true
-  },
-  {
-    "id": "5",
-    "name": "Samsung 7kg Front Load Washer",
+    "id": "samsung-ac-02",
+    "modelCode": "BESPOKE-AI-INVERTER-SPLIT-AC-6-30-KW-3-STAR-2026-AR50H24D1XHNNA",
+    "name": "Bespoke AI Inverter Split AC, AR50H24D1XH, 6.30 kW, 3 Star (2026) AR50H24D1XHNNA",
     "brand": "samsung",
-    "category": "washing-machine",
-    "price": 32999,
-    "originalPrice": 40000,
+    "category": "ac",
+    "price": 52990,
+    "originalPrice": 95990,
     "rating": 4.4,
-    "reviews": 156,
-    "image": "/uploads/category-washing.jpg",
+    "reviews": 149,
+    "image": "/uploads/catalog/samsung/samsung-ac-02/samsung-ac-02-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-02/samsung-ac-02-1.png",
+      "/uploads/catalog/samsung/samsung-ac-02/samsung-ac-02-2.png",
+      "/uploads/catalog/samsung/samsung-ac-02/samsung-ac-02-3.png",
+      "/uploads/catalog/samsung/samsung-ac-02/samsung-ac-02-4.png",
+      "/uploads/catalog/samsung/samsung-ac-02/samsung-ac-02-5.png",
+      "/uploads/catalog/samsung/samsung-ac-02/samsung-ac-02-6.png"
+    ],
     "capacity": null,
     "badge": "New",
-    "specs": ["7 kg", "Front Load", "Inverter", "Steam Wash"],
-    "inStock": true
+    "specs": [
+      "6.30 kW",
+      "Split AC",
+      "Inverter",
+      "3 Star",
+      "BESPOKE-AI-INVERTER-SPLIT-AC-6-30-KW-3-STAR-2026-AR50H24D1XHNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-inverter-split-ac-6-30-kw-3-star-2026-ar50h24d1xhnna/"
   },
   {
-    "id": "6",
-    "name": "Samsung 8kg Top Load Washer",
+    "id": "samsung-ac-03",
+    "modelCode": "BESPOKE-AI-INVERTER-SPLIT-AC-3-3-KW-3-STAR-AR50H12D1XHNNA",
+    "name": "Inverter Split Ac, 3.35 Kw 3 Star Ar50H12D1Xh",
     "brand": "samsung",
-    "category": "washing-machine",
-    "price": 22999,
-    "originalPrice": 28000,
-    "rating": 4.2,
-    "reviews": 98,
-    "image": "/uploads/category-washing.jpg",
-    "capacity": null,
-    "badge": null,
-    "specs": ["8 kg", "Top Load", "Digital Inverter", "Wobble Tech"],
-    "inStock": true
-  },
-  {
-    "id": "7",
-    "name": "LG 9kg AI Direct Drive Washer",
-    "brand": "lg",
-    "category": "washing-machine",
-    "price": 38999,
-    "originalPrice": 48000,
-    "rating": 4.7,
-    "reviews": 203,
-    "image": "/uploads/category-washing.jpg",
-    "capacity": null,
-    "badge": "Best Seller",
-    "specs": ["9 kg", "Front Load", "AI DD", "Steam+"],
-    "inStock": true
-  },
-  {
-    "id": "8",
-    "name": "Samsung 28L Convection Microwave",
-    "brand": "samsung",
-    "category": "microwave",
-    "price": 14999,
-    "originalPrice": 19000,
-    "rating": 4.3,
+    "category": "ac",
+    "price": 33990,
+    "originalPrice": 67990,
+    "rating": 4.5,
     "reviews": 178,
-    "image": "/uploads/category-microwave.jpg",
+    "image": "/uploads/catalog/samsung/samsung-ac-03/samsung-ac-03-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-03/samsung-ac-03-1.png",
+      "/uploads/catalog/samsung/samsung-ac-03/samsung-ac-03-2.png",
+      "/uploads/catalog/samsung/samsung-ac-03/samsung-ac-03-3.png",
+      "/uploads/catalog/samsung/samsung-ac-03/samsung-ac-03-4.png",
+      "/uploads/catalog/samsung/samsung-ac-03/samsung-ac-03-5.png",
+      "/uploads/catalog/samsung/samsung-ac-03/samsung-ac-03-6.png"
+    ],
     "capacity": null,
     "badge": null,
-    "specs": ["28L", "Convection", "Ceramic Enamel", "SlimFry"],
-    "inStock": true
+    "specs": [
+      "Split AC",
+      "Inverter",
+      "3 Star",
+      "BESPOKE-AI-INVERTER-SPLIT-AC-3-3-KW-3-STAR-AR50H12D1XHNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-inverter-split-ac-3-3-kw-3-star-ar50h12d1xhnna/"
   },
   {
-    "id": "9",
-    "name": "Samsung 32L Hotblast Microwave",
+    "id": "samsung-ac-04",
+    "modelCode": "BESPOKE-AI-INVERTER-SPLIT-AC-4-8-KW-4-STAR-AR50H18D14HNNA",
+    "name": "Inverter Split Ac, 4.75 Kw 4 Star Ar50H18D14H",
     "brand": "samsung",
-    "category": "microwave",
-    "price": 18999,
-    "originalPrice": 24000,
-    "rating": 4.5,
-    "reviews": 92,
-    "image": "/uploads/category-microwave.jpg",
-    "capacity": null,
-    "badge": "New",
-    "specs": ["32L", "Convection", "HotBlast", "Crusty Plate"],
-    "inStock": true
-  },
-  {
-    "id": "10",
-    "name": "LG 28L Charcoal Microwave",
-    "brand": "lg",
-    "category": "microwave",
-    "price": 13999,
-    "originalPrice": 17500,
-    "rating": 4.4,
-    "reviews": 145,
-    "image": "/uploads/category-microwave.jpg",
-    "capacity": null,
-    "badge": "Best Seller",
-    "specs": ["28L", "Convection", "Charcoal Heater", "Diet Fry"],
-    "inStock": true
-  },
-  {
-    "id": "11",
-    "name": "Samsung 253L Double Door Fridge",
-    "brand": "samsung",
-    "category": "fridge",
-    "price": 24999,
-    "originalPrice": 31000,
-    "rating": 4.4,
-    "reviews": 267,
-    "image": "/uploads/category-fridge.jpg",
-    "capacity": 253,
-    "badge": "Best Seller",
-    "specs": ["253L", "Double Door", "Frost Free", "Digital Inverter"],
-    "inStock": true
-  },
-  {
-    "id": "12",
-    "name": "Samsung 324L Convertible Fridge",
-    "brand": "samsung",
-    "category": "fridge",
-    "price": 34999,
-    "originalPrice": 42000,
+    "category": "ac",
+    "price": 40490,
+    "originalPrice": 82990,
     "rating": 4.6,
-    "reviews": 189,
-    "image": "/uploads/category-fridge.jpg",
-    "capacity": 324,
+    "reviews": 207,
+    "image": "/uploads/catalog/samsung/samsung-ac-04/samsung-ac-04-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-04/samsung-ac-04-1.png",
+      "/uploads/catalog/samsung/samsung-ac-04/samsung-ac-04-2.png",
+      "/uploads/catalog/samsung/samsung-ac-04/samsung-ac-04-3.png",
+      "/uploads/catalog/samsung/samsung-ac-04/samsung-ac-04-4.png",
+      "/uploads/catalog/samsung/samsung-ac-04/samsung-ac-04-5.png",
+      "/uploads/catalog/samsung/samsung-ac-04/samsung-ac-04-6.png"
+    ],
+    "capacity": null,
     "badge": null,
-    "specs": ["324L", "Double Door", "Convertible 5-in-1", "Twin Cooling"],
-    "inStock": true
+    "specs": [
+      "Split AC",
+      "Inverter",
+      "4 Star",
+      "BESPOKE-AI-INVERTER-SPLIT-AC-4-8-KW-4-STAR-AR50H18D14HNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-inverter-split-ac-4-8-kw-4-star-ar50h18d14hnna/"
   },
   {
-    "id": "13",
-    "name": "LG 260L Smart Inverter Fridge",
-    "brand": "lg",
-    "category": "fridge",
-    "price": 23999,
-    "originalPrice": 29500,
-    "rating": 4.3,
-    "reviews": 198,
-    "image": "/uploads/category-fridge.jpg",
-    "capacity": 260,
-    "badge": null,
-    "specs": ["260L", "Double Door", "Smart Inverter", "Door Cooling+"],
-    "inStock": true
-  },
-  {
-    "id": "14",
-    "name": "LG 408L Side-by-Side Fridge",
-    "brand": "lg",
-    "category": "fridge",
-    "price": 62999,
-    "originalPrice": 78000,
+    "id": "samsung-ac-05",
+    "modelCode": "BESPOKE-AI-INVERTER-SPLIT-AC-4-7-KW-5-STAR-AR50H18D1ZHNNA",
+    "name": "Inverter Split Ac, 4.75 Kw 5 Star Ar50H18D1Zh",
+    "brand": "samsung",
+    "category": "ac",
+    "price": 50990,
+    "originalPrice": 87990,
     "rating": 4.7,
-    "reviews": 134,
-    "image": "/uploads/category-fridge.jpg",
-    "capacity": 408,
-    "badge": "New",
-    "specs": ["408L", "Side-by-Side", "InstaView", "Hygiene Fresh+"],
-    "inStock": true
+    "reviews": 236,
+    "image": "/uploads/catalog/samsung/samsung-ac-05/samsung-ac-05-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-05/samsung-ac-05-1.png",
+      "/uploads/catalog/samsung/samsung-ac-05/samsung-ac-05-2.png",
+      "/uploads/catalog/samsung/samsung-ac-05/samsung-ac-05-3.png",
+      "/uploads/catalog/samsung/samsung-ac-05/samsung-ac-05-4.png",
+      "/uploads/catalog/samsung/samsung-ac-05/samsung-ac-05-5.png",
+      "/uploads/catalog/samsung/samsung-ac-05/samsung-ac-05-6.png"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "Split AC",
+      "Inverter",
+      "5 Star",
+      "BESPOKE-AI-INVERTER-SPLIT-AC-4-7-KW-5-STAR-AR50H18D1ZHNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-inverter-split-ac-4-7-kw-5-star-ar50h18d1zhnna/"
   },
   {
-    "id": "15",
-    "name": "Samsung 198L Chest Freezer",
+    "id": "samsung-ac-06",
+    "modelCode": "BESPOKE-AI-INVERTER-SPLIT-AC-4-7-KW-5-STAR-AR60H18D15WNNA",
+    "name": "Inverter Split Ac, 4.75 Kw 5 Star Ar60H18D15W",
     "brand": "samsung",
-    "category": "freezer",
-    "price": 16999,
-    "originalPrice": 21000,
-    "rating": 4.2,
-    "reviews": 76,
-    "image": "/uploads/category-freezer.jpg",
-    "capacity": 198,
+    "category": "ac",
+    "price": 53490,
+    "originalPrice": 91990,
+    "rating": 4.3,
+    "reviews": 265,
+    "image": "/uploads/catalog/samsung/samsung-ac-06/samsung-ac-06-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-06/samsung-ac-06-1.png",
+      "/uploads/catalog/samsung/samsung-ac-06/samsung-ac-06-2.png",
+      "/uploads/catalog/samsung/samsung-ac-06/samsung-ac-06-3.png",
+      "/uploads/catalog/samsung/samsung-ac-06/samsung-ac-06-4.png",
+      "/uploads/catalog/samsung/samsung-ac-06/samsung-ac-06-5.png",
+      "/uploads/catalog/samsung/samsung-ac-06/samsung-ac-06-6.png"
+    ],
+    "capacity": null,
     "badge": null,
-    "specs": ["198L", "Chest Freezer", "Digital Inverter", "Deep Freeze"],
-    "inStock": true
+    "specs": [
+      "Split AC",
+      "Inverter",
+      "5 Star",
+      "BESPOKE-AI-INVERTER-SPLIT-AC-4-7-KW-5-STAR-AR60H18D15WNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-inverter-split-ac-4-7-kw-5-star-ar60h18d15wnna/"
   },
   {
-    "id": "16",
-    "name": "Samsung 310L Vertical Freezer",
+    "id": "samsung-ac-07",
+    "modelCode": "BESPOKE-AI-INVERTER-SPLIT-AC-3-3-KW-3-STAR-AR50H12D1LHNNA",
+    "name": "Inverter Split Ac, 4.75 Kw 5 Star Ar50H12D1Lh",
     "brand": "samsung",
-    "category": "freezer",
-    "price": 28999,
-    "originalPrice": 35000,
+    "category": "ac",
+    "price": 33990,
+    "originalPrice": 67990,
     "rating": 4.4,
-    "reviews": 54,
-    "image": "/uploads/category-freezer.jpg",
-    "capacity": 310,
-    "badge": "New",
-    "specs": ["310L", "Vertical", "No Frost", "Power Freeze"],
-    "inStock": true
-  },
-  {
-    "id": "17",
-    "name": "LG 185L Chest Freezer",
-    "brand": "lg",
-    "category": "freezer",
-    "price": 15499,
-    "originalPrice": 19000,
-    "rating": 4.1,
-    "reviews": 89,
-    "image": "/uploads/category-freezer.jpg",
-    "capacity": 185,
+    "reviews": 294,
+    "image": "/uploads/catalog/samsung/samsung-ac-07/samsung-ac-07-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-07/samsung-ac-07-1.png",
+      "/uploads/catalog/samsung/samsung-ac-07/samsung-ac-07-2.png",
+      "/uploads/catalog/samsung/samsung-ac-07/samsung-ac-07-3.png",
+      "/uploads/catalog/samsung/samsung-ac-07/samsung-ac-07-4.png",
+      "/uploads/catalog/samsung/samsung-ac-07/samsung-ac-07-5.png",
+      "/uploads/catalog/samsung/samsung-ac-07/samsung-ac-07-6.png"
+    ],
+    "capacity": null,
     "badge": null,
-    "specs": ["185L", "Chest Freezer", "Smart Inverter", "Multi Air Flow"],
-    "inStock": true
+    "specs": [
+      "Split AC",
+      "Inverter",
+      "5 Star",
+      "BESPOKE-AI-INVERTER-SPLIT-AC-3-3-KW-3-STAR-AR50H12D1LHNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-inverter-split-ac-3-3-kw-3-star-ar50h12d1lhnna/"
   },
   {
-    "id": "18",
-    "name": "LG 6.5kg Top Load Washer",
+    "id": "samsung-ac-08",
+    "modelCode": "BESPOKE-AI-INVERTER-SPLIT-AC-4-7-KW-5-STAR-AR50H18D15HNNA",
+    "name": "Inverter Split Ac, 4.75 Kw 5 Star Ar50H18D15H",
+    "brand": "samsung",
+    "category": "ac",
+    "price": 50990,
+    "originalPrice": 87990,
+    "rating": 4.5,
+    "reviews": 323,
+    "image": "/uploads/catalog/samsung/samsung-ac-08/samsung-ac-08-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-08/samsung-ac-08-1.png",
+      "/uploads/catalog/samsung/samsung-ac-08/samsung-ac-08-2.png",
+      "/uploads/catalog/samsung/samsung-ac-08/samsung-ac-08-3.png",
+      "/uploads/catalog/samsung/samsung-ac-08/samsung-ac-08-4.png",
+      "/uploads/catalog/samsung/samsung-ac-08/samsung-ac-08-5.png",
+      "/uploads/catalog/samsung/samsung-ac-08/samsung-ac-08-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "Split AC",
+      "Inverter",
+      "5 Star",
+      "BESPOKE-AI-INVERTER-SPLIT-AC-4-7-KW-5-STAR-AR50H18D15HNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-inverter-split-ac-4-7-kw-5-star-ar50h18d15hnna/"
+  },
+  {
+    "id": "samsung-ac-09",
+    "modelCode": "BESPOKE-AI-WINDFREE-INVERTER-SPLIT-AC-4-75-KW-5-STAR-2026-AR60H18D1ZWNNA",
+    "name": "Inverter Split Ac, 4.75 Kw 5 Star Ar60H18D1Zw",
+    "brand": "samsung",
+    "category": "ac",
+    "price": 53490,
+    "originalPrice": 91990,
+    "rating": 4.6,
+    "reviews": 352,
+    "image": "/uploads/catalog/samsung/samsung-ac-09/samsung-ac-09-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-09/samsung-ac-09-1.png",
+      "/uploads/catalog/samsung/samsung-ac-09/samsung-ac-09-2.png",
+      "/uploads/catalog/samsung/samsung-ac-09/samsung-ac-09-3.png",
+      "/uploads/catalog/samsung/samsung-ac-09/samsung-ac-09-4.png",
+      "/uploads/catalog/samsung/samsung-ac-09/samsung-ac-09-5.png",
+      "/uploads/catalog/samsung/samsung-ac-09/samsung-ac-09-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "Split AC",
+      "WindFree",
+      "Inverter",
+      "5 Star",
+      "BESPOKE-AI-WINDFREE-INVERTER-SPLIT-AC-4-75-KW-5-STAR-2026-AR60H18D1ZWNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-windfree-inverter-split-ac-4-75-kw-5-star-2026-ar60h18d1zwnna/"
+  },
+  {
+    "id": "samsung-ac-10",
+    "modelCode": "BESPOKE-AI-INVERTER-SPLIT-AC-5-10-KW-1-5-3-STAR-2026-AR50H19D1XHNNA",
+    "name": "Inverter Ac - Buy 4 Star Split Ac Online AR50H19D1XH",
+    "brand": "samsung",
+    "category": "ac",
+    "price": 39490,
+    "originalPrice": 79990,
+    "rating": 4.7,
+    "reviews": 381,
+    "image": "/uploads/catalog/samsung/samsung-ac-10/samsung-ac-10-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-ac-10/samsung-ac-10-1.png",
+      "/uploads/catalog/samsung/samsung-ac-10/samsung-ac-10-2.png",
+      "/uploads/catalog/samsung/samsung-ac-10/samsung-ac-10-3.png",
+      "/uploads/catalog/samsung/samsung-ac-10/samsung-ac-10-4.png",
+      "/uploads/catalog/samsung/samsung-ac-10/samsung-ac-10-5.png",
+      "/uploads/catalog/samsung/samsung-ac-10/samsung-ac-10-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "Split AC",
+      "Inverter",
+      "4 Star",
+      "BESPOKE-AI-INVERTER-SPLIT-AC-5-10-KW-1-5-3-STAR-2026-AR50H19D1XHNNA"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/air-conditioners/split-ac/bespoke-ai-inverter-split-ac-5-10-kw-1-5-3-star-2026-ar50h19d1xhnna/"
+  },
+  {
+    "id": "samsung-washing-machine-01",
+    "modelCode": "WW6000D-FRONT-LOADING-SMARTTHINGS-AI-ENERGY-MODE-A-10-PERCENT-EXTRA-ENERGY-EFFICIENCY-9KG-NAVY-WW90DG6U24ASTL",
+    "name": "9 kg Front Load Washing Machine - Price &amp; Specs",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 38990,
+    "originalPrice": 57990,
+    "rating": 4.3,
+    "reviews": 120,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-6.png"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "9 kg",
+      "9KG",
+      "Front Load",
+      "WW6000D-FRONT-LOADING-SMARTTHINGS-AI-ENERGY-MODE-A-10-PERCENT-EXTRA-ENERGY-EFFICIENCY-9KG-NAVY-WW90DG6U24ASTL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/ww6000d-front-loading-smartthings-ai-energy-mode-a-10-percent-extra-energy-efficiency-9kg-navy-ww90dg6u24astl/"
+  },
+  {
+    "id": "samsung-washing-machine-02",
+    "modelCode": "WW5000D-FRONT-LOADING-SMARTTHINGS-AI-ENERGY-MODE-A-10-PERCENT-EXTRA-ENERGY-EFFICIENCY-AI-ECOBUBBLE-12KG-REFINED-INOX-WW12DG5B24AXTL",
+    "name": "12.0 kg Front Load Washing Machine - Inox",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 52990,
+    "originalPrice": 52990,
+    "rating": 4.4,
+    "reviews": 149,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-02/samsung-washing-machine-02-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-02/samsung-washing-machine-02-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-02/samsung-washing-machine-02-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-02/samsung-washing-machine-02-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-02/samsung-washing-machine-02-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-02/samsung-washing-machine-02-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-02/samsung-washing-machine-02-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "12.0 kg",
+      "12KG",
+      "Front Load",
+      "Ecobubble",
+      "WW5000D-FRONT-LOADING-SMARTTHINGS-AI-ENERGY-MODE-A-10-PERCENT-EXTRA-ENERGY-EFFICIENCY-AI-ECOBUBBLE-12KG-REFINED-INOX-WW12DG5B24AXTL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/ww5000d-front-loading-smartthings-ai-energy-mode-a-10-percent-extra-energy-efficiency-ai-ecobubble-12kg-refined-inox-ww12dg5b24axtl/"
+  },
+  {
+    "id": "samsung-washing-machine-03",
+    "modelCode": "WW8400D-FRONT-LOADING-SMARTTHINGS-AI-ENERGY-MADE-A-XX-PERCENT-EXTRA-ENERGY-EFFICIENCY-AI-ECOBUBBLE-12KG-NAVY-WW12DB8B54GSTL",
+    "name": "12.0 kg Front load Washer with SmartThings AI",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 73990,
+    "originalPrice": 73990,
+    "rating": 4.5,
+    "reviews": 178,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-03/samsung-washing-machine-03-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-03/samsung-washing-machine-03-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-03/samsung-washing-machine-03-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-03/samsung-washing-machine-03-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-03/samsung-washing-machine-03-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-03/samsung-washing-machine-03-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-03/samsung-washing-machine-03-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "12.0 kg",
+      "12KG",
+      "Front Load",
+      "Ecobubble",
+      "WW8400D-FRONT-LOADING-SMARTTHINGS-AI-ENERGY-MADE-A-XX-PERCENT-EXTRA-ENERGY-EFFICIENCY-AI-ECOBUBBLE-12KG-NAVY-WW12DB8B54GSTL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/ww8400d-front-loading-smartthings-ai-energy-made-a-xx-percent-extra-energy-efficiency-ai-ecobubble-12kg-navy-ww12db8b54gstl/"
+  },
+  {
+    "id": "samsung-washing-machine-04",
+    "modelCode": "WD7000F-FRONT-LOADING-AI-ECOBUBBLE-AI-ENERGY-MODE-AI-CONTROL-12KG-BLACK-WD12FB7B34GBTL",
+    "name": "12 Kg/7 Kg AI Front Load Washer Dryer WD12FB7B34GB",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 64990,
+    "originalPrice": 91990,
+    "rating": 4.6,
+    "reviews": 207,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-04/samsung-washing-machine-04-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-04/samsung-washing-machine-04-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-04/samsung-washing-machine-04-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-04/samsung-washing-machine-04-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-04/samsung-washing-machine-04-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-04/samsung-washing-machine-04-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-04/samsung-washing-machine-04-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "12 Kg",
+      "7 Kg",
+      "12KG",
+      "Front Load",
+      "Washer Dryer"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washer-dryer-combo/wd7000f-front-loading-ai-ecobubble-ai-energy-mode-ai-control-12kg-black-wd12fb7b34gbtl/"
+  },
+  {
+    "id": "samsung-washing-machine-05",
+    "modelCode": "12-7-KG-FRONT-LOAD-WASHER-DRYER-COMBO-AI-WASH-12KG-BLACK-WD12FB8B94GBTL",
+    "name": "12 Kg/7 Kg AI Front Load Washer Dryer WD12FB8B94GB",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 99990,
+    "originalPrice": 99990,
+    "rating": 4.7,
+    "reviews": 236,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-05/samsung-washing-machine-05-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-05/samsung-washing-machine-05-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-05/samsung-washing-machine-05-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-05/samsung-washing-machine-05-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-05/samsung-washing-machine-05-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-05/samsung-washing-machine-05-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-05/samsung-washing-machine-05-6.png"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "12 Kg",
+      "7 Kg",
+      "12KG",
+      "Front Load",
+      "Washer Dryer"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washer-dryer-combo/12-7-kg-front-load-washer-dryer-combo-ai-wash-12kg-black-wd12fb8b94gbtl/"
+  },
+  {
+    "id": "samsung-washing-machine-06",
+    "modelCode": "WW5000D-WW6000D-FRONT-LOADING-SMARTTHINGS-AI-ENERGY-MODE-9KG-REFINED-INOX-9KG-REFINED-INOX-WW90DG5U24AXTL",
+    "name": "9.0 kg Front Load Washing Machine",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 50990,
+    "originalPrice": 50990,
+    "rating": 4.3,
+    "reviews": 265,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-06/samsung-washing-machine-06-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-06/samsung-washing-machine-06-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-06/samsung-washing-machine-06-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-06/samsung-washing-machine-06-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-06/samsung-washing-machine-06-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-06/samsung-washing-machine-06-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-06/samsung-washing-machine-06-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "9.0 kg",
+      "9KG",
+      "Front Load",
+      "WW5000D-WW6000D-FRONT-LOADING-SMARTTHINGS-AI-ENERGY-MODE-9KG-REFINED-INOX-9KG-REFINED-INOX-WW90DG5U24AXTL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/ww5000d-ww6000d-front-loading-smartthings-ai-energy-mode-9kg-refined-inox-9kg-refined-inox-ww90dg5u24axtl/"
+  },
+  {
+    "id": "samsung-washing-machine-07",
+    "modelCode": "WW6000D-12KG-FRONT-LOAD-AI-WASHING-MACHINE-WITH-SUPERSPEED-12KG-NAVY-WW12DG6B24ASTL",
+    "name": "12.0 kg Front Load Washing Machine with AI - Navy",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 60990,
+    "originalPrice": 60990,
+    "rating": 4.4,
+    "reviews": 294,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-07/samsung-washing-machine-07-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-07/samsung-washing-machine-07-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-07/samsung-washing-machine-07-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-07/samsung-washing-machine-07-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-07/samsung-washing-machine-07-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-07/samsung-washing-machine-07-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-07/samsung-washing-machine-07-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "12.0 kg",
+      "12KG",
+      "Front Load",
+      "WW6000D-12KG-FRONT-LOAD-AI-WASHING-MACHINE-WITH-SUPERSPEED-12KG-NAVY-WW12DG6B24ASTL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/ww6000d-12kg-front-load-ai-washing-machine-with-superspeed-12kg-navy-ww12dg6b24astl/"
+  },
+  {
+    "id": "samsung-washing-machine-08",
+    "modelCode": "WW5300T-FRONT-LOADING-ECO-BUBBLE-AI-ENERGY-MODE-AI-CONTROL-16KG-GRAY-WW80T504DAX1TL",
+    "name": "8.0 kg Front Load Washing Machine WW80T504DAX",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 34490,
+    "originalPrice": 55900,
+    "rating": 4.5,
+    "reviews": 323,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-08/samsung-washing-machine-08-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-08/samsung-washing-machine-08-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-08/samsung-washing-machine-08-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-08/samsung-washing-machine-08-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-08/samsung-washing-machine-08-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-08/samsung-washing-machine-08-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-08/samsung-washing-machine-08-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "8.0 kg",
+      "16KG",
+      "Front Load",
+      "WW5300T-FRONT-LOADING-ECO-BUBBLE-AI-ENERGY-MODE-AI-CONTROL-16KG-GRAY-WW80T504DAX1TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/ww5300t-front-loading-eco-bubble-ai-energy-mode-ai-control-16kg-gray-ww80t504dax1tl/"
+  },
+  {
+    "id": "samsung-washing-machine-09",
+    "modelCode": "WA4000B-TOP-LOADING-ECOBUBBLE-DIGITAL-INVERTER-LARGE-CAPACITY-8KG-LIGHTGRAY-WA80BG4441BGTL",
+    "name": "8.0 kg Top Load Washing Machine WA80BG4441BG",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 27000,
+    "originalPrice": 27000,
+    "rating": 4.6,
+    "reviews": 352,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-09/samsung-washing-machine-09-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-09/samsung-washing-machine-09-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-09/samsung-washing-machine-09-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-09/samsung-washing-machine-09-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-09/samsung-washing-machine-09-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-09/samsung-washing-machine-09-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-09/samsung-washing-machine-09-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "8.0 kg",
+      "8KG",
+      "Top Load",
+      "Ecobubble",
+      "WA4000B-TOP-LOADING-ECOBUBBLE-DIGITAL-INVERTER-LARGE-CAPACITY-8KG-LIGHTGRAY-WA80BG4441BGTL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/wa4000b-top-loading-ecobubble-digital-inverter-large-capacity-8kg-lightgray-wa80bg4441bgtl/"
+  },
+  {
+    "id": "samsung-washing-machine-10",
+    "modelCode": "WA4000AM-TWIN-5-STAR-ENERGY-RATING-HEXA-STORM-PULSATOR-MAGIC-MIXER-9-5KG-EBONY-BLACK-WT95A4260GD-TL",
+    "name": "9.5 kg Semi Automatic Washing machine - Black",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 14990,
+    "originalPrice": 20400,
+    "rating": 4.7,
+    "reviews": 381,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-10/samsung-washing-machine-10-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-10/samsung-washing-machine-10-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-10/samsung-washing-machine-10-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-10/samsung-washing-machine-10-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-10/samsung-washing-machine-10-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-10/samsung-washing-machine-10-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-10/samsung-washing-machine-10-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "9.5 kg",
+      "5KG",
+      "Semi Automatic",
+      "WA4000AM-TWIN-5-STAR-ENERGY-RATING-HEXA-STORM-PULSATOR-MAGIC-MIXER-9-5KG-EBONY-BLACK-WT95A4260GD-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/wa4000am-twin-5-star-energy-rating-hexa-storm-pulsator-magic-mixer-9-5kg-ebony-black-wt95a4260gd-tl/"
+  },
+  {
+    "id": "samsung-microwave-01",
+    "modelCode": "MW7300B-MC32B7382QC-TL",
+    "name": "Convection Microwave Oven Grill 32L Charcoal MC32B7382QC",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 39990,
+    "originalPrice": 39990,
+    "rating": 4.3,
+    "reviews": 120,
+    "image": "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-6.png"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "32L",
+      "Convection",
+      "Grill",
+      "Charcoal",
+      "MW7300B-MC32B7382QC-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/mw7300b-mc32b7382qc-tl/"
+  },
+  {
+    "id": "samsung-microwave-02",
+    "modelCode": "MW5100H-MC28A5135CK-MC28A5147VK-TL",
+    "name": "MW5100H CONVECTION MWO with Slim Fry™ MC28A5147VK/TL",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 25490,
+    "originalPrice": 25490,
+    "rating": 4.4,
+    "reviews": 149,
+    "image": "/uploads/catalog/samsung/samsung-microwave-02/samsung-microwave-02-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-02/samsung-microwave-02-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-02/samsung-microwave-02-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-02/samsung-microwave-02-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-02/samsung-microwave-02-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-02/samsung-microwave-02-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-02/samsung-microwave-02-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "Convection",
+      "MW5100H-MC28A5135CK-MC28A5147VK-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/mw5100h-mc28a5135ck-mc28a5147vk-tl/"
+  },
+  {
+    "id": "samsung-microwave-03",
+    "modelCode": "32-LITRE-CONVECTION-MICROWAVE-OVEN-MC32A7056CK-TL",
+    "name": "32L Convection MWO with Masala &amp; Sun Dry™ (MC32A7056CK)",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 31990,
+    "originalPrice": 31990,
+    "rating": 4.5,
+    "reviews": 178,
+    "image": "/uploads/catalog/samsung/samsung-microwave-03/samsung-microwave-03-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-03/samsung-microwave-03-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-03/samsung-microwave-03-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-03/samsung-microwave-03-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-03/samsung-microwave-03-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-03/samsung-microwave-03-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-03/samsung-microwave-03-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "32L",
+      "Convection",
+      "32-LITRE-CONVECTION-MICROWAVE-OVEN-MC32A7056CK-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/32-litre-convection-microwave-oven-mc32a7056ck-tl/"
+  },
+  {
+    "id": "samsung-microwave-04",
+    "modelCode": "--MICROWAVE-OVEN-CONVECTION-MC28A6036QK-TL",
+    "name": "28L Convection Microwave Oven Black MC28A6036QK",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 24990,
+    "originalPrice": 24990,
+    "rating": 4.6,
+    "reviews": 207,
+    "image": "/uploads/catalog/samsung/samsung-microwave-04/samsung-microwave-04-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-04/samsung-microwave-04-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-04/samsung-microwave-04-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-04/samsung-microwave-04-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-04/samsung-microwave-04-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-04/samsung-microwave-04-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-04/samsung-microwave-04-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "28L",
+      "Convection",
+      "--MICROWAVE-OVEN-CONVECTION-MC28A6036QK-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/--microwave-oven-convection-mc28a6036qk-tl/"
+  },
+  {
+    "id": "samsung-microwave-05",
+    "modelCode": "MC32A7035CTTL-MC32A7035CT-TL",
+    "name": "Convection Microwave with slim fry MC32A7035CT",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 20000,
+    "originalPrice": 20000,
+    "rating": 4.7,
+    "reviews": 236,
+    "image": "/uploads/catalog/samsung/samsung-microwave-05/samsung-microwave-05-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-05/samsung-microwave-05-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-05/samsung-microwave-05-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-05/samsung-microwave-05-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-05/samsung-microwave-05-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-05/samsung-microwave-05-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-05/samsung-microwave-05-6.png"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "Convection",
+      "MC32A7035CTTL-MC32A7035CT-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/mc32a7035cttl-mc32a7035ct-tl/"
+  },
+  {
+    "id": "samsung-microwave-06",
+    "modelCode": "MW5100H-MC28A5135CK-MC28A5145VR-TL",
+    "name": "MW5100H CONVECTION MWO with Slim Fry™ MC28A5145VR/TL",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 22490,
+    "originalPrice": 22490,
+    "rating": 4.3,
+    "reviews": 265,
+    "image": "/uploads/catalog/samsung/samsung-microwave-06/samsung-microwave-06-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-06/samsung-microwave-06-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-06/samsung-microwave-06-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-06/samsung-microwave-06-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-06/samsung-microwave-06-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-06/samsung-microwave-06-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-06/samsung-microwave-06-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "Convection",
+      "MW5100H-MC28A5135CK-MC28A5145VR-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/mw5100h-mc28a5135ck-mc28a5145vr-tl/"
+  },
+  {
+    "id": "samsung-microwave-07",
+    "modelCode": "MW5100H-MC28A5135CK-MOISTURE-SENSOR-SLIMFRY-CERAMIC-ENAMEL-CAVITY-WITH-10-YEAR-WARRANTY-CURD-MAKING-MC28A5145VK-TL",
+    "name": "28L Convection Microwave Oven Black MC28A5145VK",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 21990,
+    "originalPrice": 21990,
+    "rating": 4.4,
+    "reviews": 294,
+    "image": "/uploads/catalog/samsung/samsung-microwave-07/samsung-microwave-07-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-07/samsung-microwave-07-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-07/samsung-microwave-07-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-07/samsung-microwave-07-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-07/samsung-microwave-07-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-07/samsung-microwave-07-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-07/samsung-microwave-07-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "28L",
+      "Convection",
+      "SlimFry",
+      "MW5100H-MC28A5135CK-MOISTURE-SENSOR-SLIMFRY-CERAMIC-ENAMEL-CAVITY-WITH-10-YEAR-WARRANTY-CURD-MAKING-MC28A5145VK-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/mw5100h-mc28a5135ck-moisture-sensor-slimfry-ceramic-enamel-cavity-with-10-year-warranty-curd-making-mc28a5145vk-tl/"
+  },
+  {
+    "id": "samsung-microwave-08",
+    "modelCode": "GRILL-FRY-MG23A3515AK-TL",
+    "name": "Now 23L Grill Microwave Oven Black MG23A3515AK",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 11600,
+    "originalPrice": 11600,
+    "rating": 4.5,
+    "reviews": 323,
+    "image": "/uploads/catalog/samsung/samsung-microwave-08/samsung-microwave-08-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-08/samsung-microwave-08-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-08/samsung-microwave-08-2.jpg",
+      "/uploads/catalog/samsung/samsung-microwave-08/samsung-microwave-08-3.jpg",
+      "/uploads/catalog/samsung/samsung-microwave-08/samsung-microwave-08-4.jpg",
+      "/uploads/catalog/samsung/samsung-microwave-08/samsung-microwave-08-5.jpg",
+      "/uploads/catalog/samsung/samsung-microwave-08/samsung-microwave-08-6.jpg"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "23L",
+      "Grill",
+      "GRILL-FRY-MG23A3515AK-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/grill/grill-fry-mg23a3515ak-tl/"
+  },
+  {
+    "id": "samsung-microwave-09",
+    "modelCode": "28-LITRE-CONVECTION-MICROWAVE-OVEN-MC28A5013AK-TL",
+    "name": "28L Convection MWO with Curd Any Time (MC28A5013AK)",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 15590,
+    "originalPrice": 15590,
+    "rating": 4.6,
+    "reviews": 352,
+    "image": "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "28L",
+      "Convection",
+      "28-LITRE-CONVECTION-MICROWAVE-OVEN-MC28A5013AK-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/28-litre-convection-microwave-oven-mc28a5013ak-tl/"
+  },
+  {
+    "id": "samsung-microwave-10",
+    "modelCode": "28-LITRE-CONVECTION-MICROWAVE-OVEN-MC28A5025VS-TL",
+    "name": "28L Convection Microwave (MC28A5025VS)",
+    "brand": "samsung",
+    "category": "microwave",
+    "price": 18990,
+    "originalPrice": 18990,
+    "rating": 4.7,
+    "reviews": 381,
+    "image": "/uploads/catalog/samsung/samsung-microwave-10/samsung-microwave-10-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-microwave-10/samsung-microwave-10-1.png",
+      "/uploads/catalog/samsung/samsung-microwave-10/samsung-microwave-10-2.png",
+      "/uploads/catalog/samsung/samsung-microwave-10/samsung-microwave-10-3.png",
+      "/uploads/catalog/samsung/samsung-microwave-10/samsung-microwave-10-4.png",
+      "/uploads/catalog/samsung/samsung-microwave-10/samsung-microwave-10-5.png",
+      "/uploads/catalog/samsung/samsung-microwave-10/samsung-microwave-10-6.png"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "28L",
+      "Convection",
+      "28-LITRE-CONVECTION-MICROWAVE-OVEN-MC28A5025VS-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/28-litre-convection-microwave-oven-mc28a5025vs-tl/"
+  },
+  {
+    "id": "samsung-fridge-01",
+    "modelCode": "RS8000CCH-SIDE-BY-SIDE-SMART-CONVERSION-696L-SILVER-RS76CG8003S9HL",
+    "name": "653L Side By Side Refrigerator - Silver",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 113000,
+    "originalPrice": 113000,
+    "rating": 4.3,
+    "reviews": 120,
+    "image": "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-6.png"
+    ],
+    "capacity": 653,
+    "badge": "Best Seller",
+    "specs": [
+      "653L",
+      "696L",
+      "Side by Side",
+      "Convertible",
+      "RS8000CCH-SIDE-BY-SIDE-SMART-CONVERSION-696L-SILVER-RS76CG8003S9HL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/side-by-side/rs8000cch-side-by-side-smart-conversion-696l-silver-rs76cg8003s9hl/"
+  },
+  {
+    "id": "samsung-fridge-02",
+    "modelCode": "RS8000CCH-SIDE-BY-SIDE-SMART-CONVERSION-633L-SILVER-RS78CG8543S9HL",
+    "name": "633L Side by Side Refrigerator - Silver",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 152000,
+    "originalPrice": 152000,
+    "rating": 4.4,
+    "reviews": 149,
+    "image": "/uploads/catalog/samsung/samsung-fridge-02/samsung-fridge-02-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-02/samsung-fridge-02-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-02/samsung-fridge-02-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-02/samsung-fridge-02-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-02/samsung-fridge-02-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-02/samsung-fridge-02-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-02/samsung-fridge-02-6.png"
+    ],
+    "capacity": 633,
+    "badge": "New",
+    "specs": [
+      "633L",
+      "Side by Side",
+      "RS8000CCH-SIDE-BY-SIDE-SMART-CONVERSION-633L-SILVER-RS78CG8543S9HL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/side-by-side/rs8000cch-side-by-side-smart-conversion-633l-silver-rs78cg8543s9hl/"
+  },
+  {
+    "id": "samsung-fridge-03",
+    "modelCode": "RF9000D-RF9000DC-T-STYLE-FRENCH-DOOR-BEVERAGE-CENTER-650L-BLACK-RF65DG90BDSGTL",
+    "name": "Shop 650L 4 Door Convertible French Door Refrigerator",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 226000,
+    "originalPrice": 226000,
+    "rating": 4.5,
+    "reviews": 178,
+    "image": "/uploads/catalog/samsung/samsung-fridge-03/samsung-fridge-03-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-03/samsung-fridge-03-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-03/samsung-fridge-03-2.jpg",
+      "/uploads/catalog/samsung/samsung-fridge-03/samsung-fridge-03-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-03/samsung-fridge-03-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-03/samsung-fridge-03-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-03/samsung-fridge-03-6.png"
+    ],
+    "capacity": 650,
+    "badge": null,
+    "specs": [
+      "650L",
+      "French Door",
+      "Convertible",
+      "RF9000D-RF9000DC-T-STYLE-FRENCH-DOOR-BEVERAGE-CENTER-650L-BLACK-RF65DG90BDSGTL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/french-door/rf9000d-rf9000dc-t-style-french-door-beverage-center-650l-black-rf65dg90bdsgtl/"
+  },
+  {
+    "id": "samsung-fridge-04",
+    "modelCode": "RF5000A-580L-SILVER-RF57A5032S9-TL",
+    "name": "580L French Door Refrigerator RF57A5032S9 - Price",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 87990,
+    "originalPrice": 87990,
+    "rating": 4.6,
+    "reviews": 207,
+    "image": "/uploads/catalog/samsung/samsung-fridge-04/samsung-fridge-04-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-04/samsung-fridge-04-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-04/samsung-fridge-04-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-04/samsung-fridge-04-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-04/samsung-fridge-04-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-04/samsung-fridge-04-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-04/samsung-fridge-04-6.png"
+    ],
+    "capacity": 580,
+    "badge": null,
+    "specs": [
+      "580L",
+      "French Door",
+      "Convertible",
+      "RF5000A-580L-SILVER-RF57A5032S9-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/french-door/rf5000a-580l-silver-rf57a5032s9-tl/"
+  },
+  {
+    "id": "samsung-fridge-05",
+    "modelCode": "BESPOKE-CONVERTIBLE-5IN1-SIDE-BY-SIDE-REFRIGERATOR-653L-GLAM-DEEP-CHARCOAL-RS76CB81A333HL",
+    "name": "653 L Bespoke Side by Side Refrigerator RS76CB81A333",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 160000,
+    "originalPrice": 160000,
+    "rating": 4.7,
+    "reviews": 236,
+    "image": "/uploads/catalog/samsung/samsung-fridge-05/samsung-fridge-05-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-05/samsung-fridge-05-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-05/samsung-fridge-05-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-05/samsung-fridge-05-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-05/samsung-fridge-05-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-05/samsung-fridge-05-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-05/samsung-fridge-05-6.png"
+    ],
+    "capacity": 653,
+    "badge": "Best Seller",
+    "specs": [
+      "653 L",
+      "653L",
+      "Side by Side",
+      "Convertible",
+      "BESPOKE-CONVERTIBLE-5IN1-SIDE-BY-SIDE-REFRIGERATOR-653L-GLAM-DEEP-CHARCOAL-RS76CB81A333HL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/bespoke-refrigerators/bespoke-convertible-5in1-side-by-side-refrigerator-653l-glam-deep-charcoal-rs76cb81a333hl/"
+  },
+  {
+    "id": "samsung-fridge-06",
+    "modelCode": "RS8000CCH-SIDE-BY-SIDE-SMART-CONVERSION-696L-BLACK-RS76CG8113B1HL",
+    "name": "653L Side by Side Refrigerator - Black",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 140000,
+    "originalPrice": 140000,
+    "rating": 4.3,
+    "reviews": 265,
+    "image": "/uploads/catalog/samsung/samsung-fridge-06/samsung-fridge-06-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-06/samsung-fridge-06-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-06/samsung-fridge-06-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-06/samsung-fridge-06-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-06/samsung-fridge-06-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-06/samsung-fridge-06-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-06/samsung-fridge-06-6.png"
+    ],
+    "capacity": 653,
+    "badge": null,
+    "specs": [
+      "653L",
+      "696L",
+      "Side by Side",
+      "RS8000CCH-SIDE-BY-SIDE-SMART-CONVERSION-696L-BLACK-RS76CG8113B1HL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/side-by-side/rs8000cch-side-by-side-smart-conversion-696l-black-rs76cg8113b1hl/"
+  },
+  {
+    "id": "samsung-fridge-07",
+    "modelCode": "RS8000CCH-SIDE-BY-SIDE-SMART-CONVERSION-696L-BLACK-RS76CG8115B1HL",
+    "name": "653L Side By Side Refrigerator - Black",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 156000,
+    "originalPrice": 156000,
+    "rating": 4.4,
+    "reviews": 294,
+    "image": "/uploads/catalog/samsung/samsung-fridge-07/samsung-fridge-07-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-07/samsung-fridge-07-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-07/samsung-fridge-07-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-07/samsung-fridge-07-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-07/samsung-fridge-07-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-07/samsung-fridge-07-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-07/samsung-fridge-07-6.png"
+    ],
+    "capacity": 653,
+    "badge": null,
+    "specs": [
+      "653L",
+      "696L",
+      "Side by Side",
+      "Convertible",
+      "RS8000CCH-SIDE-BY-SIDE-SMART-CONVERSION-696L-BLACK-RS76CG8115B1HL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/side-by-side/rs8000cch-side-by-side-smart-conversion-696l-black-rs76cg8115b1hl/"
+  },
+  {
+    "id": "samsung-fridge-08",
+    "modelCode": "TMF-REFRIGERATOR-RT80H22C-2-IN-1-SMART-CONVERSION-DOUBLE-DOOR-REFRIGERATOR-WITH-CONVERTIBLE-FREEZER-256L-SILVER-RT40H30U2PHL",
+    "name": "RT40H30U2 Top Mounted Freezer Refigerator 2-in-1 smart conversion 256L Silver",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 33390,
+    "originalPrice": 39999,
+    "rating": 4.5,
+    "reviews": 323,
+    "image": "/uploads/catalog/samsung/samsung-fridge-08/samsung-fridge-08-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-08/samsung-fridge-08-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-08/samsung-fridge-08-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-08/samsung-fridge-08-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-08/samsung-fridge-08-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-08/samsung-fridge-08-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-08/samsung-fridge-08-6.png"
+    ],
+    "capacity": 256,
+    "badge": "New",
+    "specs": [
+      "256L",
+      "Convertible",
+      "Smart Conversion",
+      "TMF-REFRIGERATOR-RT80H22C-2-IN-1-SMART-CONVERSION-DOUBLE-DOOR-REFRIGERATOR-WITH-CONVERTIBLE-FREEZER-256L-SILVER-RT40H30U2PHL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/double-door/tmf-refrigerator-rt80h22c-2-in-1-smart-conversion-double-door-refrigerator-with-convertible-freezer-256l-silver-rt40h30u2phl/"
+  },
+  {
+    "id": "samsung-fridge-09",
+    "modelCode": "RR1500MH-SINGLE-DOOR-REFRIGERATOR-WITH-STYLISH-GRANDE-DESIGN-183L-RED-RR20H11C2RH-HL",
+    "name": "RR20H11C2 RR1500MH One Door Refrigerator with Stylish Crown design RR19/20/24 Red",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 15890,
+    "originalPrice": 17999,
+    "rating": 4.6,
+    "reviews": 352,
+    "image": "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-6.png"
+    ],
+    "capacity": 183,
+    "badge": null,
+    "specs": [
+      "183L",
+      "RR1500MH-SINGLE-DOOR-REFRIGERATOR-WITH-STYLISH-GRANDE-DESIGN-183L-RED-RR20H11C2RH-HL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/one-door/rr1500mh-single-door-refrigerator-with-stylish-grande-design-183l-red-rr20h11c2rh-hl/"
+  },
+  {
+    "id": "samsung-fridge-10",
+    "modelCode": "RT6300DH-DOUBLE-DOOR-REFRIGERATOR-WITH-BESPOKE-AI-330L-BLACK-DOI-RT34HG5A43B1HL",
+    "name": "330 L Double Door Refrigerator Rt34Hg5A43B1Hl",
+    "brand": "samsung",
+    "category": "fridge",
+    "price": 45990,
+    "originalPrice": 54999,
+    "rating": 4.7,
+    "reviews": 381,
+    "image": "/uploads/catalog/samsung/samsung-fridge-10/samsung-fridge-10-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-fridge-10/samsung-fridge-10-1.png",
+      "/uploads/catalog/samsung/samsung-fridge-10/samsung-fridge-10-2.png",
+      "/uploads/catalog/samsung/samsung-fridge-10/samsung-fridge-10-3.png",
+      "/uploads/catalog/samsung/samsung-fridge-10/samsung-fridge-10-4.png",
+      "/uploads/catalog/samsung/samsung-fridge-10/samsung-fridge-10-5.png",
+      "/uploads/catalog/samsung/samsung-fridge-10/samsung-fridge-10-6.png"
+    ],
+    "capacity": 330,
+    "badge": null,
+    "specs": [
+      "330 L",
+      "330L",
+      "Double Door",
+      "RT6300DH-DOUBLE-DOOR-REFRIGERATOR-WITH-BESPOKE-AI-330L-BLACK-DOI-RT34HG5A43B1HL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/refrigerators/double-door/rt6300dh-double-door-refrigerator-with-bespoke-ai-330l-black-doi-rt34hg5a43b1hl/"
+  },
+  {
+    "id": "lg-ac-01",
+    "modelCode": "US-Q19YNZE3-P",
+    "name": "LG 5 Star (1.5) Split AC, Gold Fin+, Dual Inverter Compressor, AI Convertible 6-in-1, Viraat Mode, 5.0 kW, 2025 Model - US-Q19YNZE3",
+    "brand": "lg",
+    "category": "ac",
+    "price": 78990,
+    "originalPrice": 90049,
+    "rating": 4.2,
+    "reviews": 131,
+    "image": "/uploads/catalog/lg/lg-ac-01/lg-ac-01-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-01/lg-ac-01-1.jpg",
+      "/uploads/catalog/lg/lg-ac-01/lg-ac-01-2.jpg",
+      "/uploads/catalog/lg/lg-ac-01/lg-ac-01-3.jpg",
+      "/uploads/catalog/lg/lg-ac-01/lg-ac-01-4.jpg"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "5.0 kW",
+      "1.5 ton",
+      "Split AC",
+      "Inverter",
+      "5 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/split-air-conditioners/us-q19ynze3-p/"
+  },
+  {
+    "id": "lg-ac-02",
+    "modelCode": "US-Q19BNZE3-P",
+    "name": "LG 5 Star (1.5) Split AC, Gold Fin+, Viraat Mode, Dual Inverter Compressor, AI Convertible 6-in-1, 5.0 kW, 2025 Model - US-Q19BNZE3",
+    "brand": "lg",
+    "category": "ac",
+    "price": 78990,
+    "originalPrice": 90049,
+    "rating": 4.3,
+    "reviews": 160,
+    "image": "/uploads/catalog/lg/lg-ac-02/lg-ac-02-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-02/lg-ac-02-1.jpg",
+      "/uploads/catalog/lg/lg-ac-02/lg-ac-02-2.jpg"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "5.0 kW",
+      "1.5 ton",
+      "Split AC",
+      "Inverter",
+      "5 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/split-air-conditioners/us-q19bnze3-p/"
+  },
+  {
+    "id": "lg-ac-03",
+    "modelCode": "AW-Q24WWXA",
+    "name": "LG 3 Star (2.0) Window AC, Dual Inverter, Convertible 4-in-1 Cooling, 100% Copper Tubes, ADC Sensor, Energy Manager+, ThinQ™ (Wi-Fi), 6.2 kW, 2026 Model - AW-Q24WWXA",
+    "brand": "lg",
+    "category": "ac",
+    "price": 80990,
+    "originalPrice": 92329,
+    "rating": 4.4,
+    "reviews": 189,
+    "image": "/uploads/catalog/lg/lg-ac-03/lg-ac-03-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-03/lg-ac-03-1.jpg",
+      "/uploads/catalog/lg/lg-ac-03/lg-ac-03-2.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "6.2 kW",
+      "1.5 ton",
+      "Window AC",
+      "Inverter",
+      "3 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/window-air-conditioners/aw-q24wwxa/"
+  },
+  {
+    "id": "lg-ac-04",
+    "modelCode": "AW-Q18WUXA",
+    "name": "LG 3 Star (1.5) Window AC, Dual Inverter, Convertible 4-in-1 Cooling, 100% Copper Tubes, ADC Sensor, 4.7 kW, 2026 Model - AW-Q18WUXA",
+    "brand": "lg",
+    "category": "ac",
+    "price": 80990,
+    "originalPrice": 92329,
+    "rating": 4.5,
+    "reviews": 218,
+    "image": "/uploads/catalog/lg/lg-ac-04/lg-ac-04-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-04/lg-ac-04-1.jpg",
+      "/uploads/catalog/lg/lg-ac-04/lg-ac-04-2.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "4.7 kW",
+      "1.5 ton",
+      "Window AC",
+      "Inverter",
+      "3 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/window-air-conditioners/aw-q18wuxa/"
+  },
+  {
+    "id": "lg-ac-05",
+    "modelCode": "AS-Q24ENXE",
+    "name": "LG 3 Star (2.0) Split AC, AI Convertible 6-in-1 Cooling, Gold Fin+, Viraat Mode, Diet Mode+, 6.3 kW, 2026 Model - AS-Q24ENXE",
+    "brand": "lg",
+    "category": "ac",
+    "price": 91690,
+    "originalPrice": 104527,
+    "rating": 4.6,
+    "reviews": 247,
+    "image": "/uploads/catalog/lg/lg-ac-05/lg-ac-05-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-05/lg-ac-05-1.jpg",
+      "/uploads/catalog/lg/lg-ac-05/lg-ac-05-2.jpg"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "6.3 kW",
+      "2 ton",
+      "Split AC",
+      "3 Star",
+      "AS-Q24ENXE"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/split-air-conditioners/as-q24enxe/"
+  },
+  {
+    "id": "lg-ac-06",
+    "modelCode": "US-Q19JWZE3-P",
+    "name": "LG 5 Star (1.5) Split AC, AI Convertible 6-in-1, HimClean, ThinQ™ (Wi-Fi), Energy Manager+, 5.0 kW, 2025 Model - US-Q19JWZE3",
+    "brand": "lg",
+    "category": "ac",
+    "price": 84990,
+    "originalPrice": 96889,
+    "rating": 4.2,
+    "reviews": 276,
+    "image": "/uploads/catalog/lg/lg-ac-06/lg-ac-06-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-06/lg-ac-06-1.jpg",
+      "/uploads/catalog/lg/lg-ac-06/lg-ac-06-2.jpg",
+      "/uploads/catalog/lg/lg-ac-06/lg-ac-06-3.jpg",
+      "/uploads/catalog/lg/lg-ac-06/lg-ac-06-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "5.0 kW",
+      "1.5 ton",
+      "Split AC",
+      "5 Star",
+      "US-Q19JWZE3-P"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/split-air-conditioners/us-q19jwze3-p/"
+  },
+  {
+    "id": "lg-ac-07",
+    "modelCode": "AS-Q18TNXE-N",
+    "name": "LG 3 Star (1.5) Split AC, AI Convertible, Auto Clean, Gold Fin+, Diet Mode+, Viraat Mode, 4.4 kW, 2026 Model - AS-Q18TNXE",
+    "brand": "lg",
+    "category": "ac",
+    "price": 75190,
+    "originalPrice": 85717,
+    "rating": 4.3,
+    "reviews": 305,
+    "image": "/uploads/catalog/lg/lg-ac-07/lg-ac-07-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-07/lg-ac-07-1.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "4.4 kW",
+      "1.5 Ton",
+      "Split AC",
+      "3 Star",
+      "AS-Q18TNXE-N"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/split-air-conditioners/as-q18tnxe-n/"
+  },
+  {
+    "id": "lg-ac-08",
+    "modelCode": "AS-Q19MNXE-N",
+    "name": "LG 3 Star (1.5) Split AC, AI Dual Inverter, Diet Mode+, Viraat Mode, 100% Copper Tubes, 5.3 kW, 2026 Model - AS-Q19MNXE",
+    "brand": "lg",
+    "category": "ac",
+    "price": 78290,
+    "originalPrice": 89251,
+    "rating": 4.4,
+    "reviews": 334,
+    "image": "/uploads/catalog/lg/lg-ac-08/lg-ac-08-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-08/lg-ac-08-1.jpg"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "5.3 kW",
+      "1.5 ton",
+      "Split AC",
+      "Inverter",
+      "3 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/split-air-conditioners/as-q19mnxe-n/"
+  },
+  {
+    "id": "lg-ac-09",
+    "modelCode": "US-Q19BNZE",
+    "name": "LG 5 Star (1.5) Split AC, Gold Fin+, Viraat Mode, Dual Inverter Compressor, AI Convertible 6-in-1, 5.0 kW, 2025 Model - US-Q19BNZE",
+    "brand": "lg",
+    "category": "ac",
+    "price": 78990,
+    "originalPrice": 90049,
+    "rating": 4.5,
+    "reviews": 363,
+    "image": "/uploads/catalog/lg/lg-ac-09/lg-ac-09-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-09/lg-ac-09-1.jpg",
+      "/uploads/catalog/lg/lg-ac-09/lg-ac-09-2.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "5.0 kW",
+      "1.5 ton",
+      "Split AC",
+      "Inverter",
+      "5 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/split-air-conditioners/us-q19bnze/"
+  },
+  {
+    "id": "lg-ac-10",
+    "modelCode": "US-Q14ENZE",
+    "name": "LG 5 Star (1.0) Split AC, AI Convertible 6-in-1 Cooling, Auto Clean, Diet Mode+, 100% Copper Tubes, 3.5 kW, 2025 Model - US-Q14ENZE",
+    "brand": "lg",
+    "category": "ac",
+    "price": 69990,
+    "originalPrice": 79789,
+    "rating": 4.6,
+    "reviews": 392,
+    "image": "/uploads/catalog/lg/lg-ac-10/lg-ac-10-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-ac-10/lg-ac-10-1.jpg",
+      "/uploads/catalog/lg/lg-ac-10/lg-ac-10-2.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "3.5 kW",
+      "1 Ton",
+      "Split AC",
+      "5 Star",
+      "US-Q14ENZE"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/air-conditioners/split-air-conditioners/us-q14enze/"
+  },
+  {
+    "id": "lg-washing-machine-01",
+    "modelCode": "T70VBMB1Z",
+    "name": "LG 7Kg Top Load Washing Machine, Smart Inverter Motor, Middle Black, 5 Star - T70VBMB1Z",
     "brand": "lg",
     "category": "washing-machine",
-    "price": 17999,
-    "originalPrice": 22000,
-    "rating": 4.0,
-    "reviews": 134,
-    "image": "/uploads/category-washing.jpg",
+    "price": 27490,
+    "originalPrice": 31339,
+    "rating": 4.2,
+    "reviews": 131,
+    "image": "/uploads/catalog/lg/lg-washing-machine-01/lg-washing-machine-01-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-01/lg-washing-machine-01-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-01/lg-washing-machine-01-2.jpg"
+    ],
     "capacity": null,
-    "badge": null,
-    "specs": ["6.5 kg", "Top Load", "Smart Inverter", "TurboDrum"],
-    "inStock": true
+    "badge": "Best Seller",
+    "specs": [
+      "7Kg",
+      "7 Kg",
+      "Top Load",
+      "T70VBMB1Z"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/top-loading-washing-machines/t70vbmb1z/"
   },
   {
-    "id": "19",
-    "name": "Samsung 23L Solo Microwave",
-    "brand": "samsung",
-    "category": "microwave",
-    "price": 7999,
-    "originalPrice": 10500,
-    "rating": 4.1,
-    "reviews": 234,
-    "image": "/uploads/category-microwave.jpg",
-    "capacity": null,
-    "badge": null,
-    "specs": ["23L", "Solo", "Ceramic Enamel", "Auto Cook"],
-    "inStock": true
-  },
-  {
-    "id": "20",
-    "name": "LG 21L Solo Microwave",
+    "id": "lg-washing-machine-02",
+    "modelCode": "FHP1209Z5M",
+    "name": "LG 9Kg Front Load Washing Machine, AI Direct Drive™, Middle Black, 5 Star - FHP1209Z5M",
     "brand": "lg",
-    "category": "microwave",
-    "price": 6999,
-    "originalPrice": 9000,
-    "rating": 4.0,
-    "reviews": 167,
-    "image": "/uploads/category-microwave.jpg",
-    "capacity": null,
-    "badge": null,
-    "specs": ["21L", "Solo", "i-wave", "Anti Bacteria Cavity"],
-    "inStock": true
-  },
-  {
-    "id": "21",
-    "name": "Samsung 55L Portable Air Cooler",
-    "brand": "samsung",
-    "category": "air-cooler",
-    "price": 7999,
-    "originalPrice": 9999,
+    "category": "washing-machine",
+    "price": 53990,
+    "originalPrice": 61549,
     "rating": 4.3,
-    "reviews": 34,
-    "image": "/uploads/category-ac.jpg",
+    "reviews": 160,
+    "image": "/uploads/catalog/lg/lg-washing-machine-02/lg-washing-machine-02-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-02/lg-washing-machine-02-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-02/lg-washing-machine-02-2.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-02/lg-washing-machine-02-3.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-02/lg-washing-machine-02-4.jpg"
+    ],
     "capacity": null,
     "badge": "New",
-    "specs": ["55L", "Portable", "Energy Saving", "Remote Control"],
-    "inStock": true
+    "specs": [
+      "9Kg",
+      "Front Load",
+      "AI Direct Drive",
+      "FHP1209Z5M"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/front-loading-washing-machines/fhp1209z5m/"
+  },
+  {
+    "id": "lg-washing-machine-03",
+    "modelCode": "P8530SRAZ",
+    "name": "LG 8.5Kg Semi Automatic Washing Machine, Roller Jet Pulsator + Soak, Burgundy, 5 Star - P8530SRAZ",
+    "brand": "lg",
+    "category": "washing-machine",
+    "price": 19990,
+    "originalPrice": 22789,
+    "rating": 4.4,
+    "reviews": 189,
+    "image": "/uploads/catalog/lg/lg-washing-machine-03/lg-washing-machine-03-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-03/lg-washing-machine-03-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-03/lg-washing-machine-03-2.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-03/lg-washing-machine-03-3.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-03/lg-washing-machine-03-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "8.5Kg",
+      "8.5 Kg",
+      "Semi Automatic",
+      "P8530SRAZ"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/semi-automatic-washing-machines/p8530sraz/"
+  },
+  {
+    "id": "lg-washing-machine-04",
+    "modelCode": "FHD1207STB",
+    "name": "LG 12/7Kg Front Load Washer Dryer, AI Direct Drive™, Platinum Black - FHD1207STB",
+    "brand": "lg",
+    "category": "washing-machine",
+    "price": 88990,
+    "originalPrice": 101449,
+    "rating": 4.5,
+    "reviews": 218,
+    "image": "/uploads/catalog/lg/lg-washing-machine-04/lg-washing-machine-04-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-04/lg-washing-machine-04-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-04/lg-washing-machine-04-2.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "7Kg",
+      "Front Load",
+      "Washer Dryer",
+      "AI Direct Drive",
+      "FHD1207STB"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/washer-dryers/fhd1207stb/"
+  },
+  {
+    "id": "lg-washing-machine-05",
+    "modelCode": "P7020NGAZ",
+    "name": "LG 7Kg Semi Automatic Washing Machine, Rat Away Technology, Dark Grey, 5 Star - P7020NGAZ",
+    "brand": "lg",
+    "category": "washing-machine",
+    "price": 16390,
+    "originalPrice": 18685,
+    "rating": 4.6,
+    "reviews": 247,
+    "image": "/uploads/catalog/lg/lg-washing-machine-05/lg-washing-machine-05-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-05/lg-washing-machine-05-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-05/lg-washing-machine-05-2.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-05/lg-washing-machine-05-3.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-05/lg-washing-machine-05-4.jpg"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "7Kg",
+      "7 kg",
+      "Semi Automatic",
+      "P7020NGAZ"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/semi-automatic-washing-machines/p7020ngaz/"
+  },
+  {
+    "id": "lg-washing-machine-06",
+    "modelCode": "FHB1207Z2W",
+    "name": "LG 7Kg Front Load Washing Machine, Inverter Direct Drive™, Steam™, White, 5 Star - FHB1207Z2W",
+    "brand": "lg",
+    "category": "washing-machine",
+    "price": 42490,
+    "originalPrice": 48439,
+    "rating": 4.2,
+    "reviews": 276,
+    "image": "/uploads/catalog/lg/lg-washing-machine-06/lg-washing-machine-06-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-06/lg-washing-machine-06-1.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "7Kg",
+      "7KG",
+      "Front Load",
+      "FHB1207Z2W"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/front-loading-washing-machines/fhb1207z2w/"
+  },
+  {
+    "id": "lg-washing-machine-07",
+    "modelCode": "T80KMMB3Z",
+    "name": "LG 8Kg Top Load Washing Machine, Hard Water Wash, Middle Black, 5 Star - T80KMMB3Z",
+    "brand": "lg",
+    "category": "washing-machine",
+    "price": 23990,
+    "originalPrice": 27349,
+    "rating": 4.3,
+    "reviews": 305,
+    "image": "/uploads/catalog/lg/lg-washing-machine-07/lg-washing-machine-07-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-07/lg-washing-machine-07-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-07/lg-washing-machine-07-2.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "8Kg",
+      "8 KG",
+      "Top Load",
+      "T80KMMB3Z"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/top-loading-washing-machines/t80kmmb3z/"
+  },
+  {
+    "id": "lg-washing-machine-08",
+    "modelCode": "FHB1208Z4M",
+    "name": "LG 8Kg Front Load Washing Machine, Inverter Direct Drive™, Middle Black, 5 Star - FHB1208Z4M",
+    "brand": "lg",
+    "category": "washing-machine",
+    "price": 50490,
+    "originalPrice": 57559,
+    "rating": 4.4,
+    "reviews": 334,
+    "image": "/uploads/catalog/lg/lg-washing-machine-08/lg-washing-machine-08-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-08/lg-washing-machine-08-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-08/lg-washing-machine-08-2.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-08/lg-washing-machine-08-3.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-08/lg-washing-machine-08-4.jpg"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "8Kg",
+      "8KG",
+      "Front Load",
+      "AI Direct Drive",
+      "FHB1208Z4M"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/front-loading-washing-machines/fhb1208z4m/"
+  },
+  {
+    "id": "lg-washing-machine-09",
+    "modelCode": "T80VBMB1Z",
+    "name": "LG 8Kg Top Load Washing Machine, Smart Inverter Motor, Middle Black, 5 Star - T80VBMB1Z",
+    "brand": "lg",
+    "category": "washing-machine",
+    "price": 28990,
+    "originalPrice": 33049,
+    "rating": 4.5,
+    "reviews": 363,
+    "image": "/uploads/catalog/lg/lg-washing-machine-09/lg-washing-machine-09-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-09/lg-washing-machine-09-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-09/lg-washing-machine-09-2.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-09/lg-washing-machine-09-3.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-09/lg-washing-machine-09-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "8Kg",
+      "Top Load",
+      "T80VBMB1Z"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/top-loading-washing-machines/t80vbmb1z/"
+  },
+  {
+    "id": "lg-washing-machine-10",
+    "modelCode": "FHD0905SWM",
+    "name": "LG 9/5Kg Front Load Washer Dryer, AI Direct Drive™, Middle Black - FHD0905SWM",
+    "brand": "lg",
+    "category": "washing-machine",
+    "price": 68990,
+    "originalPrice": 78649,
+    "rating": 4.6,
+    "reviews": 392,
+    "image": "/uploads/catalog/lg/lg-washing-machine-10/lg-washing-machine-10-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-washing-machine-10/lg-washing-machine-10-1.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-10/lg-washing-machine-10-2.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-10/lg-washing-machine-10-3.jpg",
+      "/uploads/catalog/lg/lg-washing-machine-10/lg-washing-machine-10-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "5Kg",
+      "Front Load",
+      "Washer Dryer",
+      "AI Direct Drive",
+      "FHD0905SWM"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/laundry/washer-dryers/fhd0905swm/"
+  },
+  {
+    "id": "lg-microwave-01",
+    "modelCode": "MC2886BRUM",
+    "name": "LG 28 L All-In-One Convection Microwave Oven with Diet Fry™, Roti Basket, Autocook Menu, Black - MC2886BRUM",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 22099,
+    "originalPrice": 25193,
+    "rating": 4.2,
+    "reviews": 131,
+    "image": "/uploads/catalog/lg/lg-microwave-01/lg-microwave-01-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-01/lg-microwave-01-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-01/lg-microwave-01-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-01/lg-microwave-01-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-01/lg-microwave-01-4.jpg"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "28 L",
+      "28L",
+      "Convection",
+      "MC2886BRUM"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc2886brum/"
+  },
+  {
+    "id": "lg-microwave-02",
+    "modelCode": "MC2846BG",
+    "name": "LG 28 L All-In-One Convection Microwave Oven with 251 Auto Cook Menu, Quartz Heater, Health Plus Menu, Black - MC2846BG",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 17899,
+    "originalPrice": 20405,
+    "rating": 4.3,
+    "reviews": 160,
+    "image": "/uploads/catalog/lg/lg-microwave-02/lg-microwave-02-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-02/lg-microwave-02-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-02/lg-microwave-02-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-02/lg-microwave-02-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-02/lg-microwave-02-4.jpg"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "28 L",
+      "28L",
+      "Convection",
+      "MC2846BG"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc2846bg/"
+  },
+  {
+    "id": "lg-microwave-03",
+    "modelCode": "MC2846BV",
+    "name": "LG 28 L Convection Microwave Oven with Stainless Steel Cavity, 251 Auto Cook Menu, Quartz Heater, Black - MC2846BV",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 18299,
+    "originalPrice": 20861,
+    "rating": 4.4,
+    "reviews": 189,
+    "image": "/uploads/catalog/lg/lg-microwave-03/lg-microwave-03-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-03/lg-microwave-03-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-03/lg-microwave-03-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-03/lg-microwave-03-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-03/lg-microwave-03-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "28 L",
+      "Convection",
+      "MC2846BV"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc2846bv/"
+  },
+  {
+    "id": "lg-microwave-04",
+    "modelCode": "MC2146BG",
+    "name": "LG 21 L Convection Microwave Oven with Glass Door, 151 Auto Cook Menu, Quartz Heater, Health Plus Menu, Glossy Black - MC2146BG",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 15599,
+    "originalPrice": 17783,
+    "rating": 4.5,
+    "reviews": 218,
+    "image": "/uploads/catalog/lg/lg-microwave-04/lg-microwave-04-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-04/lg-microwave-04-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-04/lg-microwave-04-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-04/lg-microwave-04-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-04/lg-microwave-04-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "21 L",
+      "Convection",
+      "MC2146BG"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc2146bg/"
+  },
+  {
+    "id": "lg-microwave-05",
+    "modelCode": "MC2846SL",
+    "name": "LG 28 L Convection Microwave Oven with 251 Auto Cook Menu, Diet Fry, Quartz Heater, Stainless Steel Cavity, Silver - MC2846SL",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 18699,
+    "originalPrice": 21317,
+    "rating": 4.6,
+    "reviews": 247,
+    "image": "/uploads/catalog/lg/lg-microwave-05/lg-microwave-05-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-05/lg-microwave-05-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-05/lg-microwave-05-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-05/lg-microwave-05-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-05/lg-microwave-05-4.jpg"
+    ],
+    "capacity": null,
+    "badge": "Best Seller",
+    "specs": [
+      "28 L",
+      "Convection",
+      "MC2846SL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc2846sl/"
+  },
+  {
+    "id": "lg-microwave-06",
+    "modelCode": "MC2146BV",
+    "name": "LG 21 L Convection Microwave Oven, 151 Auto Cook Menu, Quartz Heater, Stainless Steel Cavity, Health plus Menu, Black - MC2146BV",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 15499,
+    "originalPrice": 17669,
+    "rating": 4.2,
+    "reviews": 276,
+    "image": "/uploads/catalog/lg/lg-microwave-06/lg-microwave-06-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-06/lg-microwave-06-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-06/lg-microwave-06-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-06/lg-microwave-06-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-06/lg-microwave-06-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "21 L",
+      "Convection",
+      "MC2146BV"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc2146bv/"
+  },
+  {
+    "id": "lg-microwave-07",
+    "modelCode": "MC3286BRUM",
+    "name": "LG 32 L Convection Microwave Oven with Stainless Steel Cavity, 301 Auto Cook Menu, Diet Fry, 360° Rotisserie, Black - MC3286BRUM",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 25999,
+    "originalPrice": 29639,
+    "rating": 4.3,
+    "reviews": 305,
+    "image": "/uploads/catalog/lg/lg-microwave-07/lg-microwave-07-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-07/lg-microwave-07-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-07/lg-microwave-07-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-07/lg-microwave-07-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-07/lg-microwave-07-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "32 L",
+      "Convection",
+      "MC3286BRUM"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc3286brum/"
+  },
+  {
+    "id": "lg-microwave-08",
+    "modelCode": "MC3286BLU",
+    "name": "LG 32 L Convection Microwave Oven with 301 Auto Cook Menu, Black - MC3286BLU",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 21999,
+    "originalPrice": 25079,
+    "rating": 4.4,
+    "reviews": 334,
+    "image": "/uploads/catalog/lg/lg-microwave-08/lg-microwave-08-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-08/lg-microwave-08-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-08/lg-microwave-08-2.jpg"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "32 L",
+      "Convection",
+      "MC3286BLU"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc3286blu/"
+  },
+  {
+    "id": "lg-microwave-09",
+    "modelCode": "MC2146BR",
+    "name": "LG 21 L Convection Microwave with 151 Auto Cook Menus, Health Plus Menu, Quartz Heater, Stainless Steel Cavity, Black - MC2146BR",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 201306,
+    "originalPrice": 229489,
+    "rating": 4.5,
+    "reviews": 363,
+    "image": "/uploads/catalog/lg/lg-microwave-09/lg-microwave-09-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-09/lg-microwave-09-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-09/lg-microwave-09-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-09/lg-microwave-09-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-09/lg-microwave-09-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "21 L",
+      "Convection",
+      "MC2146BR"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/convection-microwave/mc2146br/"
+  },
+  {
+    "id": "lg-microwave-10",
+    "modelCode": "MJEN326SFW",
+    "name": "LG 32 L Scan-To-Cook Charcoal Microwave Oven with Healthy Heart™, Charcoal Lighting Heater, Motorised Rotisserie, Steam chef, Black - MJEN326SFW",
+    "brand": "lg",
+    "category": "microwave",
+    "price": 40999,
+    "originalPrice": 46739,
+    "rating": 4.6,
+    "reviews": 392,
+    "image": "/uploads/catalog/lg/lg-microwave-10/lg-microwave-10-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-microwave-10/lg-microwave-10-1.jpg",
+      "/uploads/catalog/lg/lg-microwave-10/lg-microwave-10-2.jpg",
+      "/uploads/catalog/lg/lg-microwave-10/lg-microwave-10-3.jpg",
+      "/uploads/catalog/lg/lg-microwave-10/lg-microwave-10-4.jpg"
+    ],
+    "capacity": null,
+    "badge": null,
+    "specs": [
+      "32 L",
+      "Charcoal",
+      "Wi-Fi",
+      "MJEN326SFW"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/microwave-ovens/wifi-enabled-charcoal-convection-microwave/mjen326sfw/"
+  },
+  {
+    "id": "lg-fridge-01",
+    "modelCode": "GLB3426BFPT",
+    "name": "LG 340L Bottom Freezer Refrigerator, Wi-Fi Convertible, Door Cooling+™, Metal Fresh, Clay Pink Tango, 2 Star - GLB3426BFPT",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 69490,
+    "originalPrice": 79219,
+    "rating": 4.2,
+    "reviews": 131,
+    "image": "/uploads/catalog/lg/lg-fridge-01/lg-fridge-01-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-01/lg-fridge-01-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-01/lg-fridge-01-2.jpg"
+    ],
+    "capacity": 340,
+    "badge": "Best Seller",
+    "specs": [
+      "340L",
+      "Convertible",
+      "GLB3426BFPT"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/double-door-refrigerators/glb3426bfpt/"
+  },
+  {
+    "id": "lg-fridge-02",
+    "modelCode": "GLT2926PDES",
+    "name": "LG 288 L Double Door Refrigerator, Convertible, Smart Inverter Compressor, Ebony Sheen, 2 Star - GLT2926PDES",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 47990,
+    "originalPrice": 54709,
+    "rating": 4.3,
+    "reviews": 160,
+    "image": "/uploads/catalog/lg/lg-fridge-02/lg-fridge-02-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-02/lg-fridge-02-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-02/lg-fridge-02-2.jpg"
+    ],
+    "capacity": 288,
+    "badge": "New",
+    "specs": [
+      "288 L",
+      "288L",
+      "Double Door",
+      "Convertible",
+      "GLT2926PDES"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/double-door-refrigerators/glt2926pdes/"
+  },
+  {
+    "id": "lg-fridge-03",
+    "modelCode": "GLT2516WWPZ",
+    "name": "LG 251 L Double Door Refrigerator with Smart Inverter Compressor, Multi-Air Flow, Frost Free, Shiny Steel, 1 Star - GLT2516WWPZ",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 36990,
+    "originalPrice": 42169,
+    "rating": 4.4,
+    "reviews": 189,
+    "image": "/uploads/catalog/lg/lg-fridge-03/lg-fridge-03-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-03/lg-fridge-03-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-03/lg-fridge-03-2.jpg"
+    ],
+    "capacity": 251,
+    "badge": null,
+    "specs": [
+      "251 L",
+      "251L",
+      "Double Door",
+      "Frost Free",
+      "GLT2516WWPZ"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/double-door-refrigerators/glt2516wwpz/"
+  },
+  {
+    "id": "lg-fridge-04",
+    "modelCode": "GL-T502CESR",
+    "name": "LG 446L Double Door Refrigerator, Convertible, Smart Diagnosis™, DoorCooling+™, Ebony Sheen Finish, 1 Star - GL-T502CESR",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 71499,
+    "originalPrice": 81509,
+    "rating": 4.5,
+    "reviews": 218,
+    "image": "/uploads/catalog/lg/lg-fridge-04/lg-fridge-04-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-04/lg-fridge-04-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-04/lg-fridge-04-2.jpg",
+      "/uploads/catalog/lg/lg-fridge-04/lg-fridge-04-3.jpg",
+      "/uploads/catalog/lg/lg-fridge-04/lg-fridge-04-4.jpg"
+    ],
+    "capacity": 446,
+    "badge": null,
+    "specs": [
+      "446L",
+      "Double Door",
+      "Convertible",
+      "GL-T502CESR"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/double-door-refrigerators/gl-t502cesr/"
+  },
+  {
+    "id": "lg-fridge-05",
+    "modelCode": "GL-S342SDSX",
+    "name": "LG 322L Double Door Refrigerator, Convertible, Auto Smart Connect™, Dazzle Steel Finish, 3 Star - GL-S342SDSX",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 45899,
+    "originalPrice": 52325,
+    "rating": 4.6,
+    "reviews": 247,
+    "image": "/uploads/catalog/lg/lg-fridge-05/lg-fridge-05-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-05/lg-fridge-05-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-05/lg-fridge-05-2.jpg",
+      "/uploads/catalog/lg/lg-fridge-05/lg-fridge-05-3.jpg",
+      "/uploads/catalog/lg/lg-fridge-05/lg-fridge-05-4.jpg"
+    ],
+    "capacity": 322,
+    "badge": "Best Seller",
+    "specs": [
+      "322L",
+      "Double Door",
+      "Convertible",
+      "GL-S342SDSX"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/double-door-refrigerators/gl-s342sdsx/"
+  },
+  {
+    "id": "lg-fridge-06",
+    "modelCode": "GLD0536VRSW",
+    "name": "LG 43 L Single Door Refrigerator, Mini Bar, Direct Cool, Polypropylene Shelf, Anti-Bacterial Gasket, Super White, 3 Star - GLD0536VRSW",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 13190,
+    "originalPrice": 15037,
+    "rating": 4.2,
+    "reviews": 276,
+    "image": "/uploads/catalog/lg/lg-fridge-06/lg-fridge-06-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-06/lg-fridge-06-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-06/lg-fridge-06-2.jpg",
+      "/uploads/catalog/lg/lg-fridge-06/lg-fridge-06-3.jpg",
+      "/uploads/catalog/lg/lg-fridge-06/lg-fridge-06-4.jpg"
+    ],
+    "capacity": 43,
+    "badge": null,
+    "specs": [
+      "43 L",
+      "43L",
+      "Single Door",
+      "GLD0536VRSW"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/single-door-refrigerators/gld0536vrsw/"
+  },
+  {
+    "id": "lg-fridge-07",
+    "modelCode": "GLD2156ZHNB",
+    "name": "LG 201 L Single Door Refrigerator with Base Stand Drawer, Smart Inverter Compressor, Direct Cool, Natural Beige, 5 Star - GLD2156ZHNB",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 28190,
+    "originalPrice": 32137,
+    "rating": 4.3,
+    "reviews": 305,
+    "image": "/uploads/catalog/lg/lg-fridge-07/lg-fridge-07-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-07/lg-fridge-07-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-07/lg-fridge-07-2.jpg",
+      "/uploads/catalog/lg/lg-fridge-07/lg-fridge-07-3.jpg",
+      "/uploads/catalog/lg/lg-fridge-07/lg-fridge-07-4.jpg"
+    ],
+    "capacity": 201,
+    "badge": null,
+    "specs": [
+      "201 L",
+      "201L",
+      "Single Door",
+      "GLD2156ZHNB"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/single-door-refrigerators/gld2156zhnb/"
+  },
+  {
+    "id": "lg-fridge-08",
+    "modelCode": "GLD2156ZHCP",
+    "name": "LG 201 L Single Door Refrigerator with Base Stand Drawer, Smart Inverter Compressor, Solar Smart, Clay Pink, 5 Star - GLD2156ZHCP",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 28190,
+    "originalPrice": 32137,
+    "rating": 4.4,
+    "reviews": 334,
+    "image": "/uploads/catalog/lg/lg-fridge-08/lg-fridge-08-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-08/lg-fridge-08-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-08/lg-fridge-08-2.jpg"
+    ],
+    "capacity": 201,
+    "badge": "New",
+    "specs": [
+      "201 L",
+      "201L",
+      "Single Door",
+      "GLD2156ZHCP"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/single-door-refrigerators/gld2156zhcp/"
+  },
+  {
+    "id": "lg-fridge-09",
+    "modelCode": "GL-L257CMC3",
+    "name": "LG 630L, Side-by-Side Refrigerator, Wi-Fi Convertible, Water &amp; Ice Dispenser, Matte Black Finish, 3 Star - GL-L257CMC3",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 167999,
+    "originalPrice": 191519,
+    "rating": 4.5,
+    "reviews": 363,
+    "image": "/uploads/catalog/lg/lg-fridge-09/lg-fridge-09-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-09/lg-fridge-09-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-09/lg-fridge-09-2.jpg",
+      "/uploads/catalog/lg/lg-fridge-09/lg-fridge-09-3.jpg",
+      "/uploads/catalog/lg/lg-fridge-09/lg-fridge-09-4.jpg"
+    ],
+    "capacity": 630,
+    "badge": null,
+    "specs": [
+      "630L",
+      "Convertible",
+      "GL-L257CMC3"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/side-by-side-refrigerators/gl-l257cmc3/"
+  },
+  {
+    "id": "lg-fridge-10",
+    "modelCode": "GL-B257HDSY",
+    "name": "LG 655L Side-by-Side Refrigerator, Smart Inverter Compressor, Multi Air Flow, Smart Diagnosis™, Dazzle Steel, 3 Star - GL-B257HDSY",
+    "brand": "lg",
+    "category": "fridge",
+    "price": 110399,
+    "originalPrice": 125855,
+    "rating": 4.6,
+    "reviews": 392,
+    "image": "/uploads/catalog/lg/lg-fridge-10/lg-fridge-10-1.jpg",
+    "gallery": [
+      "/uploads/catalog/lg/lg-fridge-10/lg-fridge-10-1.jpg",
+      "/uploads/catalog/lg/lg-fridge-10/lg-fridge-10-2.jpg",
+      "/uploads/catalog/lg/lg-fridge-10/lg-fridge-10-3.jpg",
+      "/uploads/catalog/lg/lg-fridge-10/lg-fridge-10-4.jpg"
+    ],
+    "capacity": 655,
+    "badge": null,
+    "specs": [
+      "655L",
+      "GL-B257HDSY"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.lg.com/in/refrigerators/side-by-side-refrigerators/gl-b257hdsy/"
   }
 ]

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Youtube, MessageCircle, Send, CheckCircle } from "lucide-react";
 import PageHero from "@/components/ui/PageHero";
-import heroContact from "@/assets/hero-contact.jpg";
+
+const heroContact = "/uploads/hero-contact.jpg";
 
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "123 Electronics Hub, MG Road, Ahmedabad, Gujarat - 380001" },

@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import promo1 from "@/assets/promo-banner-1.jpg";
-import promo2 from "@/assets/promo-banner-2.jpg";
-import promo3 from "@/assets/promo-banner-3.jpg";
+
+const promo1 = "/uploads/promo-banner-1.jpg";
+const promo2 = "/uploads/promo-banner-2.jpg";
+const promo3 = "/uploads/promo-banner-3.jpg";
 
 const banners = [
   { image: promo1, alt: "Summer Sale - Up to 40% OFF on ACs" },

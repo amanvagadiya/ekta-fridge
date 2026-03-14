@@ -1,7 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import samsungLogo from "@/assets/samsung-logo.png";
-import lgLogo from "@/assets/lg-logo.png";
+
+const samsungLogo = "/uploads/samsung-logo.png";
+const lgLogo = "/uploads/lg-logo.png";
 
 interface BrandCardProps {
   id: string;
