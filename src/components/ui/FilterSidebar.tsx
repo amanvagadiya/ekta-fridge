@@ -148,7 +148,9 @@ const FilterSidebar = ({ filters, onFiltersChange, showCapacity }: FilterSidebar
       </button>
 
       <div className="hidden lg:block w-72 shrink-0">
-        <div className="premium-card p-5 sticky top-24">{content}</div>
+        <div className="premium-card p-5 sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto scrollbar-hide">
+          {content}
+        </div>
       </div>
 
       {mobileOpen && (

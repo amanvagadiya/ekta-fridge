@@ -49,12 +49,12 @@ const About = () => {
                 Today, we proudly serve over 50,000 happy customers with premium products from Samsung and LG. Our mission is simple — to make cutting-edge technology accessible and affordable for every Indian household.
               </p>
             </div>
-            <div className="premium-card-elevated p-8 aspect-square flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">⚡</div>
-                <p className="font-heading text-2xl font-bold text-primary">Since 2015</p>
-                <p className="text-muted-foreground text-sm mt-2">Powering Indian Homes</p>
-              </div>
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src={heroAbout}
+                alt="Ekta Fridge team or store"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
