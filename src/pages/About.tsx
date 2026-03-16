@@ -1,6 +1,7 @@
 import { Users, Target, Eye, Award, ShieldCheck, Star } from "lucide-react";
 import StatCounter from "@/components/ui/StatCounter";
 import PageHero from "@/components/ui/PageHero";
+import Seo from "@/components/seo/Seo";
 
 const heroAbout = "/uploads/hero-about.jpg";
 
@@ -27,6 +28,13 @@ const stats = [
 const About = () => {
   return (
     <main className="pb-0 min-h-screen">
+      <Seo
+        title="About EKTA FRIDGE | Trusted Electronics Store"
+        description="Learn about EKTA FRIDGE, our mission, customer-first values, and commitment to quality electronics and home appliances in Chhapi, Gujarat."
+        path="/about"
+        image={heroAbout}
+        keywords={["About Ekta Fridge", "Ekta Fridge Chhapi", "electronics store Gujarat"]}
+      />
       <PageHero
         title="About EKTA FRIDGE"
         subtitle="Your trusted destination for premium electronics since 2015"

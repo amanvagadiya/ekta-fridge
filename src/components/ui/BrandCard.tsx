@@ -32,7 +32,7 @@ const BrandCard = ({ id, name, tagline, productCount, color }: BrandCardProps) =
       <div className="p-8 pt-10">
         <div className="mb-6 h-20 flex items-center justify-center">
           {logo ? (
-            <img src={logo} alt={name} className="h-14 w-auto object-contain" />
+            <img src={logo} alt={name} className="h-14 w-auto object-contain" loading="lazy" decoding="async" />
           ) : (
             <div className="w-16 h-16 rounded-2xl flex items-center justify-center text-white font-bold text-lg" style={{ backgroundColor: color }}>
               {name.slice(0, 2).toUpperCase()}

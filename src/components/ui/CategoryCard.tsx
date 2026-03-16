@@ -22,6 +22,7 @@ const CategoryCard = ({ id, label, count, image }: CategoryCardProps) => {
           alt={label}
           className="w-full h-full object-contain p-2 group-hover:scale-110 transition-transform duration-500"
           loading="lazy"
+          decoding="async"
         />
       </div>
       <div className="p-4 text-center">

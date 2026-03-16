@@ -3,6 +3,8 @@ import productsData from "@/data/products.json";
 import { useStore } from "@/context/StoreContext";
 import { Plus, Minus, Trash } from "lucide-react";
 import PageHero from "@/components/ui/PageHero";
+import Seo from "@/components/seo/Seo";
+import { productPathFromProduct } from "@/lib/productUrl";
 
 const heroProducts = "/uploads/hero-products.jpg";
 
@@ -21,6 +23,12 @@ const Cart = () => {
 
   return (
     <main className="pb-20 min-h-screen">
+      <Seo
+        title="Your Cart | EKTA FRIDGE"
+        description="Review products in your EKTA FRIDGE cart before checkout."
+        path="/cart"
+        noindex
+      />
       <PageHero
         title="Your Cart"
         subtitle={`You have ${items.length} item${items.length !== 1 ? "s" : ""} in cart`}
@@ -48,7 +56,7 @@ const Cart = () => {
               <div key={item.id} className="flex flex-col md:flex-row items-center gap-4 p-4 border border-border rounded-xl">
                 <img src={item.image} alt={item.name} className="w-24 h-24 object-contain bg-secondary p-1 rounded-lg" />
                 <div className="flex-1">
-                  <Link to={`/product/${item.id}`} className="font-semibold text-foreground hover:text-primary">
+                  <Link to={productPathFromProduct(item)} className="font-semibold text-foreground hover:text-primary">
                     {item.name}
                   </Link>
                   <p className="text-sm text-muted-foreground">â‚¹{item.price.toLocaleString()}</p>

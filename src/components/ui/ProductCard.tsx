@@ -1,6 +1,7 @@
 ﻿import { Star } from "lucide-react";
 import { Link } from "react-router-dom";
 import brandsData from "@/data/brands.json";
+import { productPathFromProduct } from "@/lib/productUrl";
 
 interface Product {
   id: string;
@@ -26,16 +27,18 @@ interface ProductCardProps {
 const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
   const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
   const brandMeta = brandsData.find((brand) => brand.id === product.brand);
+  const productPath = productPathFromProduct(product as any);
 
   return (
     <div className="premium-card group overflow-hidden hover:-translate-y-1">
       <div className="relative aspect-square bg-secondary overflow-hidden">
-        <Link to={`/product/${product.id}`}>
+        <Link to={productPath}>
           <img
             src={product.image}
             alt={product.name}
             className="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
+            decoding="async"
           />
         </Link>
         <div className="absolute top-3 left-3 flex flex-col gap-2">
@@ -59,7 +62,7 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
       </div>
 
       <div className="p-5">
-        <Link to={`/product/${product.id}`}>
+        <Link to={productPath}>
           <h3 className="font-heading font-semibold text-sm text-foreground mb-2 line-clamp-2 min-h-[2.5rem] hover:text-primary transition-colors">
             {product.name}
           </h3>
@@ -116,7 +119,7 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
               {isComparing ? "Comparing" : "Compare"}
             </button>
           )}
-          <Link to={`/product/${product.id}`} className="flex-1 btn-primary !py-2.5 !text-xs !rounded-xl text-center">
+          <Link to={productPath} className="flex-1 btn-primary !py-2.5 !text-xs !rounded-xl text-center">
             View Details
           </Link>
         </div>

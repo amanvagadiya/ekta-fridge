@@ -3,6 +3,8 @@ import productsData from "@/data/products.json";
 import { useStore } from "@/context/StoreContext";
 import { Heart } from "lucide-react";
 import PageHero from "@/components/ui/PageHero";
+import Seo from "@/components/seo/Seo";
+import { productPathFromProduct } from "@/lib/productUrl";
 
 const heroProducts = "/uploads/hero-products.jpg";
 
@@ -15,6 +17,12 @@ const Wishlist = () => {
 
   return (
     <main className="pb-20 min-h-screen">
+      <Seo
+        title="Wishlist | EKTA FRIDGE"
+        description="Your saved products on EKTA FRIDGE."
+        path="/wishlist"
+        noindex
+      />
       <PageHero
         title="Your Wishlist"
         subtitle={`You have ${items.length} item${items.length !== 1 ? "s" : ""} saved`}
@@ -46,7 +54,7 @@ const Wishlist = () => {
                 >
                   <Heart className="w-5 h-5" />
                 </button>
-                <Link to={`/product/${item.id}`} className="block">
+                <Link to={productPathFromProduct(item)} className="block">
                   <div className="aspect-square bg-secondary overflow-hidden rounded-lg mb-2">
                     <img src={item.image} alt={item.name} className="w-full h-full object-contain bg-secondary p-1" />
                   </div>

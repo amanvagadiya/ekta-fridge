@@ -5,16 +5,17 @@ import CategoryCard from "@/components/ui/CategoryCard";
 import ProductCard from "@/components/ui/ProductCard";
 import TestimonialCard from "@/components/ui/TestimonialCard";
 import FAQAccordion from "@/components/ui/FAQAccordion";
-import NewsletterSection from "@/components/ui/NewsletterSection";
 import StatCounter from "@/components/ui/StatCounter";
 import CountdownTimer from "@/components/ui/CountdownTimer";
 import PromoSlider from "@/components/ui/PromoSlider";
+import Seo from "@/components/seo/Seo";
 import { Truck, Shield, Phone, RotateCcw, Zap } from "lucide-react";
 import productsData from "@/data/products.json";
 import brandsData from "@/data/brands.json";
 import categoriesData from "@/data/categories.json";
 import faqsData from "@/data/faqs.json";
 import testimonialsData from "@/data/testimonials.json";
+import { absoluteUrl, VISIBLE_BRANDS } from "@/lib/seo";
 
 const visibleBrandIds = ["samsung", "lg", "whirlpool", "daikin", "panasonic", "voltas"];
 const visibleBrands = brandsData.filter((brand) => visibleBrandIds.includes(brand.id));
@@ -44,8 +45,42 @@ const stats = [
 ];
 
 const Index = () => {
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Store",
+        name: "EKTA FRIDGE",
+        url: absoluteUrl("/"),
+        image: absoluteUrl("/image.png"),
+        telephone: "+91-81285-51508",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Shop-No-10, Pirojpura Road, Chhapi Highway, TA-Vadgam",
+          addressLocality: "Banaskantha",
+          addressRegion: "Gujarat",
+          postalCode: "385210",
+          addressCountry: "IN",
+        },
+      },
+      {
+        "@type": "WebSite",
+        name: "EKTA FRIDGE",
+        url: absoluteUrl("/"),
+      },
+    ],
+  };
+
   return (
     <main>
+      <Seo
+        title="EKTA FRIDGE | Electronics Store In Chhapi"
+        description="EKTA FRIDGE is your trusted electronics and home appliances store in Chhapi, Gujarat. Shop AC, fridge, deep freezer, air cooler, washing machine and more."
+        path="/"
+        image="/image.png"
+        keywords={["Ekta Fridge Chhapi", "Ekta", "Ekta Fridge", "Electronics shop in Chhapi", ...VISIBLE_BRANDS]}
+        jsonLd={homeSchema}
+      />
       <HeroSlider />
 
       <section id="brands" className="py-20">
@@ -162,8 +197,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-
-      <NewsletterSection />
 
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">

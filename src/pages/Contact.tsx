@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Youtube, MessageCircle, Send, CheckCircle } from "lucide-react";
 import PageHero from "@/components/ui/PageHero";
+import Seo from "@/components/seo/Seo";
 
 const heroContact = "/uploads/hero-contact.jpg";
 
@@ -39,6 +40,13 @@ const Contact = () => {
 
   return (
     <main className="pb-20 min-h-screen">
+      <Seo
+        title="Contact EKTA FRIDGE | Chhapi"
+        description="Contact EKTA FRIDGE for electronics and home appliance inquiries. Visit our Chhapi store or call us for AC, fridge, deep freezer and air cooler support."
+        path="/contact"
+        image={heroContact}
+        keywords={["Ekta Fridge contact", "Ekta Fridge Chhapi phone number", "electronics shop contact"]}
+      />
       <PageHero
         title="Get In Touch"
         subtitle="We'd love to hear from you. Reach out anytime!"

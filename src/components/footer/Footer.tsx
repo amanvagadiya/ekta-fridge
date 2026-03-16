@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={logo} alt="EKTA FRIDGE" className="h-9 w-9 object-contain" />
+              <img src={logo} alt="EKTA FRIDGE" className="h-9 w-9 object-contain" loading="lazy" decoding="async" />
               <span className="font-heading text-lg font-bold text-foreground">
                 EKTA FRIDGE
               </span>

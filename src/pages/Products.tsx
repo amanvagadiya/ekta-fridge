@@ -4,7 +4,10 @@ import ProductCard from "@/components/ui/ProductCard";
 import FilterSidebar from "@/components/ui/FilterSidebar";
 import CompareDrawer from "@/components/ui/CompareDrawer";
 import PageHero from "@/components/ui/PageHero";
+import Seo from "@/components/seo/Seo";
 import productsData from "@/data/products.json";
+import { absoluteUrl } from "@/lib/seo";
+import { productPathFromProduct } from "@/lib/productUrl";
 
 const heroProducts = "/uploads/hero-products.jpg";
 
@@ -66,6 +69,26 @@ const Products = () => {
     return items;
   }, [filters]);
 
+  const pagePath = useMemo(() => {
+    const q = searchParams.toString();
+    return q ? `/products?${q}` : "/products";
+  }, [searchParams]);
+
+  const productsSchema = useMemo(
+    () => ({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: "EKTA FRIDGE Products",
+      itemListElement: filtered.slice(0, 20).map((product, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: absoluteUrl(productPathFromProduct(product)),
+        name: product.name,
+      })),
+    }),
+    [filtered],
+  );
+
   const toggleCompare = (product: Product) => {
     if (compareList.find((p) => p.id === product.id)) {
       setCompareList((prev) => prev.filter((p) => p.id !== product.id));
@@ -76,6 +99,14 @@ const Products = () => {
 
   return (
     <main className="pb-20 min-h-screen">
+      <Seo
+        title="Products | EKTA FRIDGE"
+        description="Browse all electronics and home appliances at EKTA FRIDGE including AC, refrigerators, deep freezers, air coolers, washing machines and microwaves."
+        path={pagePath}
+        image="/uploads/hero-products.jpg"
+        keywords={["EKTA FRIDGE products", "buy electronics online", "home appliances in Chhapi", "AC fridge freezer air cooler"]}
+        jsonLd={productsSchema}
+      />
       <PageHero
         title="Our Products"
         subtitle={`Showing ${filtered.length} of ${productsData.length} products`}

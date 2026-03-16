@@ -1,14 +1,6 @@
-User-agent: Googlebot
+﻿User-agent: *
 Allow: /
+Disallow: /cart
+Disallow: /wishlist
 
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: *
-Allow: /
+Sitemap: https://ekta-fridge.vercel.app/sitemap.xml
