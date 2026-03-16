@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import productsData from "@/data/products.json";
 import { useStore } from "@/context/StoreContext";
 import { Heart } from "lucide-react";
@@ -30,7 +30,7 @@ const Wishlist = () => {
       <div className="container mx-auto px-4 py-8">
         {items.length === 0 ? (
           <div className="text-center">
-            <p className="text-4xl mb-4">💖</p>
+            <p className="text-4xl mb-4">ðŸ’–</p>
             <h2 className="section-title mb-4">Your wishlist is empty</h2>
             <Link to="/products" className="btn-primary">
               Browse Products
@@ -48,12 +48,12 @@ const Wishlist = () => {
                 </button>
                 <Link to={`/product/${item.id}`} className="block">
                   <div className="aspect-square bg-secondary overflow-hidden rounded-lg mb-2">
-                    <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                    <img src={item.image} alt={item.name} className="w-full h-full object-contain bg-secondary p-1" />
                   </div>
                   <h3 className="font-heading font-semibold text-sm text-foreground mb-1 line-clamp-2">
                     {item.name}
                   </h3>
-                  <p className="font-bold text-primary">₹{item.price.toLocaleString()}</p>
+                  <p className="font-bold text-primary">â‚¹{item.price.toLocaleString()}</p>
                 </Link>
               </div>
             ))}
@@ -65,3 +65,4 @@ const Wishlist = () => {
 };
 
 export default Wishlist;
+

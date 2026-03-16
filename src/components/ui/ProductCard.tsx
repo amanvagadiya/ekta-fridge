@@ -1,5 +1,6 @@
-import { Star } from "lucide-react";
+﻿import { Star } from "lucide-react";
 import { Link } from "react-router-dom";
+import brandsData from "@/data/brands.json";
 
 interface Product {
   id: string;
@@ -24,6 +25,7 @@ interface ProductCardProps {
 
 const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
   const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
+  const brandMeta = brandsData.find((brand) => brand.id === product.brand);
 
   return (
     <div className="premium-card group overflow-hidden hover:-translate-y-1">
@@ -32,7 +34,7 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
           <img
             src={product.image}
             alt={product.name}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
           />
         </Link>
@@ -49,13 +51,10 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
           )}
         </div>
         <span
-          className={`absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase rounded-md ${
-            product.brand === "samsung"
-              ? "bg-blue-100 text-blue-700"
-              : "bg-red-100 text-red-700"
-          }`}
+          className="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold uppercase rounded-md text-white"
+          style={{ backgroundColor: brandMeta?.color || "#334155" }}
         >
-          {product.brand}
+          {brandMeta?.name || product.brand}
         </span>
       </div>
 
@@ -97,10 +96,10 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
 
         <div className="flex items-baseline gap-2 mb-4">
           <span className="text-lg font-heading font-bold text-foreground">
-            ₹{product.price.toLocaleString()}
+            Rs.{product.price.toLocaleString()}
           </span>
           <span className="text-sm text-muted-foreground line-through">
-            ₹{product.originalPrice.toLocaleString()}
+            Rs.{product.originalPrice.toLocaleString()}
           </span>
         </div>
 

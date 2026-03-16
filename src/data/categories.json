@@ -3,28 +3,42 @@
     "id": "ac",
     "label": "Air Conditioner",
     "icon": "Wind",
-    "count": 20,
-    "image": "/uploads/catalog/samsung/samsung-ac-01/samsung-ac-01-1.png"
+    "count": 44,
+    "image": "/uploads/catalog/daikin/daikin-ac-01/daikin-ac-01-1.png"
   },
   {
     "id": "washing-machine",
     "label": "Washing Machine",
     "icon": "Waves",
-    "count": 20,
-    "image": "/uploads/catalog/samsung/samsung-washing-machine-01/samsung-washing-machine-01-1.png"
+    "count": 26,
+    "image": "/uploads/catalog/lg/lg-washing-machine-01/lg-washing-machine-01-1.jpg"
   },
   {
     "id": "microwave",
     "label": "Microwave",
     "icon": "Zap",
     "count": 20,
-    "image": "/uploads/catalog/samsung/samsung-microwave-01/samsung-microwave-01-1.png"
+    "image": "/uploads/catalog/lg/lg-microwave-01/lg-microwave-01-1.jpg"
   },
   {
     "id": "fridge",
     "label": "Refrigerator",
     "icon": "Thermometer",
-    "count": 20,
-    "image": "/uploads/catalog/samsung/samsung-fridge-01/samsung-fridge-01-1.png"
+    "count": 44,
+    "image": "/uploads/catalog/lg/lg-fridge-01/lg-fridge-01-1.jpg"
+  },
+  {
+    "id": "freezer",
+    "label": "Deep Freezer",
+    "icon": "Snowflake",
+    "count": 8,
+    "image": "/uploads/catalog/lg/lg-freezer-01/lg-freezer-01-1.png"
+  },
+  {
+    "id": "air-cooler",
+    "label": "Air Cooler",
+    "icon": "Wind",
+    "count": 18,
+    "image": "/uploads/catalog/bajaj/bajaj-air-cooler-01/bajaj-air-cooler-01-1.png"
   }
 ]

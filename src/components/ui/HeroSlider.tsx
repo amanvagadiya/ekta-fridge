@@ -55,22 +55,7 @@ const HeroSlider = () => {
         <p className="mt-4 text-lg md:text-2xl text-white/90 max-w-2xl">
           {slide.subtitle}
         </p>
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link
-            to="/products?brand=samsung"
-            className="inline-flex items-center gap-2 !px-8 !py-4 !text-base border border-white rounded-full text-white  backdrop-blur-sm"
-          >
-            <img src={samsungLogo} alt="Samsung" className="h-5" />
-            Shop Samsung
-          </Link>
-          <Link
-            to="/products?brand=lg"
-            className="inline-flex items-center gap-2 !px-8 !py-4 !text-base border border-white rounded-full  text-white backdrop-blur-sm "
-          >
-            <img src={lgLogo} alt="LG" className="h-8" />
-            Shop LG
-          </Link>
-        </div>
+        
       </div>
 
       {/* arrows */}

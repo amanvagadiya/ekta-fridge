@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import productsData from "@/data/products.json";
 import { useStore } from "@/context/StoreContext";
 import { Plus, Minus, Trash } from "lucide-react";
@@ -36,7 +36,7 @@ const Cart = () => {
       <div className="container mx-auto px-4 py-8">
         {items.length === 0 ? (
           <div className="text-center">
-            <p className="text-4xl mb-4">🛒</p>
+            <p className="text-4xl mb-4">ðŸ›’</p>
             <h2 className="section-title mb-4">Your cart is empty</h2>
             <Link to="/products" className="btn-primary">
               Browse Products
@@ -46,12 +46,12 @@ const Cart = () => {
           <div className="space-y-6">
             {items.map((item) => (
               <div key={item.id} className="flex flex-col md:flex-row items-center gap-4 p-4 border border-border rounded-xl">
-                <img src={item.image} alt={item.name} className="w-24 h-24 object-cover rounded-lg" />
+                <img src={item.image} alt={item.name} className="w-24 h-24 object-contain bg-secondary p-1 rounded-lg" />
                 <div className="flex-1">
                   <Link to={`/product/${item.id}`} className="font-semibold text-foreground hover:text-primary">
                     {item.name}
                   </Link>
-                  <p className="text-sm text-muted-foreground">₹{item.price.toLocaleString()}</p>
+                  <p className="text-sm text-muted-foreground">â‚¹{item.price.toLocaleString()}</p>
                 </div>
                 <div className="flex items-center gap-2">
                   <button
@@ -78,7 +78,7 @@ const Cart = () => {
             ))}
 
             <div className="text-right font-semibold">
-              Total: ₹{total.toLocaleString()}
+              Total: â‚¹{total.toLocaleString()}
             </div>
           </div>
         )}
@@ -88,3 +88,4 @@ const Cart = () => {
 };
 
 export default Cart;
+

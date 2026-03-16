@@ -3,14 +3,49 @@
     "id": "samsung",
     "name": "Samsung",
     "tagline": "Official Samsung appliances with genuine image galleries",
-    "productCount": 40,
+    "productCount": 52,
     "color": "hsl(210, 100%, 50%)"
   },
   {
     "id": "lg",
     "name": "LG",
     "tagline": "Official LG appliances with real product photography",
-    "productCount": 40,
+    "productCount": 54,
     "color": "hsl(351, 75%, 47%)"
+  },
+  {
+    "id": "maharaja",
+    "name": "Maharaja",
+    "tagline": "Maharaja Whiteline air coolers for powerful home cooling",
+    "color": "hsl(12, 78%, 44%)",
+    "productCount": 5
+  },
+  {
+    "id": "whirlpool",
+    "name": "Whirlpool",
+    "tagline": "Trusted cooling and home appliances for everyday families",
+    "color": "hsl(220, 75%, 45%)",
+    "productCount": 18
+  },
+  {
+    "id": "daikin",
+    "name": "Daikin",
+    "tagline": "Energy-efficient air conditioners with premium cooling control",
+    "color": "hsl(200, 85%, 42%)",
+    "productCount": 6
+  },
+  {
+    "id": "panasonic",
+    "name": "Panasonic",
+    "tagline": "Smart AC performance designed for Indian homes",
+    "color": "hsl(208, 88%, 38%)",
+    "productCount": 6
+  },
+  {
+    "id": "voltas",
+    "name": "Voltas",
+    "tagline": "Reliable cooling systems from a leading Indian brand",
+    "color": "hsl(7, 88%, 55%)",
+    "productCount": 6
   }
 ]

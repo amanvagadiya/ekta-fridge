@@ -5,10 +5,10 @@ import PageHero from "@/components/ui/PageHero";
 const heroContact = "/uploads/hero-contact.jpg";
 
 const contactInfo = [
-  { icon: MapPin, label: "Address", value: "123 Electronics Hub, MG Road, Ahmedabad, Gujarat - 380001" },
+  { icon: MapPin, label: "Address", value: "Shop-No-10, Pirojpura Road, Chhapi Highway,TA-Vadgam,Dist-Banaskantha, Gujarat - 385210" },
   { icon: Phone, label: "Phone", value: "+91-81285-51508", href: "tel:+918128551508" },
-  { icon: Mail, label: "Email", value: "support@EKTA FRIDGE.com", href: "mailto:support@EKTA FRIDGE.com" },
-  { icon: Clock, label: "Hours", value: "Mon–Sat: 9AM–8PM, Sun: 10AM–6PM" },
+  { icon: Mail, label: "Email", value: "arsadshahid786@gmail.com", href: "mailto:arsadshahid786@gmail.com" },
+  { icon: Clock, label: "Hours", value: "Mon–Sat: 9AM–8PM, Sun: 9AM–8PM" },
 ];
 
 const Contact = () => {

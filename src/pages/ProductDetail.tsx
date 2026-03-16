@@ -1,12 +1,19 @@
-import { useEffect, useState } from "react";
+﻿import { useEffect, useMemo, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Star, Truck, ShieldCheck, RotateCcw, Phone, ChevronRight, Minus, Plus, ChevronLeft } from "lucide-react";
 import productsData from "@/data/products.json";
+import brandsData from "@/data/brands.json";
 import { useToast } from "@/hooks/use-toast";
 import { useStore } from "@/context/StoreContext";
 
-const samsungLogo = "/uploads/samsung-logo.png";
-const lgLogo = "/uploads/lg-logo.png";
+const brandLogos: Record<string, string> = {
+  samsung: "/uploads/samsung-logo.png",
+  lg: "/uploads/lg-logo.png",
+  whirlpool: "/uploads/whirlpool-logo.svg",
+  daikin: "/uploads/daikin-logo.png",
+  panasonic: "/uploads/panasonic-logo.svg",
+  voltas: "/uploads/voltas-logo.png",
+};
 
 const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -17,11 +24,13 @@ const ProductDetail = () => {
   const { toast } = useToast();
   const [selectedImage, setSelectedImage] = useState(0);
 
+  const brandMeta = useMemo(() => brandsData.find((b) => b.id === product?.brand), [product?.brand]);
+
   if (!product) {
     return (
       <main className="pt-32 pb-20 min-h-screen">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-6xl mb-4">🔍</p>
+          <p className="text-6xl mb-4">Product missing</p>
           <h2 className="section-title">Product Not Found</h2>
           <Link to="/products" className="btn-primary inline-block mt-6">Back to Products</Link>
         </div>
@@ -31,8 +40,8 @@ const ProductDetail = () => {
 
   const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
   const relatedProducts = productsData.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
-  const images = product.gallery?.length ? product.gallery : [product.image];
-  const brandLogo = product.brand === "samsung" ? samsungLogo : lgLogo;
+  const images = product.gallery?.length ? [...new Set(product.gallery)] : [product.image];
+  const brandLogo = brandLogos[product.brand];
 
   useEffect(() => {
     setSelectedImage(0);
@@ -40,7 +49,6 @@ const ProductDetail = () => {
 
   return (
     <main className="pt-24 pb-20 min-h-screen">
-      {/* Breadcrumb */}
       <div className="container mx-auto px-4 py-4">
         <nav className="flex items-center gap-1.5 text-sm text-muted-foreground">
           <Link to="/" className="hover:text-primary transition-colors">Home</Link>
@@ -51,18 +59,15 @@ const ProductDetail = () => {
         </nav>
       </div>
 
-      {/* Product section */}
       <section className="container mx-auto px-4 py-8">
         <div className="grid lg:grid-cols-2 gap-10 xl:gap-16">
-          {/* Image Gallery */}
           <div className="space-y-4">
             <div className="relative aspect-square rounded-2xl bg-secondary border border-border overflow-hidden">
               <img
                 src={images[selectedImage]}
                 alt={product.name}
-                className="w-full h-full object-cover transition-all duration-300"
+                className="w-full h-full object-contain p-4 transition-all duration-300"
               />
-              {/* arrows */}
               {images.length > 1 && (
                 <>
                   <button
@@ -91,30 +96,36 @@ const ProductDetail = () => {
                 </span>
               )}
             </div>
-            {/* Thumbnails */}
-            <div className="grid grid-cols-4 gap-3">
+
+            <div className="scrollbar-hide flex gap-3 overflow-x-auto pb-2">
               {images.map((img, i) => (
                 <button
-                  key={i}
+                  key={img}
                   onClick={() => setSelectedImage(i)}
-                  className={`aspect-square rounded-xl overflow-hidden border-2 transition-all ${
+                  className={`h-24 w-24 min-w-24 rounded-xl overflow-hidden border-2 transition-all bg-secondary ${
                     selectedImage === i ? "border-primary shadow-md" : "border-border hover:border-primary/30"
                   }`}
                 >
-                  <img src={img} alt={`${product.name} view ${i + 1}`} className="w-full h-full object-cover" loading="lazy" />
+                  <img src={img} alt={`${product.name} view ${i + 1}`} className="w-full h-full object-contain p-1" loading="lazy" />
                 </button>
               ))}
             </div>
           </div>
 
-          {/* Details */}
           <div>
-            {/* Brand Logo */}
             <div className="mb-4">
-              <img src={brandLogo} alt={product.brand} className="h-8 w-auto object-contain" />
+              {brandLogo ? (
+                <img src={brandLogo} alt={brandMeta?.name || product.brand} className="h-8 w-auto object-contain" />
+              ) : (
+                <span
+                  className="inline-flex items-center px-3 py-1 rounded-md text-xs font-bold uppercase text-white"
+                  style={{ backgroundColor: brandMeta?.color || "#334155" }}
+                >
+                  {brandMeta?.name || product.brand}
+                </span>
+              )}
             </div>
 
-            {/* Rating */}
             <div className="flex items-center gap-3 mb-4">
               <div className="flex">
                 {Array.from({ length: 5 }).map((_, i) => (
@@ -128,12 +139,10 @@ const ProductDetail = () => {
               <span className="text-sm text-muted-foreground">({product.reviews} reviews)</span>
             </div>
 
-            {/* Name */}
             <h1 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-4 leading-tight">
               {product.name}
             </h1>
 
-            {/* Meta */}
             <div className="flex flex-wrap items-center gap-4 text-sm mb-6">
               <div>
                 <span className="text-muted-foreground">Category: </span>
@@ -147,13 +156,12 @@ const ProductDetail = () => {
               </div>
             </div>
 
-            {/* Price */}
             <div className="flex items-center gap-3 mb-8">
               <span className="text-3xl font-heading font-extrabold text-primary">
-                ₹{product.price.toLocaleString()}
+                Rs.{product.price.toLocaleString()}
               </span>
               <span className="text-lg text-muted-foreground line-through">
-                ₹{product.originalPrice.toLocaleString()}
+                Rs.{product.originalPrice.toLocaleString()}
               </span>
               {discount > 0 && (
                 <span className="px-3 py-1 rounded-lg text-xs font-bold bg-green-100 text-green-700">
@@ -162,7 +170,6 @@ const ProductDetail = () => {
               )}
             </div>
 
-            {/* Specs */}
             <div className="mb-8">
               <p className="text-sm font-semibold text-foreground mb-3">Specifications</p>
               <div className="flex flex-wrap gap-2">
@@ -174,7 +181,6 @@ const ProductDetail = () => {
               </div>
             </div>
 
-            {/* Quantity + Add to Cart */}
             <div className="flex items-center gap-4 mb-6">
               <div className="flex items-center border border-border rounded-xl overflow-hidden">
                 <button
@@ -194,32 +200,30 @@ const ProductDetail = () => {
                 </button>
               </div>
               <button
+                onClick={() => {
+                  addToCart(product.id, qty);
+                  toast({ title: "Added to cart", description: product.name });
+                }}
+                className="btn-outline flex items-center gap-2 flex-1"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <button
               onClick={() => {
-                addToCart(product.id, qty);
-                toast({ title: "Added to cart", description: product.name });
+                const msg = `Hello EKTA FRIDGE!\n\nI'd like to buy:\n- ${product.name}\n- Brand: ${brandMeta?.name || product.brand}\n- Category: ${product.category.replace("-", " ")}\n- Quantity: ${qty}\n- Price: Rs.${product.price.toLocaleString()} (${discount}% off)\n\nProduct link: ${window.location.href}`;
+                const url = `https://wa.me/918128551508?text=${encodeURIComponent(msg)}`;
+                window.open(url, "_blank");
               }}
-              className="btn-outline flex items-center gap-2 flex-1"
+              className="btn-primary w-full !py-4 !text-base mb-8"
             >
-              Add to Cart
+              Buy Now
             </button>
-          </div>
 
-          {/* Buy Now */}
-          <button
-            onClick={() => {
-              const msg = `Hello EKTA FRIDGE!\n\nI'd like to buy:\n- ${product.name}\n- Brand: ${product.brand}\n- Category: ${product.category.replace("-", " ")}\n- Quantity: ${qty}\n- Price: ₹${product.price.toLocaleString()} (${discount}% off)\n\nProduct link: ${window.location.href}`;
-              const url = `https://wa.me/918128551508?text=${encodeURIComponent(msg)}`;
-              window.open(url, "_blank");
-            }}
-            className="btn-primary w-full !py-4 !text-base mb-8"
-          >
-            Buy Now
-          </button>
-
-            {/* Shipping Info */}
             <div className="grid grid-cols-2 gap-3">
               {[
-                { icon: Truck, text: "Free Shipping on orders above ₹10,000" },
+                { icon: Truck, text: "Free Shipping on orders above Rs.10,000" },
                 { icon: ShieldCheck, text: "2 Year Manufacturer Warranty" },
                 { icon: RotateCcw, text: "Easy 7-Day Return Policy" },
                 { icon: Phone, text: "24/7 Customer Support" },
@@ -234,7 +238,6 @@ const ProductDetail = () => {
         </div>
       </section>
 
-      {/* Tabs */}
       <section className="container mx-auto px-4 py-12">
         <div className="border-b border-border mb-8">
           <div className="flex gap-0">
@@ -259,9 +262,9 @@ const ProductDetail = () => {
             <div>
               <h3 className="font-heading font-semibold text-foreground mb-4">Description</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                The {product.name} is a premium {product.category.replace("-", " ")} from {product.brand === "samsung" ? "Samsung" : "LG"}. 
-                Built with cutting-edge technology and designed for maximum efficiency, this product delivers 
-                exceptional performance for your home. With features like {product.specs.join(", ")}, it sets a new 
+                The {product.name} is a premium {product.category.replace("-", " ")} from {brandMeta?.name || product.brand}. 
+                Built with modern technology and designed for daily efficiency, this product delivers
+                dependable performance for your home. With features like {product.specs.join(", ")}, it sets a high
                 standard in its category.
               </p>
             </div>
@@ -270,7 +273,7 @@ const ProductDetail = () => {
               <ul className="space-y-3">
                 {[
                   "2 Year Manufacturer Warranty",
-                  "Free Shipping & Fast Delivery",
+                  "Free Shipping and Fast Delivery",
                   "100% Money-back Guarantee",
                   "24/7 Customer Support",
                   "Secure Payment Methods",
@@ -286,7 +289,7 @@ const ProductDetail = () => {
               <h3 className="font-heading font-semibold text-foreground mb-4">Shipping Information</h3>
               <ul className="space-y-3 text-sm text-muted-foreground">
                 <li><span className="font-medium text-foreground">Standard:</span> 3-5 business days, Free</li>
-                <li><span className="font-medium text-foreground">Express:</span> 1-2 business days, ₹299</li>
+                <li><span className="font-medium text-foreground">Express:</span> 1-2 business days, Rs.299</li>
                 <li><span className="font-medium text-foreground">Installation:</span> Free professional setup</li>
                 <li><span className="font-medium text-foreground">Returns:</span> 7-day easy return policy</li>
               </ul>
@@ -295,14 +298,13 @@ const ProductDetail = () => {
         ) : (
           <div className="max-w-2xl">
             <p className="text-muted-foreground text-sm">
-              This product has {product.reviews} reviews with an average rating of {product.rating} out of 5 stars. 
+              This product has {product.reviews} reviews with an average rating of {product.rating} out of 5 stars.
               Customer reviews will be displayed here.
             </p>
           </div>
         )}
       </section>
 
-      {/* Related Products */}
       {relatedProducts.length > 0 && (
         <section className="container mx-auto px-4 py-12">
           <h2 className="section-title mb-8">Related Products</h2>
@@ -310,13 +312,13 @@ const ProductDetail = () => {
             {relatedProducts.map((p) => (
               <Link key={p.id} to={`/product/${p.id}`} className="premium-card overflow-hidden group hover:-translate-y-1">
                 <div className="aspect-square bg-secondary overflow-hidden">
-                  <img src={p.image} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  <img src={p.image} alt={p.name} className="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 </div>
                 <div className="p-4">
                   <h3 className="font-heading font-semibold text-sm text-foreground line-clamp-2 mb-2">{p.name}</h3>
                   <div className="flex items-baseline gap-2">
-                    <span className="font-heading font-bold text-primary">₹{p.price.toLocaleString()}</span>
-                    <span className="text-xs text-muted-foreground line-through">₹{p.originalPrice.toLocaleString()}</span>
+                    <span className="font-heading font-bold text-primary">Rs.{p.price.toLocaleString()}</span>
+                    <span className="text-xs text-muted-foreground line-through">Rs.{p.originalPrice.toLocaleString()}</span>
                   </div>
                 </div>
               </Link>

@@ -83,7 +83,7 @@ const Footer = () => {
                 <a href="tel:+918128551508" className="hover:text-primary transition-colors">+91-81285-51508</a>
               </li>
               <li>
-                <a href="mailto:support@EKTA FRIDGE.com" className="hover:text-primary transition-colors">support@EKTAFRIDGE.com</a>
+                <a href="mailto:arsadshahid786@gmail.com" className="hover:text-primary transition-colors">arsadshahid786@gmail.com</a>
               </li>
               <li>Mon–Sat: 9AM–8PM, Sun: 9AM–8PM</li>
             </ul>

@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+﻿import { useNavigate } from "react-router-dom";
 
 interface CategoryCardProps {
   id: string;
@@ -20,7 +20,7 @@ const CategoryCard = ({ id, label, count, image }: CategoryCardProps) => {
         <img
           src={image}
           alt={label}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+          className="w-full h-full object-contain p-2 group-hover:scale-110 transition-transform duration-500"
           loading="lazy"
         />
       </div>

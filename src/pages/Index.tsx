@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 import HeroSlider from "@/components/ui/HeroSlider";
 import BrandCard from "@/components/ui/BrandCard";
 import CategoryCard from "@/components/ui/CategoryCard";
@@ -16,13 +16,21 @@ import categoriesData from "@/data/categories.json";
 import faqsData from "@/data/faqs.json";
 import testimonialsData from "@/data/testimonials.json";
 
-const bestSellers = productsData.filter((p) => p.badge === "Best Seller").slice(0, 4);
+const visibleBrandIds = ["samsung", "lg", "whirlpool", "daikin", "panasonic", "voltas"];
+const visibleBrands = brandsData.filter((brand) => visibleBrandIds.includes(brand.id));
 
-// Set deal end date to 15 days from now
+const trendingProducts = [...productsData]
+  .sort((a, b) => {
+    const scoreA = a.rating * 100 + a.reviews;
+    const scoreB = b.rating * 100 + b.reviews;
+    return scoreB - scoreA;
+  })
+  .slice(0, 8);
+
 const dealEndDate = new Date(Date.now() + 15 * 24 * 60 * 60 * 1000);
 
 const whyUs = [
-  { icon: Truck, title: "Free Delivery", desc: "On orders above ₹10,000" },
+  { icon: Truck, title: "Free Delivery", desc: "On orders above Rs.10,000" },
   { icon: Shield, title: "2-Year Warranty", desc: "On all products" },
   { icon: Phone, title: "24/7 Support", desc: "Always here to help" },
   { icon: RotateCcw, title: "Easy 7-Day Returns", desc: "Hassle-free returns" },
@@ -32,7 +40,7 @@ const stats = [
   { value: "50,000+", label: "Happy Customers" },
   { value: "10+", label: "Years Experience" },
   { value: `${productsData.length}+`, label: "Products" },
-  { value: String(brandsData.length), label: "Premium Brands" },
+  { value: String(visibleBrands.length), label: "Premium Brands" },
 ];
 
 const Index = () => {
@@ -40,7 +48,6 @@ const Index = () => {
     <main>
       <HeroSlider />
 
-      {/* Brands */}
       <section id="brands" className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -50,22 +57,21 @@ const Index = () => {
             <h2 className="section-title">Our Trusted Brands</h2>
             <p className="section-subtitle">Authorized dealer for world-class electronics</p>
           </div>
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            {brandsData.map((brand) => (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            {visibleBrands.map((brand) => (
               <BrandCard key={brand.id} {...brand} />
             ))}
           </div>
         </div>
       </section>
 
-      {/* Categories */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Shop by Category</h2>
             <p className="section-subtitle">Find exactly what you need</p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {categoriesData.map((cat) => (
               <CategoryCard key={cat.id} {...cat} />
             ))}
@@ -73,15 +79,14 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Best Sellers */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="section-title">🔥 Best Sellers This Month</h2>
-            <p className="section-subtitle">Top picks loved by our customers</p>
+            <h2 className="section-title">Trending Products</h2>
+            <p className="section-subtitle">Top performing products with real galleries</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {bestSellers.map((product) => (
+            {trendingProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
@@ -93,7 +98,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Why Choose Us */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -114,14 +118,12 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Deals Banner with Timer + Promo Slider */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          {/* Timer Section */}
           <div className="rounded-3xl p-8 md:p-14 text-center bg-gradient-to-br from-primary/5 via-background to-accent/5 border border-border relative overflow-hidden mb-10">
             <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-primary/5 blur-3xl" />
             <div className="absolute bottom-0 left-0 w-48 h-48 rounded-full bg-accent/5 blur-3xl" />
-            
+
             <div className="relative z-10">
               <div className="w-16 h-16 rounded-2xl bg-accent/10 flex items-center justify-center mx-auto mb-6">
                 <Zap className="w-8 h-8 text-accent" />
@@ -129,10 +131,10 @@ const Index = () => {
               <h2 className="text-2xl md:text-4xl font-heading font-extrabold text-foreground mb-3">
                 Limited Offer: Up to 40% OFF on ACs!
               </h2>
-              <p className="text-muted-foreground mb-10 text-lg">Hurry up — offer ends soon!</p>
-              
+              <p className="text-muted-foreground mb-10 text-lg">Hurry up - offer ends soon!</p>
+
               <CountdownTimer targetDate={dealEndDate} />
-              
+
               <div className="mt-10">
                 <Link to="/products?category=ac" className="btn-primary inline-block !px-10 !py-4 !text-base shadow-lg shadow-primary/20">
                   Shop ACs Now
@@ -141,14 +143,12 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Promo Banner Slider */}
           <PromoSlider />
         </div>
       </section>
 
       <StatCounter stats={stats} />
 
-      {/* Testimonials */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -165,12 +165,11 @@ const Index = () => {
 
       <NewsletterSection />
 
-      {/* FAQ */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="section-title">Frequently Asked Questions</h2>
-            <p className="section-subtitle">Got questions? We've got answers.</p>
+            <p className="section-subtitle">Got questions? We have answers.</p>
           </div>
           <FAQAccordion items={faqsData} />
         </div>
