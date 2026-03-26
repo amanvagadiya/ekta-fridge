@@ -15,7 +15,7 @@ const values = [
 const team = [
   { name: "ARSAD VAGADIYA", role: "CEO & Founder", initials: "AV", bio: "Electronics industry veteran with 15+ years of experience in consumer appliances." },
   { name: "MOHASIN VAGADIYA", role: "Head of Sales", initials: "MV", bio: "Leading our sales team to deliver exceptional customer experiences across India." },
-  { name: "Arjun Singh", role: "Support Lead", initials: "AS", bio: "Ensuring every customer query is resolved with speed and care." },
+  { name: "AMAN VAGADIYA", role: "Support Lead", initials: "AV", bio: "Ensuring every customer query is resolved with speed and care." },
 ];
 
 const stats = [
