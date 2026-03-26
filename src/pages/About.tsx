@@ -13,7 +13,7 @@ const values = [
 ];
 
 const team = [
-  { name: "Vikram Mehta", role: "CEO & Founder", initials: "VM", bio: "Electronics industry veteran with 15+ years of experience in consumer appliances." },
+  { name: "ARSAD VAGADIYA", role: "CEO & Founder", initials: "AV", bio: "Electronics industry veteran with 15+ years of experience in consumer appliances." },
   { name: "Neha Kapoor", role: "Head of Sales", initials: "NK", bio: "Leading our sales team to deliver exceptional customer experiences across India." },
   { name: "Arjun Singh", role: "Support Lead", initials: "AS", bio: "Ensuring every customer query is resolved with speed and care." },
 ];
