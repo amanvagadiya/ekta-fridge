@@ -122,11 +122,11 @@
   {
     "id": "daikin-ac-01",
     "modelCode": "ATKM50UV",
-    "name": "DAIKIN Premium Series 1.5 Ton 5 Star Inverter Split AC (2024 Model, Copper Condenser, PM 2.5 Filter, ATKM50UV16VA)",
+    "name": "dikin Premium Series 1.5 Ton 5 Star Inverter Split AC (2024 Model, Copper Condenser, PM 2.5 Filter, ATKM50UV16VA)",
     "brand": "daikin",
     "category": "ac",
     "price": 36000,
-    "originalPrice": 49668,
+    "originalPrice": 36668,
     "rating": 4.3,
     "reviews": 95,
     "image": "/uploads/catalog/daikin/daikin-ac-01/daikin-ac-01-1.png",
@@ -180,7 +180,7 @@
   {
     "id": "daikin-ac-03",
     "modelCode": "FTL50UV",
-    "name": "Daikin Standard Series 1.5 Ton 3 Star Split AC (Copper Condenser, PM 2.5 Filter, FTL50UV)",
+    "name": "dikin Standard Series 1.5 Ton 3 Star Split AC (Copper Condenser, PM 2.5 Filter, FTL50UV)",
     "brand": "daikin",
     "category": "ac",
     "price": 36690,
@@ -211,7 +211,7 @@
   {
     "id": "daikin-ac-04",
     "modelCode": "ATKL35UV16W",
-    "name": "DAIKIN Premium Series 1 Ton 3 Star Inverter Split Smart AC with Dew Clean Technology (2022 Model, Copper Condenser, ATKL35UV16W)",
+    "name": "dikin Premium Series 1 Ton 3 Star Inverter Split Smart AC with Dew Clean Technology (2022 Model, Copper Condenser, ATKL35UV16W)",
     "brand": "daikin",
     "category": "ac",
     "price": 30990,
@@ -242,7 +242,7 @@
   {
     "id": "daikin-ac-05",
     "modelCode": "V3",
-    "name": "DAIKIN Premium Series 1.5 Ton 3 Star Inverter Split Smart AC with Dew Clean Technology (2022 Model, Copper Condenser, ATKL50UV16V/U/V3)",
+    "name": "dikin Premium Series 1.5 Ton 3 Star Inverter Split Smart AC with Dew Clean Technology (2022 Model, Copper Condenser, ATKL50UV16V/U/V3)",
     "brand": "daikin",
     "category": "ac",
     "price": 35490,
@@ -273,7 +273,7 @@
   {
     "id": "daikin-ac-06",
     "modelCode": "FTKM35UV16W",
-    "name": "DAIKIN Premium Series 1 Ton 5 Star Inverter Split AC with Anti-Corrosion Treatment (2022 Model, Copper Condenser, FTKM35UV16W)",
+    "name": "dikin Premium Series 1 Ton 5 Star Inverter Split AC with Anti-Corrosion Treatment (2022 Model, Copper Condenser, FTKM35UV16W)",
     "brand": "daikin",
     "category": "ac",
     "price": 36990,
