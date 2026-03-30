@@ -1,6 +1,6 @@
 ﻿export const SITE_URL = "https://ekta-fridge.vercel.app";
 
-export const VISIBLE_BRANDS = ["Samsung", "LG", "Whirlpool", "dikin", "Panasonic", "Voltas"];
+export const VISIBLE_BRANDS = ["Samsung", "LG", "Whirlpool", "DAIKIN", "Panasonic", "Voltas"];
 
 export const DEFAULT_KEYWORDS = [
   "Ekta",
@@ -19,7 +19,7 @@ export const DEFAULT_KEYWORDS = [
   "Samsung",
   "LG",
   "Whirlpool",
-  "dikin",
+  "DAIKIN",
   "Panasonic",
   "Voltas",
   "Chhapi",

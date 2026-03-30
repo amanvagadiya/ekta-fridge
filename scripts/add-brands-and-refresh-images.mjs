@@ -14,7 +14,7 @@ const incomingBrands = [
   },
   {
     id: "daikin",
-    name: "dikin",
+    name: "DAIKIN",
     tagline: "Energy-efficient air conditioners with premium cooling control",
     color: "hsl(200, 85%, 42%)",
   },
