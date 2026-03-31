@@ -46,6 +46,13 @@
     "name": "Voltas",
     "tagline": "Reliable cooling systems from a leading Indian brand",
     "color": "hsl(7, 88%, 55%)",
+    "productCount": 11
+  },
+  {
+    "id": "rockwell",
+    "name": "Rockwell",
+    "tagline": "Commercial deep freezer solutions for retail and cold storage use",
+    "color": "hsl(202, 79%, 38%)",
     "productCount": 6
   }
 ]
