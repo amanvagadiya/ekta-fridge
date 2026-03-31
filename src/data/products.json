@@ -4157,12 +4157,13 @@
     "originalPrice": 29250,
     "rating": 4.2,
     "reviews": 44,
-    "image": "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-4-cutout.png",
+    "image": "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-2-cutout.png",
     "gallery": [
+      "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-2-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-3-cutout.png",
       "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-4-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-6-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-1-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-5-cutout.png"
+      "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-5-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-01/voltas-freezer-01-6-cutout.png"
     ],
     "capacity": 97,
     "badge": "New",
@@ -4186,12 +4187,13 @@
     "originalPrice": 34450,
     "rating": 4.3,
     "reviews": 53,
-    "image": "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-4-cutout.png",
+    "image": "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-2-cutout.png",
     "gallery": [
+      "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-2-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-3-cutout.png",
       "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-4-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-6-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-1-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-5-cutout.png"
+      "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-5-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-02/voltas-freezer-02-6-cutout.png"
     ],
     "capacity": 190,
     "badge": null,
@@ -4215,12 +4217,13 @@
     "originalPrice": 46490,
     "rating": 4.4,
     "reviews": 62,
-    "image": "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-4-cutout.png",
+    "image": "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-2-cutout.png",
     "gallery": [
-      "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-4-cutout.png",
       "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-2-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-1-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-3-cutout.png"
+      "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-3-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-4-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-5-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-03/voltas-freezer-03-6-cutout.png"
     ],
     "capacity": 275,
     "badge": "Best Seller",
@@ -4244,12 +4247,13 @@
     "originalPrice": 51990,
     "rating": 4.5,
     "reviews": 71,
-    "image": "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-4-cutout.png",
+    "image": "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-2-cutout.png",
     "gallery": [
+      "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-2-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-3-cutout.png",
       "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-4-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-6-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-1-cutout.png",
-      "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-2-cutout.png"
+      "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-5-cutout.png",
+      "/uploads/catalog/voltas/voltas-freezer-04/voltas-freezer-04-6-cutout.png"
     ],
     "capacity": 326,
     "badge": null,
@@ -4273,9 +4277,8 @@
     "originalPrice": 48990,
     "rating": 4.5,
     "reviews": 84,
-    "image": "/uploads/catalog/voltas/voltas-freezer-05/voltas-freezer-05-1-cutout.png",
+    "image": "/uploads/catalog/voltas/voltas-freezer-05/voltas-freezer-05-2-cutout.png",
     "gallery": [
-      "/uploads/catalog/voltas/voltas-freezer-05/voltas-freezer-05-1-cutout.png",
       "/uploads/catalog/voltas/voltas-freezer-05/voltas-freezer-05-2-cutout.png",
       "/uploads/catalog/voltas/voltas-freezer-05/voltas-freezer-05-3-cutout.png"
     ],
