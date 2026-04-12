@@ -3,14 +3,14 @@
     "id": "samsung",
     "name": "Samsung",
     "tagline": "Official Samsung appliances with genuine image galleries",
-    "productCount": 52,
+    "productCount": 48,
     "color": "hsl(210, 100%, 50%)"
   },
   {
     "id": "lg",
     "name": "LG",
     "tagline": "Official LG appliances with real product photography",
-    "productCount": 54,
+    "productCount": 50,
     "color": "hsl(351, 75%, 47%)"
   },
   {
@@ -32,7 +32,7 @@
     "name": "DAIKIN",
     "tagline": "Energy-efficient air conditioners with premium cooling control",
     "color": "hsl(200, 85%, 42%)",
-    "productCount": 6
+    "productCount": 28
   },
   {
     "id": "panasonic",
