@@ -77,8 +77,8 @@ const ProductDetail = () => {
   };
 
   const trustBadges = [
-    { icon: Truck,        label: "Free Shipping",  sub: "Orders above Rs.10,000" },
-    { icon: ShieldCheck,  label: "2 Year Warranty", sub: "Manufacturer backed" },
+    { icon: Truck,        label: "2 Year Compressor",  sub: "Compressor coverage included" },
+    { icon: ShieldCheck,  label: "1 Year Warranty", sub: "Manufacturer backed" },
     { icon: RotateCcw,    label: "7-Day Returns",  sub: "Hassle-free policy" },
     { icon: Phone,        label: "24/7 Support",   sub: "Always here for you" },
   ];
@@ -474,7 +474,7 @@ const ProductDetail = () => {
             <div>
               <h3 className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3">Key Features</h3>
               <ul className="space-y-2">
-                {["2 Year Manufacturer Warranty","Free Shipping & Fast Delivery","100% Authentic Product","Professional Installation","Secure Payment Methods"].map((f) => (
+                {["1 Year Manufacturer Warranty","2 Year Compressor","100% Authentic Product","Professional Installation","Secure Payment Methods"].map((f) => (
                   <li key={f} className="flex items-start gap-2 text-sm text-muted-foreground">
                     <CheckCircle2 className="w-4 h-4 text-primary mt-0.5 shrink-0" />{f}
                   </li>

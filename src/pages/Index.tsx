@@ -31,8 +31,8 @@ const trendingProducts = [...productsData]
 const dealEndDate = new Date(Date.now() + 15 * 24 * 60 * 60 * 1000);
 
 const whyUs = [
-  { icon: Truck, title: "Free Delivery", desc: "On orders above Rs.10,000" },
-  { icon: Shield, title: "2-Year Warranty", desc: "On all products" },
+  { icon: Truck, title: "2 Year Compressor", desc: "Compressor coverage included" },
+  { icon: Shield, title: "1-Year Warranty", desc: "Manufacturer backed" },
   { icon: Phone, title: "24/7 Support", desc: "Always here to help" },
   { icon: RotateCcw, title: "Easy 7-Day Returns", desc: "Hassle-free returns" },
 ];

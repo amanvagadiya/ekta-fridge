@@ -37,8 +37,8 @@ const slides = [
 ];
 
 const perks = [
-  { icon: Truck,        text: "Free Shipping above Rs.10,000" },
-  { icon: ShieldCheck,  text: "2-Year Manufacturer Warranty" },
+  { icon: Truck,        text: "2-Year Compressor Warranty" },
+  { icon: ShieldCheck,  text: "1-Year Manufacturer Warranty" },
   { icon: Zap,          text: "Same-Day Installation Available" },
 ];
 
