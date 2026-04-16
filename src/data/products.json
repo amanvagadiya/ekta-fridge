@@ -2912,68 +2912,6 @@
     "sourceUrl": "https://www.croma.com/panasonic-eu-7-in-1-convertible-1-5-ton-5-star-inverter-split-smart-ac-with-voice-assistant-copper-condenser-cs-cu-eu18bky5xfm-/p/313386"
   },
   {
-    "id": "panasonic-ac-07",
-    "modelCode": "NU18AKY5W",
-    "name": "Panasonic NU 7 in 1 Convertible 1.5 Ton 5 Star Inverter Split Smart AC with Wi-Fi Enabled (2025 Model, Copper Condenser, CS/CU-NU18AKY5W)",
-    "brand": "panasonic",
-    "category": "ac",
-    "price": 43990,
-    "originalPrice": 50589,
-    "rating": 4.6,
-    "reviews": 148,
-    "image": "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-1.png",
-    "gallery": [
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-1.png",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-2.jpg",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-3.png",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-4.png",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-5.png",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-6.png"
-    ],
-    "capacity": null,
-    "badge": "New",
-    "specs": [
-      "1.5 Ton",
-      "5 Star",
-      "Inverter",
-      "Copper Condenser",
-      "2025 Model"
-    ],
-    "inStock": true,
-    "sourceUrl": "manual-panasonic-2025"
-  },
-  {
-    "id": "panasonic-ac-08",
-    "modelCode": "NU18BKY3W",
-    "name": "Panasonic NU 7 in 1 Convertible 1.5 Ton 3 Star Inverter Split Smart AC with Wi-Fi Enabled (2026 Model, Copper Condenser, CS/CU-NU18BKY3W)",
-    "brand": "panasonic",
-    "category": "ac",
-    "price": 38990,
-    "originalPrice": 44839,
-    "rating": 4.5,
-    "reviews": 92,
-    "image": "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-1.png",
-    "gallery": [
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-1.png",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-2.jpg",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-3.png",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-4.png",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-5.png",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-6.png"
-    ],
-    "capacity": null,
-    "badge": "Trending",
-    "specs": [
-      "1.5 Ton",
-      "3 Star",
-      "Inverter",
-      "Copper Condenser",
-      "2026 Model"
-    ],
-    "inStock": true,
-    "sourceUrl": "manual-panasonic-2026"
-  },
-  {
     "id": "rockwell-freezer-01",
     "modelCode": "RKW-70-HT",
     "name": "Rockwell 70 Hard Top Deep Freezer, Convertible Freezer and Cooler, Single Door",
@@ -6214,5 +6152,67 @@
     ],
     "inStock": true,
     "sourceUrl": "https://www.croma.com/whirlpool-10-kg-5-star-fully-automatic-top-load-washing-machine-360-bw-pro-h-31688-in-built-heater-graphite-/p/313647"
+  },
+  {
+    "id": "panasonic-ac-07",
+    "modelCode": "NU18AKY5W",
+    "name": "Panasonic NU 7 in 1 Convertible 1.5 Ton 5 Star Inverter Split Smart AC with Wi-Fi Enabled (2025 Model, Copper Condenser, CS/CU-NU18AKY5W)",
+    "brand": "panasonic",
+    "category": "ac",
+    "price": 43990,
+    "originalPrice": 50589,
+    "rating": 4.6,
+    "reviews": 148,
+    "image": "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-1.png",
+    "gallery": [
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-1.png",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-2.jpg",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-3.png",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-4.png",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-5.png",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "1.5 Ton",
+      "5 Star",
+      "Inverter",
+      "Copper Condenser",
+      "2025 Model"
+    ],
+    "inStock": true,
+    "sourceUrl": "manual-panasonic-2025"
+  },
+  {
+    "id": "panasonic-ac-08",
+    "modelCode": "NU18BKY3W",
+    "name": "Panasonic NU 7 in 1 Convertible 1.5 Ton 3 Star Inverter Split Smart AC with Wi-Fi Enabled (2026 Model, Copper Condenser, CS/CU-NU18BKY3W)",
+    "brand": "panasonic",
+    "category": "ac",
+    "price": 38990,
+    "originalPrice": 44839,
+    "rating": 4.5,
+    "reviews": 92,
+    "image": "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-1.png",
+    "gallery": [
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-1.png",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-2.jpg",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-3.png",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-4.png",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-5.png",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-6.png"
+    ],
+    "capacity": null,
+    "badge": "Trending",
+    "specs": [
+      "1.5 Ton",
+      "3 Star",
+      "Inverter",
+      "Copper Condenser",
+      "2026 Model"
+    ],
+    "inStock": true,
+    "sourceUrl": "manual-panasonic-2026"
   }
 ]

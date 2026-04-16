@@ -488,7 +488,7 @@ const ProductDetail = () => {
                   { label: "Standard",     value: "3–5 business days · Free" },
                   { label: "Express",      value: "1–2 business days · Rs.299" },
                   { label: "Installation", value: "Free professional setup" },
-                  { label: "Returns",      value: "7-day easy return policy" },
+                  { label: "Returns",      value: "No return policy" },
                 ].map((row) => (
                   <div key={row.label} className="flex justify-between gap-2 pb-2.5 border-b border-border/50 last:border-0 last:pb-0 text-sm">
                     <span className="font-semibold text-foreground">{row.label}</span>
