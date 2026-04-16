@@ -79,7 +79,7 @@ const ProductDetail = () => {
   const trustBadges = [
     { icon: Truck,        label: "2 Year Compressor",  sub: "Compressor coverage included" },
     { icon: ShieldCheck,  label: "1 Year Warranty", sub: "Manufacturer backed" },
-    { icon: RotateCcw,    label: "7-Day Returns",  sub: "Hassle-free policy" },
+    { icon: RotateCcw,    label: "Professional Installation",  sub: "Expert setup available" },
     { icon: Phone,        label: "24/7 Support",   sub: "Always here for you" },
   ];
 

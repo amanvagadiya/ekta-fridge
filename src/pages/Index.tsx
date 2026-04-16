@@ -34,7 +34,7 @@ const whyUs = [
   { icon: Truck, title: "2 Year Compressor", desc: "Compressor coverage included" },
   { icon: Shield, title: "1-Year Warranty", desc: "Manufacturer backed" },
   { icon: Phone, title: "24/7 Support", desc: "Always here to help" },
-  { icon: RotateCcw, title: "Easy 7-Day Returns", desc: "Hassle-free returns" },
+  { icon: RotateCcw, title: "Professional Installation", desc: "Expert setup available" },
 ];
 
 const stats = [
