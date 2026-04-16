@@ -4634,6 +4634,68 @@
     "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/wa4000am-twin-5-star-energy-rating-hexa-storm-pulsator-magic-mixer-9-5kg-ebony-black-wt95a4260gd-tl/"
   },
   {
+    "id": "samsung-washing-machine-11",
+    "modelCode": "WT85B4200RR-TL",
+    "name": "Samsung 8.5 kg Semi Automatic Washing Machine WT85B4200RR/TL",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 13290,
+    "originalPrice": 17990,
+    "rating": 4.5,
+    "reviews": 264,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-11/samsung-washing-machine-11-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-11/samsung-washing-machine-11-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-11/samsung-washing-machine-11-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-11/samsung-washing-machine-11-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-11/samsung-washing-machine-11-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-11/samsung-washing-machine-11-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-11/samsung-washing-machine-11-6.png"
+    ],
+    "capacity": null,
+    "badge": "Popular",
+    "specs": [
+      "8.5 kg",
+      "Semi Automatic",
+      "Hexa Storm Pulsator",
+      "Air Turbo Drying",
+      "WT85B4200RR-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/wa4000am-twin-5-star-energy-rating-hexa-storm-pulsator-magic-mixer-8-5kg-light-grey-wt85b4200rr-tl/"
+  },
+  {
+    "id": "samsung-washing-machine-12",
+    "modelCode": "WT75B3200RR-TL",
+    "name": "Samsung 7.5 kg Semi Automatic Washing Machine WT75B3200RR/TL",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 11490,
+    "originalPrice": 15490,
+    "rating": 4.4,
+    "reviews": 198,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-12/samsung-washing-machine-12-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-12/samsung-washing-machine-12-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-12/samsung-washing-machine-12-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-12/samsung-washing-machine-12-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-12/samsung-washing-machine-12-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-12/samsung-washing-machine-12-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-12/samsung-washing-machine-12-6.png"
+    ],
+    "capacity": null,
+    "badge": "Budget Pick",
+    "specs": [
+      "7.5 kg",
+      "Semi Automatic",
+      "Double Storm Pulsator",
+      "Air Turbo Drying",
+      "WT75B3200RR-TL"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/wa4000am-twin-5-star-energy-rating-hexa-storm-pulsator-magic-mixer-7-5kg-light-grey-wt75b3200rr-tl/"
+  },
+  {
     "id": "symphony-air-cooler-01",
     "modelCode": "CM-320557",
     "name": "Symphony Silenzo 55 Litres Personal Air Cooler with Auto Louver Movement (Inverter Compatible, White & Blue)",
