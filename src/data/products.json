@@ -5037,6 +5037,68 @@
     "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/wa4000am-twin-5-star-energy-rating-hexa-storm-pulsator-magic-mixer-7-5kg-light-grey-wt75b3200rr-tl/"
   },
   {
+    "id": "samsung-washing-machine-13",
+    "modelCode": "SAMSUNG-SEMI-10KG-01",
+    "name": "Samsung 10 kg Semi Automatic Washing Machine",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 15990,
+    "originalPrice": 20990,
+    "rating": 4.5,
+    "reviews": 176,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-13/samsung-washing-machine-13-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-13/samsung-washing-machine-13-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-13/samsung-washing-machine-13-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-13/samsung-washing-machine-13-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-13/samsung-washing-machine-13-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-13/samsung-washing-machine-13-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-13/samsung-washing-machine-13-6.png"
+    ],
+    "capacity": null,
+    "badge": "Popular",
+    "specs": [
+      "10 kg",
+      "Semi Automatic",
+      "Hexa Storm Pulsator",
+      "Air Turbo Drying",
+      "5 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/"
+  },
+  {
+    "id": "samsung-washing-machine-14",
+    "modelCode": "SAMSUNG-SEMI-11KG-01",
+    "name": "Samsung 11 kg Semi Automatic Washing Machine",
+    "brand": "samsung",
+    "category": "washing-machine",
+    "price": 17490,
+    "originalPrice": 22990,
+    "rating": 4.6,
+    "reviews": 143,
+    "image": "/uploads/catalog/samsung/samsung-washing-machine-14/samsung-washing-machine-14-1.png",
+    "gallery": [
+      "/uploads/catalog/samsung/samsung-washing-machine-14/samsung-washing-machine-14-1.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-14/samsung-washing-machine-14-2.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-14/samsung-washing-machine-14-3.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-14/samsung-washing-machine-14-4.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-14/samsung-washing-machine-14-5.png",
+      "/uploads/catalog/samsung/samsung-washing-machine-14/samsung-washing-machine-14-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "11 kg",
+      "Semi Automatic",
+      "Hexa Storm Pulsator",
+      "Air Turbo Drying",
+      "5 Star"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.samsung.com/in/washers-and-dryers/washing-machines/"
+  },
+  {
     "id": "symphony-air-cooler-01",
     "modelCode": "CM-320557",
     "name": "Symphony Silenzo 55 Litres Personal Air Cooler with Auto Louver Movement (Inverter Compatible, White & Blue)",
