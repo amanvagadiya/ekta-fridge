@@ -34,7 +34,7 @@ const Products = () => {
   const showCapacity = filters.categories.some((c) => c === "fridge" || c === "freezer");
 
   const filtered = useMemo(() => {
-    let items = [...productsData];
+    let items = [...productsData].reverse();
 
     if (filters.search) {
       const q = filters.search.toLowerCase();
