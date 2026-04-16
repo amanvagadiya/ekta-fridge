@@ -55,8 +55,8 @@ const Wishlist = () => {
                   <Heart className="w-5 h-5" />
                 </button>
                 <Link to={productPathFromProduct(item)} className="block">
-                  <div className="aspect-square bg-secondary overflow-hidden rounded-lg mb-2">
-                    <img src={item.image} alt={item.name} className="w-full h-full object-contain bg-secondary p-1" />
+                  <div className="aspect-square bg-transparent overflow-hidden rounded-lg mb-2">
+                    <img src={item.image} alt={item.name} className="w-full h-full object-contain bg-transparent p-1" />
                   </div>
                   <h3 className="font-heading font-semibold text-sm text-foreground mb-1 line-clamp-2">
                     {item.name}

@@ -108,7 +108,7 @@ const ProductDetail = () => {
           padding-bottom: 100%;
           border-radius: 1rem;
           overflow: hidden;
-          background: linear-gradient(135deg,#f1f5f9 0%,#ffffff 100%);
+          background: transparent;
           border: 1px solid var(--color-border, #e2e8f0);
         }
         .main-img-box img {
@@ -140,7 +140,7 @@ const ProductDetail = () => {
           border-radius: .6rem;
           overflow: hidden;
           border: 2px solid var(--color-border, #e2e8f0);
-          background: var(--color-secondary, #f8fafc);
+          background: transparent;
           cursor: pointer;
           transition: border-color .18s, box-shadow .18s;
         }
@@ -177,7 +177,7 @@ const ProductDetail = () => {
             border-radius: .6rem;
             overflow: hidden;
             border: 2px solid var(--color-border, #e2e8f0);
-            background: var(--color-secondary, #f8fafc);
+            background: transparent;
             cursor: pointer;
             transition: border-color .18s, box-shadow .18s;
           }
@@ -514,7 +514,7 @@ const ProductDetail = () => {
                 const rd = Math.round(((p.originalPrice - p.price) / p.originalPrice) * 100);
                 return (
                   <Link key={p.id} to={productPathFromProduct(p)} className="related-card block rounded-2xl border border-border overflow-hidden bg-card">
-                    <div className="relative aspect-square bg-secondary overflow-hidden">
+                    <div className="relative aspect-square bg-transparent overflow-hidden">
                       <img src={p.image} alt={p.name} className="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                       {rd > 0 && (
                         <span className="absolute top-2 right-2 px-2 py-0.5 text-[10px] font-bold rounded-full bg-red-500 text-white">{-rd}%</span>

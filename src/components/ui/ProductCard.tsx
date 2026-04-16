@@ -31,7 +31,7 @@ const ProductCard = ({ product, onCompare, isComparing }: ProductCardProps) => {
 
   return (
     <div className="premium-card group overflow-hidden hover:-translate-y-1">
-      <div className="relative aspect-square bg-secondary overflow-hidden">
+      <div className="relative aspect-square bg-transparent overflow-hidden">
         <Link to={productPath}>
           <img
             src={product.image}
