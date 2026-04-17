@@ -3,7 +3,7 @@
     "id": "samsung",
     "name": "Samsung",
     "tagline": "Official Samsung appliances with genuine image galleries",
-    "productCount": 48,
+    "productCount": 63,
     "color": "hsl(210, 100%, 50%)"
   },
   {
@@ -46,7 +46,7 @@
     "name": "Voltas",
     "tagline": "Reliable cooling systems from a leading Indian brand",
     "color": "hsl(7, 88%, 55%)",
-    "productCount": 11
+    "productCount": 20
   },
   {
     "id": "rockwell",

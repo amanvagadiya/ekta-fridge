@@ -2912,6 +2912,68 @@
     "sourceUrl": "https://www.croma.com/panasonic-eu-7-in-1-convertible-1-5-ton-5-star-inverter-split-smart-ac-with-voice-assistant-copper-condenser-cs-cu-eu18bky5xfm-/p/313386"
   },
   {
+    "id": "panasonic-ac-07",
+    "modelCode": "NU18AKY5W",
+    "name": "Panasonic NU 7 in 1 Convertible 1.5 Ton 5 Star Inverter Split Smart AC with Wi-Fi Enabled (2025 Model, Copper Condenser, CS/CU-NU18AKY5W)",
+    "brand": "panasonic",
+    "category": "ac",
+    "price": 43990,
+    "originalPrice": 50589,
+    "rating": 4.6,
+    "reviews": 148,
+    "image": "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-1.png",
+    "gallery": [
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-1.png",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-2.jpg",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-3.png",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-4.png",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-5.png",
+      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "1.5 Ton",
+      "5 Star",
+      "Inverter",
+      "Copper Condenser",
+      "2025 Model"
+    ],
+    "inStock": true,
+    "sourceUrl": "manual-panasonic-2025"
+  },
+  {
+    "id": "panasonic-ac-08",
+    "modelCode": "NU18BKY3W",
+    "name": "Panasonic NU 7 in 1 Convertible 1.5 Ton 3 Star Inverter Split Smart AC with Wi-Fi Enabled (2026 Model, Copper Condenser, CS/CU-NU18BKY3W)",
+    "brand": "panasonic",
+    "category": "ac",
+    "price": 38990,
+    "originalPrice": 44839,
+    "rating": 4.5,
+    "reviews": 92,
+    "image": "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-1.png",
+    "gallery": [
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-1.png",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-2.jpg",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-3.png",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-4.png",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-5.png",
+      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-6.png"
+    ],
+    "capacity": null,
+    "badge": "Trending",
+    "specs": [
+      "1.5 Ton",
+      "3 Star",
+      "Inverter",
+      "Copper Condenser",
+      "2026 Model"
+    ],
+    "inStock": true,
+    "sourceUrl": "manual-panasonic-2026"
+  },
+  {
     "id": "rockwell-freezer-01",
     "modelCode": "RKW-70-HT",
     "name": "Rockwell 70 Hard Top Deep Freezer, Convertible Freezer and Cooler, Single Door",
@@ -5465,6 +5527,294 @@
     "sourceUrl": "https://www.croma.com/voltas-163v-vectra-pearl-4-in-1-convertible-1-3-ton-3-star-inverter-split-ac-with-anti-dust-filter-copper-condenser-4503543-/p/270260"
   },
   {
+    "id": "voltas-ac-07",
+    "modelCode": "4503823",
+    "name": "VOLTAS 183V Vertis Elite Marvel-1 Convertible 1.5 Ton 3 Star Inverter Split AC with Ice Wash Technology (2025 Model, Copper Condenser, 4503823)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 33990,
+    "originalPrice": 39089,
+    "rating": 4.3,
+    "reviews": 80,
+    "image": "/uploads/catalog/voltas/voltas-ac-07/voltas-ac-07-1.png",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-07/voltas-ac-07-1.png",
+      "/uploads/catalog/voltas/voltas-ac-07/voltas-ac-07-2.png",
+      "/uploads/catalog/voltas/voltas-ac-07/voltas-ac-07-3.png",
+      "/uploads/catalog/voltas/voltas-ac-07/voltas-ac-07-4.png",
+      "/uploads/catalog/voltas/voltas-ac-07/voltas-ac-07-5.png",
+      "/uploads/catalog/voltas/voltas-ac-07/voltas-ac-07-6.png"
+    ],
+    "capacity": null,
+    "badge": "Trending",
+    "specs": [
+      "1.5 Ton",
+      "3 Star",
+      "Split AC",
+      "Inverter AC",
+      "Convertible",
+      "Copper Condenser"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-183v-vertis-elite-marvel-1-convertible-1-5-ton-3-star-inverter-split-ac-with-ice-wash-technology-2025-model-copper-condenser-4503823-/p/314020"
+  },
+  {
+    "id": "voltas-ac-08",
+    "modelCode": "4503858",
+    "name": "VOLTAS Vectra Zenith Gold-1 Convertible 1.5 Ton 3 Star Inverter Split AC with Auto Cleanser (2025 Model, Copper Condenser, 4503858)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 36490,
+    "originalPrice": 41964,
+    "rating": 4.4,
+    "reviews": 109,
+    "image": "/uploads/catalog/voltas/voltas-ac-08/voltas-ac-08-1.png",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-08/voltas-ac-08-1.png",
+      "/uploads/catalog/voltas/voltas-ac-08/voltas-ac-08-2.png",
+      "/uploads/catalog/voltas/voltas-ac-08/voltas-ac-08-3.png",
+      "/uploads/catalog/voltas/voltas-ac-08/voltas-ac-08-4.png",
+      "/uploads/catalog/voltas/voltas-ac-08/voltas-ac-08-5.png",
+      "/uploads/catalog/voltas/voltas-ac-08/voltas-ac-08-6.png"
+    ],
+    "capacity": null,
+    "badge": "Trending",
+    "specs": [
+      "1.5 Ton",
+      "3 Star",
+      "Split AC",
+      "Inverter AC",
+      "Convertible",
+      "Copper Condenser"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-vectra-zenith-gold-1-convertible-1-5-ton-3-star-inverter-split-ac-with-auto-cleanser-2025-model-copper-condenser-4503858-/p/318392"
+  },
+  {
+    "id": "voltas-ac-09",
+    "modelCode": "4503974",
+    "name": "VOLTAS 183VH Vectra Zenith Silver Convertible 1.5 Ton 3 Star Inverter Split AC with Anti Freeze Thermostat (2025 Model, Copper Condenser, 4503974)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 42490,
+    "originalPrice": 48863,
+    "rating": 4.5,
+    "reviews": 138,
+    "image": "/uploads/catalog/voltas/voltas-ac-09/voltas-ac-09-1.png",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-09/voltas-ac-09-1.png",
+      "/uploads/catalog/voltas/voltas-ac-09/voltas-ac-09-2.jpg",
+      "/uploads/catalog/voltas/voltas-ac-09/voltas-ac-09-3.png",
+      "/uploads/catalog/voltas/voltas-ac-09/voltas-ac-09-4.png",
+      "/uploads/catalog/voltas/voltas-ac-09/voltas-ac-09-5.png",
+      "/uploads/catalog/voltas/voltas-ac-09/voltas-ac-09-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "1.5 Ton",
+      "3 Star",
+      "Split AC",
+      "Inverter AC",
+      "Convertible",
+      "Copper Condenser"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-183vh-vectra-zenith-silver-convertible-1-5-ton-3-star-inverter-split-ac-with-anti-freeze-thermostat-2025-model-copper-condenser-4503974-/p/319462"
+  },
+  {
+    "id": "voltas-ac-10",
+    "modelCode": "4503803",
+    "name": "Voltas Vectra Exotica Marvel 2 Ton 3 Star Inverter Split AC (2025 Model, Copper Condenser, 4503803)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 43990,
+    "originalPrice": 50588,
+    "rating": 4.6,
+    "reviews": 167,
+    "image": "/uploads/catalog/voltas/voltas-ac-10/voltas-ac-10-1.png",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-10/voltas-ac-10-1.png",
+      "/uploads/catalog/voltas/voltas-ac-10/voltas-ac-10-2.png",
+      "/uploads/catalog/voltas/voltas-ac-10/voltas-ac-10-3.png",
+      "/uploads/catalog/voltas/voltas-ac-10/voltas-ac-10-4.png",
+      "/uploads/catalog/voltas/voltas-ac-10/voltas-ac-10-5.png",
+      "/uploads/catalog/voltas/voltas-ac-10/voltas-ac-10-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "2 Ton",
+      "3 Star",
+      "Split AC",
+      "Inverter AC",
+      "Convertible",
+      "Copper Condenser"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-vectra-exotica-marvel-2-ton-3-star-inverter-split-ac-2025-model-copper-condenser-4503803-/p/319465"
+  },
+  {
+    "id": "voltas-ac-11",
+    "modelCode": "4504075",
+    "name": "VOLTAS 183INV VERTIS AI ZEST GOLD Convertible 1.5 Ton 3 Star Inverter Split AC with Hidden Display (2026 Model, Copper Condenser, 4504075)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 39990,
+    "originalPrice": 45989,
+    "rating": 4.7,
+    "reviews": 196,
+    "image": "/uploads/catalog/voltas/voltas-ac-11/voltas-ac-11-1.png",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-11/voltas-ac-11-1.png",
+      "/uploads/catalog/voltas/voltas-ac-11/voltas-ac-11-2.jpg",
+      "/uploads/catalog/voltas/voltas-ac-11/voltas-ac-11-3.png",
+      "/uploads/catalog/voltas/voltas-ac-11/voltas-ac-11-4.png",
+      "/uploads/catalog/voltas/voltas-ac-11/voltas-ac-11-5.png",
+      "/uploads/catalog/voltas/voltas-ac-11/voltas-ac-11-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "1.5 Ton",
+      "3 Star",
+      "Split AC",
+      "Inverter AC",
+      "Convertible",
+      "Copper Condenser"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-183inv-vertis-ai-zest-gold-convertible-1-5-ton-3-star-inverter-split-ac-with-hidden-display-2026-model-copper-condenser-4504075-/p/321286"
+  },
+  {
+    "id": "voltas-ac-12",
+    "modelCode": "4504152",
+    "name": "VOLTAS 183INV VERTIS CELESTIA MARVEL Convertible 1.5 Ton 3 Star Inverter Split AC with Hidden Display (2026 Model, Copper Condenser, 4504152)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 34490,
+    "originalPrice": 39664,
+    "rating": 4.3,
+    "reviews": 225,
+    "image": "/uploads/catalog/voltas/voltas-ac-12/voltas-ac-12-1.png",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-12/voltas-ac-12-1.png",
+      "/uploads/catalog/voltas/voltas-ac-12/voltas-ac-12-2.jpg",
+      "/uploads/catalog/voltas/voltas-ac-12/voltas-ac-12-3.png",
+      "/uploads/catalog/voltas/voltas-ac-12/voltas-ac-12-4.png",
+      "/uploads/catalog/voltas/voltas-ac-12/voltas-ac-12-5.png",
+      "/uploads/catalog/voltas/voltas-ac-12/voltas-ac-12-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "1.5 Ton",
+      "3 Star",
+      "Split AC",
+      "Inverter AC",
+      "Convertible",
+      "Copper Condenser"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-183inv-vertis-celestia-marvel-convertible-1-5-ton-3-star-inverter-split-ac-with-hidden-display-2026-model-copper-condenser-4504152-/p/321291"
+  },
+  {
+    "id": "voltas-ac-13",
+    "modelCode": "4504151",
+    "name": "VOLTAS 123INV VERTIS CREST MARVEL Convertible 1 Ton 3 Star Inverter Split AC with Hidden Display (2026 Model, Copper Condenser, 4504151)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 30490,
+    "originalPrice": 35064,
+    "rating": 4.4,
+    "reviews": 254,
+    "image": "/uploads/catalog/voltas/voltas-ac-13/voltas-ac-13-1.png",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-13/voltas-ac-13-1.png",
+      "/uploads/catalog/voltas/voltas-ac-13/voltas-ac-13-2.jpg",
+      "/uploads/catalog/voltas/voltas-ac-13/voltas-ac-13-3.png",
+      "/uploads/catalog/voltas/voltas-ac-13/voltas-ac-13-4.png",
+      "/uploads/catalog/voltas/voltas-ac-13/voltas-ac-13-5.png",
+      "/uploads/catalog/voltas/voltas-ac-13/voltas-ac-13-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "1 Ton",
+      "3 Star",
+      "Split AC",
+      "Inverter AC",
+      "Convertible",
+      "Copper Condenser"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-123inv-vertis-crest-marvel-convertible-1-ton-3-star-inverter-split-ac-with-hidden-display-2026-model-copper-condenser-4504151-/p/321296"
+  },
+  {
+    "id": "voltas-ac-14",
+    "modelCode": "4504153",
+    "name": "VOLTAS 185INV VERTIS COMET MARVEL Convertible 1.5 Ton 5 Star Inverter Split AC with Hidden Display (2026 Model, Copper Condenser, 4504153)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 43990,
+    "originalPrice": 50588,
+    "rating": 4.5,
+    "reviews": 283,
+    "image": "/uploads/catalog/voltas/voltas-ac-14/voltas-ac-14-1.png",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-14/voltas-ac-14-1.png",
+      "/uploads/catalog/voltas/voltas-ac-14/voltas-ac-14-2.jpg",
+      "/uploads/catalog/voltas/voltas-ac-14/voltas-ac-14-3.png",
+      "/uploads/catalog/voltas/voltas-ac-14/voltas-ac-14-4.png",
+      "/uploads/catalog/voltas/voltas-ac-14/voltas-ac-14-5.png",
+      "/uploads/catalog/voltas/voltas-ac-14/voltas-ac-14-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "1.5 Ton",
+      "5 Star",
+      "Split AC",
+      "Inverter AC",
+      "Convertible",
+      "Copper Condenser"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-185inv-vertis-comet-marvel-convertible-1-5-ton-5-star-inverter-split-ac-with-hidden-display-2026-model-copper-condenser-4504153-/p/321299"
+  },
+  {
+    "id": "voltas-ac-16",
+    "modelCode": "4011571",
+    "name": "VOLTAS 122FS PLATINA 1 Ton 2 Star Window AC (2026 Model, Copper Condenser, Anti Dust Filter, 4011571)",
+    "brand": "voltas",
+    "category": "ac",
+    "price": 27490,
+    "originalPrice": 31613,
+    "rating": 4.7,
+    "reviews": 341,
+    "image": "/uploads/catalog/voltas/voltas-ac-16/voltas-ac-16-1.jpg",
+    "gallery": [
+      "/uploads/catalog/voltas/voltas-ac-16/voltas-ac-16-1.jpg",
+      "/uploads/catalog/voltas/voltas-ac-16/voltas-ac-16-2.png",
+      "/uploads/catalog/voltas/voltas-ac-16/voltas-ac-16-3.png",
+      "/uploads/catalog/voltas/voltas-ac-16/voltas-ac-16-4.png",
+      "/uploads/catalog/voltas/voltas-ac-16/voltas-ac-16-5.png",
+      "/uploads/catalog/voltas/voltas-ac-16/voltas-ac-16-6.png"
+    ],
+    "capacity": null,
+    "badge": "New",
+    "specs": [
+      "1 Ton",
+      "2 Star",
+      "Window AC",
+      "Convertible",
+      "Copper Condenser",
+      "Anti Dust Filter"
+    ],
+    "inStock": true,
+    "sourceUrl": "https://www.croma.com/voltas-122fs-platina-1-ton-2-star-window-ac-2026-model-copper-condenser-anti-dust-filter-4011571-/p/321307"
+  },
+  {
     "id": "voltas-freezer-01",
     "modelCode": "97L-2S",
     "name": "Voltas Hard Top Convertible - Single Door 97 Litres, 2 Star",
@@ -6152,67 +6502,5 @@
     ],
     "inStock": true,
     "sourceUrl": "https://www.croma.com/whirlpool-10-kg-5-star-fully-automatic-top-load-washing-machine-360-bw-pro-h-31688-in-built-heater-graphite-/p/313647"
-  },
-  {
-    "id": "panasonic-ac-07",
-    "modelCode": "NU18AKY5W",
-    "name": "Panasonic NU 7 in 1 Convertible 1.5 Ton 5 Star Inverter Split Smart AC with Wi-Fi Enabled (2025 Model, Copper Condenser, CS/CU-NU18AKY5W)",
-    "brand": "panasonic",
-    "category": "ac",
-    "price": 43990,
-    "originalPrice": 50589,
-    "rating": 4.6,
-    "reviews": 148,
-    "image": "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-1.png",
-    "gallery": [
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-1.png",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-2.jpg",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-3.png",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-4.png",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-5.png",
-      "/uploads/catalog/panasonic/panasonic-ac-07/panasonic-ac-07-6.png"
-    ],
-    "capacity": null,
-    "badge": "New",
-    "specs": [
-      "1.5 Ton",
-      "5 Star",
-      "Inverter",
-      "Copper Condenser",
-      "2025 Model"
-    ],
-    "inStock": true,
-    "sourceUrl": "manual-panasonic-2025"
-  },
-  {
-    "id": "panasonic-ac-08",
-    "modelCode": "NU18BKY3W",
-    "name": "Panasonic NU 7 in 1 Convertible 1.5 Ton 3 Star Inverter Split Smart AC with Wi-Fi Enabled (2026 Model, Copper Condenser, CS/CU-NU18BKY3W)",
-    "brand": "panasonic",
-    "category": "ac",
-    "price": 38990,
-    "originalPrice": 44839,
-    "rating": 4.5,
-    "reviews": 92,
-    "image": "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-1.png",
-    "gallery": [
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-1.png",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-2.jpg",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-3.png",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-4.png",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-5.png",
-      "/uploads/catalog/panasonic/panasonic-ac-08/panasonic-ac-08-6.png"
-    ],
-    "capacity": null,
-    "badge": "Trending",
-    "specs": [
-      "1.5 Ton",
-      "3 Star",
-      "Inverter",
-      "Copper Condenser",
-      "2026 Model"
-    ],
-    "inStock": true,
-    "sourceUrl": "manual-panasonic-2026"
   }
 ]

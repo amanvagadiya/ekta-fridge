@@ -3,14 +3,14 @@
     "id": "ac",
     "label": "Air Conditioner",
     "icon": "Wind",
-    "count": 68,
+    "count": 88,
     "image": "/uploads/catalog/daikin/daikin-ac-01/daikin-ac-01-1.png"
   },
   {
     "id": "washing-machine",
     "label": "Washing Machine",
     "icon": "Waves",
-    "count": 26,
+    "count": 30,
     "image": "/uploads/catalog/lg/lg-washing-machine-01/lg-washing-machine-01-1.jpg"
   },
   {
