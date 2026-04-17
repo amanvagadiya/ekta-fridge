@@ -14,7 +14,6 @@ const PRODUCT_URLS = [
   "https://www.croma.com/voltas-183inv-vertis-celestia-marvel-convertible-1-5-ton-3-star-inverter-split-ac-with-hidden-display-2026-model-copper-condenser-4504152-/p/321291",
   "https://www.croma.com/voltas-123inv-vertis-crest-marvel-convertible-1-ton-3-star-inverter-split-ac-with-hidden-display-2026-model-copper-condenser-4504151-/p/321296",
   "https://www.croma.com/voltas-185inv-vertis-comet-marvel-convertible-1-5-ton-5-star-inverter-split-ac-with-hidden-display-2026-model-copper-condenser-4504153-/p/321299",
-  "https://www.croma.com/voltas-243inv-vectra-elegant-convertible-2-ton-3-star-inverter-split-ac-with-5-step-adjustable-copper-condenser-4504077-/p/321304",
   "https://www.croma.com/voltas-122fs-platina-1-ton-2-star-window-ac-2026-model-copper-condenser-anti-dust-filter-4011571-/p/321307",
 ];
 
