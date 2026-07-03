@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook, Youtube, MessageCircle, Send, CheckCircle } from "lucide-react";
 import PageHero from "@/components/ui/PageHero";
 import Seo from "@/components/seo/Seo";
@@ -8,14 +8,26 @@ const heroContact = "/uploads/hero-contact.jpg";
 const contactInfo = [
   { icon: MapPin, label: "Address", value: "Shop-No-10, Pirojpura Road, Chhapi Highway,TA-Vadgam,Dist-Banaskantha, Gujarat - 385210" },
   { icon: Phone, label: "Phone", value: "+91-81285-51508", href: "tel:+918128551508" },
-  { icon: Mail, label: "Email", value: "arsadshahid786@gmail.com", href: "mailto:arsadshahid786@gmail.com" },
+  { icon: Mail, label: "Email", value: "amanvagadiya00@gmail.com", href: "mailto:amanvagadiya00@gmail.com" },
   { icon: Clock, label: "Hours", value: "Mon–Sat: 9AM–8PM, Sun: 9AM–8PM" },
 ];
 
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", phone: "", subject: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
+  const [sentEmail, setSentEmail] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState("");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const fromSuccess = new URLSearchParams(window.location.search).get("success");
+      if (fromSuccess === "true") {
+        setSubmitted(true);
+      }
+    }
+  }, []);
 
   const validate = () => {
     const errs: Record<string, string> = {};
@@ -25,15 +37,66 @@ const Contact = () => {
     return errs;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length > 0) {
       setErrors(errs);
       return;
     }
+
     setErrors({});
-    setSubmitted(true);
+    setSubmitError("");
+    setIsSubmitting(true);
+
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), 10000);
+
+    try {
+      const formData = new FormData();
+      formData.set("Full Name", form.name);
+      formData.set("Email", form.email);
+      formData.set("Mobile Number", form.phone || "Not provided");
+      formData.set("Subject", form.subject || "Not provided");
+      formData.set("Your Message", form.message);
+
+      // Set FormSubmit control fields
+      formData.set("_subject", form.subject ? `${form.subject} - Contact Form` : "Contact Form Message");
+      formData.set("_replyto", form.email);
+      formData.set("_captcha", "false");
+      formData.set("_template", "table");
+
+      const response = await fetch("https://formsubmit.co/ajax/fe63920dbdcc43c3070624e07f9d67c9", {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: formData,
+        signal: controller.signal,
+      });
+
+      if (!response.ok) {
+        const errorData = await response.text();
+        throw new Error(errorData || "Failed to send message");
+      }
+
+      const data = await response.json();
+      if (data.success) {
+        setSentEmail(form.email);
+        setSubmitted(true);
+        setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+      } else {
+        throw new Error(data.message || "Unable to send message");
+      }
+    } catch (error) {
+      console.error(error);
+      if (error instanceof DOMException && error.name === "AbortError") {
+        setSubmitError("Request timed out. Please check your internet connection and try again.");
+      } else {
+        setSubmitError("Unable to send your message right now. Please try again later.");
+      }
+    } finally {
+      window.clearTimeout(timeout);
+      setIsSubmitting(false);
+    }
   };
 
   const inputClass = "w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all";
@@ -89,22 +152,29 @@ const Contact = () => {
                 <div className="text-center py-12">
                   <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-4" />
                   <h3 className="font-heading font-semibold text-foreground mb-2">Message Sent!</h3>
-                  <p className="text-sm text-muted-foreground">We'll get back to you within 24 hours.</p>
+                  <p className="text-sm text-muted-foreground">Your message has been sent successfully. We will respond soon.</p>
+                  {sentEmail && (
+                    <p className="text-sm text-muted-foreground mt-2">Sent from: <span className="font-medium text-foreground">{sentEmail}</span></p>
+                  )}
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-4">
+                <form className="space-y-4" onSubmit={handleSubmit}>
+                  <input type="hidden" name="_subject" value={form.subject ? `${form.subject} - Contact Form` : "Contact Form Message"} />
+                  <input type="hidden" name="_replyto" value={form.email} />
+                  <input type="hidden" name="_captcha" value="false" />
+                  <input type="hidden" name="_template" value="table" />
                   <div>
-                    <input type="text" placeholder="Full Name *" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className={inputClass} />
+                    <input required name="fullName" type="text" placeholder="Full Name *" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} className={inputClass} />
                     {errors.name && <p className="text-xs text-destructive mt-1">{errors.name}</p>}
                   </div>
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
-                      <input type="email" placeholder="Email *" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className={inputClass} />
+                      <input required name="email" type="email" placeholder="Email *" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} className={inputClass} />
                       {errors.email && <p className="text-xs text-destructive mt-1">{errors.email}</p>}
                     </div>
-                    <input type="tel" placeholder="Phone" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className={inputClass} />
+                    <input name="phone" type="tel" placeholder="Phone" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} className={inputClass} />
                   </div>
-                  <select value={form.subject} onChange={(e) => setForm({ ...form, subject: e.target.value })} className={inputClass}>
+                  <select name="subject" value={form.subject} onChange={(e) => setForm({ ...form, subject: e.target.value })} className={inputClass}>
                     <option value="">Select Subject</option>
                     <option value="product">Product Inquiry</option>
                     <option value="order">Order Status</option>
@@ -112,12 +182,13 @@ const Contact = () => {
                     <option value="other">Other</option>
                   </select>
                   <div>
-                    <textarea placeholder="Your Message *" rows={4} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className={`${inputClass} resize-none`} />
+                    <textarea required name="message" placeholder="Your Message *" rows={4} value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} className={`${inputClass} resize-none`} />
                     {errors.message && <p className="text-xs text-destructive mt-1">{errors.message}</p>}
                   </div>
-                  <button type="submit" className="btn-primary flex items-center gap-2">
+                  {submitError && <p className="text-sm text-destructive mb-2">{submitError}</p>}
+                  <button type="submit" className="btn-primary flex items-center gap-2" disabled={isSubmitting}>
                     <Send className="w-4 h-4" />
-                    Send Message
+                    {isSubmitting ? "Sending..." : "Send Message"}
                   </button>
                 </form>
               )}
@@ -130,6 +201,7 @@ const Contact = () => {
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "400px" }}
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
