@@ -53,16 +53,20 @@ const Contact = () => {
     const timeout = window.setTimeout(() => controller.abort(), 10000);
 
     try {
+      const subjectLine = form.subject
+        ? `${form.name} - ${form.subject} | EKTA FRIDGE`
+        : `${form.name} - New Inquiry | EKTA FRIDGE`;
+
       const payload = {
-        "Full Name": form.name,
+        "Name": form.name,
         "Email": form.email,
-        "Mobile Number": form.phone || "Not provided",
-        "Subject": form.subject || "Not provided",
-        "Your Message": form.message,
-        "_subject": form.subject ? `${form.subject} - Contact Form` : "Contact Form Message",
+        "Phone": form.phone || "Not provided",
+        "Subject": form.subject || "General Inquiry",
+        "Message": form.message,
+        "_subject": subjectLine,
         "_replyto": form.email,
         "_captcha": "false",
-        "_template": "table"
+        "_template": "box"
       };
 
       const response = await fetch("https://formsubmit.co/ajax/fe63920dbdcc43c3070624e07f9d67c9", {
@@ -85,6 +89,11 @@ const Contact = () => {
         setSentEmail(form.email);
         setSubmitted(true);
         setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+        // Auto-hide success message after 5 seconds
+        setTimeout(() => {
+          setSubmitted(false);
+          setSentEmail("");
+        }, 5000);
       } else {
         throw new Error(data.message || "Unable to send message");
       }
