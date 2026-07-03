@@ -53,23 +53,25 @@ const Contact = () => {
     const timeout = window.setTimeout(() => controller.abort(), 10000);
 
     try {
-      const formData = new FormData();
-      formData.set("Full Name", form.name);
-      formData.set("Email", form.email);
-      formData.set("Mobile Number", form.phone || "Not provided");
-      formData.set("Subject", form.subject || "Not provided");
-      formData.set("Your Message", form.message);
-
-      // Set FormSubmit control fields
-      formData.set("_subject", form.subject ? `${form.subject} - Contact Form` : "Contact Form Message");
-      formData.set("_replyto", form.email);
-      formData.set("_captcha", "false");
-      formData.set("_template", "table");
+      const payload = {
+        "Full Name": form.name,
+        "Email": form.email,
+        "Mobile Number": form.phone || "Not provided",
+        "Subject": form.subject || "Not provided",
+        "Your Message": form.message,
+        "_subject": form.subject ? `${form.subject} - Contact Form` : "Contact Form Message",
+        "_replyto": form.email,
+        "_captcha": "false",
+        "_template": "table"
+      };
 
       const response = await fetch("https://formsubmit.co/ajax/fe63920dbdcc43c3070624e07f9d67c9", {
         method: "POST",
-        headers: { Accept: "application/json" },
-        body: formData,
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json" 
+        },
+        body: JSON.stringify(payload),
         signal: controller.signal,
       });
 
