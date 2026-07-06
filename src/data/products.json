@@ -5263,34 +5263,6 @@
     "sourceUrl": "https://www.samsung.com/in/refrigerators/double-door/tmf-refrigerator-rt80h22c-2-in-1-smart-conversion-double-door-refrigerator-with-convertible-freezer-256l-silver-rt40h30u2phl/"
   },
   {
-    "id": "samsung-fridge-09",
-    "modelCode": "RR1500MH-SINGLE-DOOR-REFRIGERATOR-WITH-STYLISH-GRANDE-DESIGN-183L-RED-RR20H11C2RH-HL",
-    "name": "Samsung RR20H11C2 RR1500MH One Door Refrigerator with Stylish Crown design RR19/20/24 Red",
-    "brand": "samsung",
-    "category": "fridge",
-    "price": 15890,
-    "originalPrice": 17999,
-    "rating": 4.6,
-    "reviews": 352,
-    "image": "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-1.png",
-    "gallery": [
-      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-1.png",
-      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-2.png",
-      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-3.png",
-      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-4.png",
-      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-5.png",
-      "/uploads/catalog/samsung/samsung-fridge-09/samsung-fridge-09-6.png"
-    ],
-    "capacity": 183,
-    "badge": null,
-    "specs": [
-      "183L",
-      "RR1500MH-SINGLE-DOOR-REFRIGERATOR-WITH-STYLISH-GRANDE-DESIGN-183L-RED-RR20H11C2RH-HL"
-    ],
-    "inStock": true,
-    "sourceUrl": "https://www.samsung.com/in/refrigerators/one-door/rr1500mh-single-door-refrigerator-with-stylish-grande-design-183l-red-rr20h11c2rh-hl/"
-  },
-  {
     "id": "samsung-fridge-10",
     "modelCode": "RT6300DH-DOUBLE-DOOR-REFRIGERATOR-WITH-BESPOKE-AI-330L-BLACK-DOI-RT34HG5A43B1HL",
     "name": "Samsung 330 L Double Door Refrigerator Rt34Hg5A43B1Hl",
@@ -5791,35 +5763,6 @@
     ],
     "inStock": true,
     "sourceUrl": "https://www.samsung.com/in/microwave-ovens/grill/grill-fry-mg23a3515ak-tl/"
-  },
-  {
-    "id": "samsung-microwave-09",
-    "modelCode": "28-LITRE-CONVECTION-MICROWAVE-OVEN-MC28A5013AK-TL",
-    "name": "Samsung 28L Convection MWO with Curd Any Time (MC28A5013AK)",
-    "brand": "samsung",
-    "category": "microwave",
-    "price": 15590,
-    "originalPrice": 15590,
-    "rating": 4.6,
-    "reviews": 352,
-    "image": "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-1.png",
-    "gallery": [
-      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-1.png",
-      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-2.png",
-      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-3.png",
-      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-4.png",
-      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-5.png",
-      "/uploads/catalog/samsung/samsung-microwave-09/samsung-microwave-09-6.png"
-    ],
-    "capacity": null,
-    "badge": null,
-    "specs": [
-      "28L",
-      "Convection",
-      "28-LITRE-CONVECTION-MICROWAVE-OVEN-MC28A5013AK-TL"
-    ],
-    "inStock": true,
-    "sourceUrl": "https://www.samsung.com/in/microwave-ovens/convection/28-litre-convection-microwave-oven-mc28a5013ak-tl/"
   },
   {
     "id": "samsung-microwave-10",
