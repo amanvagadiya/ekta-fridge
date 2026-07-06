@@ -18,9 +18,10 @@ const Products = () => {
 
   const initialBrands = searchParams.get("brand") ? [searchParams.get("brand")!] : [];
   const initialCategories = searchParams.get("category") ? [searchParams.get("category")!] : [];
+  const initialSearch = searchParams.get("search") || "";
 
   const [filters, setFilters] = useState({
-    search: "",
+    search: initialSearch,
     brands: initialBrands,
     categories: initialCategories,
     minPrice: 5000,
@@ -34,7 +35,12 @@ const Products = () => {
   const showCapacity = filters.categories.some((c) => c === "fridge" || c === "freezer");
 
   const filtered = useMemo(() => {
-    let items = [...productsData].reverse();
+    let items = [...productsData].sort((a, b) => {
+      const aIs2026 = /2026/i.test(a.name) ? 1 : 0;
+      const bIs2026 = /2026/i.test(b.name) ? 1 : 0;
+      if (aIs2026 !== bIs2026) return bIs2026 - aIs2026;
+      return b.rating - a.rating || b.reviews - a.reviews;
+    });
 
     if (filters.search) {
       const q = filters.search.toLowerCase();
